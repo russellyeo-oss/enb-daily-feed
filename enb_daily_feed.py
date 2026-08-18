@@ -257,8 +257,25 @@ def build_email_body(stories):
 
     return "\n".join(lines)
 
+def get_recipient():
+    weekday = datetime.now(PERTH_TIMEZONE).weekday()
+
+    # Monday = 0, Tuesday = 1, Wednesday = 2,
+    # Thursday = 3, Friday = 4.
+    if weekday in (0, 2):
+        return "katie.hobbins@aspermont.com"
+
+    if weekday in (1, 3):
+        return "russell.yeo@aspermont.com"
+
+    if weekday == 4:
+        return "sofia.fimognari@aspermont.com"
+
+    return None
+
 def main():
     target_date = get_target_date()
+    recipient = get_recipient()
 
     print()
     print(f"Looking for ENB stories dated: {target_date}")
@@ -314,6 +331,8 @@ def main():
     print()
 
     email_body = build_email_body(stories)
+    
+    print(f"Recipient: {recipient}")
 
     print()
     print("EMAIL BODY PREVIEW")
