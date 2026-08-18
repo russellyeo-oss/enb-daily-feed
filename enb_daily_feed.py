@@ -271,7 +271,11 @@ def main():
         html,
         target_date,
     )
-
+        # Always place "News in brief" at the bottom.
+    stories.sort(
+        key=lambda story: story["headline"].strip().lower() == "news in brief"
+    )
+    
     print()
     print("=" * 70)
     print(f"ENERGY NEWS BULLETIN — {target_date}")
