@@ -213,7 +213,6 @@ def main():
     print(f"Looking for ENB stories dated: {target_date}")
 
     html = fetch_homepage()
-        html = fetch_homepage()
 
     now = datetime.now(PERTH_TIMEZONE)
 
@@ -240,7 +239,6 @@ def main():
             print(html[start:end])
             print("-" * 70)
 
-    stories = find_today_stories(
     stories = find_today_stories(
         html,
         target_date,
