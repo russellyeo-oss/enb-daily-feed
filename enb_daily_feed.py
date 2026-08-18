@@ -245,7 +245,8 @@ def send_email(recipient, subject, body):
     message["From"] = "Energy News Bulletin <russellyeo@hotmail.co.uk>"
     message["To"] = recipient
     message["Subject"] = subject
-    message.set_content(body)
+    message.set_content("This email is best viewed in HTML.")
+    message.add_alternative(body, subtype="html")
 
     with smtplib.SMTP("smtp-relay.brevo.com", 587) as server:
         server.starttls()
@@ -256,10 +257,11 @@ def send_email(recipient, subject, body):
 
 
 def build_email_body(stories):
-    lines = [
-        "ENERGY NEWS BULLETIN",
-        "",
-        "",
+    parts = [
+        "<html>",
+        "<body>",
+        "<p>ENERGY NEWS BULLETIN</p>",
+        "<br>",
     ]
 
     for story in stories:
@@ -267,17 +269,21 @@ def build_email_body(stories):
         standfirst = story["standfirst"].strip()
         url = story["url"].strip()
 
-        # Hyperlinked headline.
-        lines.append(f"[{headline}]({url})")
+        parts.append(
+            f'<p><a href="{url}">{headline}</a><br>'
+        )
 
         if standfirst:
-            lines.append(standfirst)
+            parts.append(f"{standfirst}<br>")
 
-        # Raw URL underneath each story.
-        lines.append(url)
-        lines.append("")
+        parts.append(f"{url}</p>")
 
-    return "\n".join(lines)
+    parts.extend([
+        "</body>",
+        "</html>",
+    ])
+
+    return "\n".join(parts)
 
 def get_recipient():
     weekday = datetime.now(PERTH_TIMEZONE).weekday()
