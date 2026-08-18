@@ -322,15 +322,6 @@ def main():
     print("=" * 70)
     print()
 
-    for number, story in enumerate(stories, start=1):
-        print(f"{number}. {story['headline']}")
-
-        if story["standfirst"]:
-            print(story["standfirst"])
-
-        print(story["url"])
-        print()
-
-
+   
 if __name__ == "__main__":
     main()
