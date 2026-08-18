@@ -22,4 +22,7 @@ jobs:
         run: python -m pip install requests beautifulsoup4
 
       - name: Run ENB daily feed
-        run: python enb_daily_feed.py
+  env:
+    BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
+    BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
+  run: python enb_daily_feed.py
