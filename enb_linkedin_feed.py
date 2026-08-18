@@ -43,8 +43,11 @@ Rules:
 - Write concise, punchy business-news teases.
 - Preserve the factual meaning of the source material.
 - Do not invent facts, figures, quotes or context.
-- Use hashtags sparingly.
-- Only hashtag genuine, useful industry or topic terms.
+- Hashtags MUST be inline within the prose, attached to the relevant word or phrase.
+- NEVER put hashtags at the end of a numbered item or in a separate group.
+- Replace suitable words within the sentence with hashtags rather than adding hashtags after the sentence.
+- For example, write "investment in #RenewableEnergy is accelerating" rather than "investment in renewable energy is accelerating. #RenewableEnergy".
+- Use hashtags sparingly and only for genuine, useful industry or topic terms.
 - Multi-word hashtags must use CamelCase, for example #RenewableEnergy.
 - Do not invent awkward hashtags from ordinary phrases.
 - Do not add links, subscription text or a footer.
