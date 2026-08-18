@@ -3,7 +3,7 @@ name: ENB Daily Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * 1-5"
+    - cron: "7 6 * * 1-5"
 
 jobs:
   run-feed:
