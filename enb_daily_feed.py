@@ -270,13 +270,13 @@ def build_email_body(stories):
         url = story["url"].strip()
 
         parts.append(
-            f'<p><a href="{url}">{headline}</a><br>'
-        )
+    f'<p><a href="{url}">{headline}</a><br>'
+)
 
-        if standfirst:
-            parts.append(f"{standfirst}<br>")
+if standfirst:
+    parts.append(f"{standfirst}")
 
-        parts.append(f"{url}</p>")
+parts.append("</p>")
 
     parts.extend([
         "</body>",
