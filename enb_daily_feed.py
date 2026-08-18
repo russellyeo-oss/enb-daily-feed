@@ -233,6 +233,29 @@ def find_today_stories(html, target_date):
 
     return stories
 
+def build_email_body(stories):
+    lines = [
+        "ENERGY NEWS BULLETIN",
+        "",
+        "",
+    ]
+
+    for story in stories:
+        headline = story["headline"].strip()
+        standfirst = story["standfirst"].strip()
+        url = story["url"].strip()
+
+        # Hyperlinked headline.
+        lines.append(f"[{headline}]({url})")
+
+        if standfirst:
+            lines.append(standfirst)
+
+        # Raw URL underneath each story.
+        lines.append(url)
+        lines.append("")
+
+    return "\n".join(lines)
 
 def main():
     target_date = "17 August 2026"
