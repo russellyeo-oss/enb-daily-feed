@@ -2,6 +2,9 @@ name: ENB Daily Feed
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   run-feed:
