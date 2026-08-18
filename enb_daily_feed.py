@@ -276,6 +276,7 @@ def get_recipient():
 def main():
     target_date = get_target_date()
     recipient = get_recipient()
+    print(f"Recipient for today: {recipient}")
 
     print()
     print(f"Looking for ENB stories dated: {target_date}")
