@@ -95,6 +95,7 @@ def main():
     print(f"Stories found: {len(stories)}")
 
     body = build_linkedin_body(stories)
+    body = body.replace("\n", "<br>")
     subject = datetime.now(PERTH_TIMEZONE).strftime("%A")
 
     send_email(
