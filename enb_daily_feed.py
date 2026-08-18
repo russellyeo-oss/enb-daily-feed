@@ -290,6 +290,15 @@ def main():
     print(f"Stories found: {len(stories)}")
     print()
 
+    email_body = build_email_body(stories)
+
+    print()
+    print("EMAIL BODY PREVIEW")
+    print("=" * 70)
+    print(email_body)
+    print("=" * 70)
+    print()
+
     for number, story in enumerate(stories, start=1):
         print(f"{number}. {story['headline']}")
 
