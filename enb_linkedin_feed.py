@@ -1,5 +1,6 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from openai import OpenAI
 
 from enb_daily_feed import (
     fetch_homepage,
@@ -12,25 +13,52 @@ from enb_daily_feed import (
 
 PERTH_TIMEZONE = ZoneInfo("Australia/Perth")
 
+client = OpenAI()
 
 def build_linkedin_body(stories):
-    lines = []
+    story_text = []
 
     for story in stories:
         headline = story["headline"].strip()
         standfirst = story["standfirst"].strip()
 
-        if standfirst:
-            line = f"{headline} - {standfirst}"
-        else:
-            line = headline
+        story_text.append(
+            f"HEADLINE: {headline}\n"
+            f"STANDFIRST: {standfirst}"
+        )
 
-        if not line.endswith("."):
-            line += "."
+    source_material = "\n\n".join(story_text)
 
-        lines.append(f"• {line}")
+    prompt = f"""
+You are writing a LinkedIn tease for Energy News Bulletin.
 
-    return "\n".join(lines)
+Using ONLY the supplied ENB headlines and standfirsts, rewrite them into a
+high-converting LinkedIn tease for a business audience.
+
+Rules:
+- Use bullet points.
+- No headings or introductory text.
+- No bold, italics or other formatting.
+- Each bullet must end with a full stop.
+- Write concise, punchy business-news teases.
+- Preserve the factual meaning of the source material.
+- Do not invent facts, figures, quotes or context.
+- Use appropriate hashtags naturally within the sentences.
+- Multi-word hashtags must use CamelCase, for example #RenewableEnergy.
+- Do not add a footer, subscription message or links.
+- Keep "News in brief" as the final bullet if it is present.
+
+SOURCE MATERIAL:
+
+{source_material}
+"""
+
+    response = client.responses.create(
+        model="gpt-5-mini",
+        input=prompt,
+    )
+
+    return response.output_text.strip()
 
 
 def main():
