@@ -1,6 +1,10 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from urllib.parse import urljoin
+import os
+import smtplib
+
+from email.message import EmailMessage
 
 import requests
 from bs4 import BeautifulSoup
@@ -233,6 +237,24 @@ def find_today_stories(html, target_date):
 
     return stories
 
+def send_email(recipient, subject, body):
+    smtp_login = os.environ["BREVO_SMTP_LOGIN"]
+    smtp_key = os.environ["BREVO_SMTP_KEY"]
+
+    message = EmailMessage()
+    message["From"] = "Energy News Bulletin <russellyeo@hotmail.co.uk>"
+    message["To"] = recipient
+    message["Subject"] = subject
+    message.set_content(body)
+
+    with smtplib.SMTP("smtp-relay.brevo.com", 587) as server:
+        server.starttls()
+        server.login(smtp_login, smtp_key)
+        server.send_message(message)
+
+    print(f"Email sent successfully to: {recipient}")
+
+
 def build_email_body(stories):
     lines = [
         "ENERGY NEWS BULLETIN",
@@ -332,6 +354,14 @@ def main():
     print()
 
     email_body = build_email_body(stories)
+
+    subject = datetime.now(PERTH_TIMEZONE).strftime("%A")
+
+    send_email(
+        recipient,
+        subject,
+        email_body,
+    )
     
     print(f"Recipient: {recipient}")
 
