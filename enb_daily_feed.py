@@ -110,22 +110,50 @@ def extract_headline(container):
 def extract_url(container):
     links = container.find_all("a", href=True)
 
+    # First preference: a link whose visible text matches the story headline.
+    headline = extract_headline(container)
+
+    for link in links:
+        href = link.get("href", "").strip()
+        link_text = clean_text(link.get_text(" ", strip=True))
+
+        if not href:
+            continue
+
+        if href.startswith("#") or href.startswith("javascript:"):
+            continue
+
+        absolute_url = urljoin(ENB_HOMEPAGE, href)
+
+        if "energynewsbulletin.net" not in absolute_url:
+            continue
+
+        # Ignore category/navigation links.
+        if "/category/" in absolute_url:
+            continue
+
+        if headline and link_text == headline:
+            return absolute_url
+
+    # Second preference: any non-category ENB article link.
     for link in links:
         href = link.get("href", "").strip()
 
         if not href:
             continue
 
-        if href.startswith("#"):
-            continue
-
-        if href.startswith("javascript:"):
+        if href.startswith("#") or href.startswith("javascript:"):
             continue
 
         absolute_url = urljoin(ENB_HOMEPAGE, href)
 
-        if "energynewsbulletin.net" in absolute_url:
-            return absolute_url
+        if "energynewsbulletin.net" not in absolute_url:
+            continue
+
+        if "/category/" in absolute_url:
+            continue
+
+        return absolute_url
 
     return ""
 
