@@ -213,7 +213,34 @@ def main():
     print(f"Looking for ENB stories dated: {target_date}")
 
     html = fetch_homepage()
+        html = fetch_homepage()
 
+    now = datetime.now(PERTH_TIMEZONE)
+
+    date_variants = [
+        now.strftime("%d %B %Y").lstrip("0"),
+        now.strftime("%d %b %Y").lstrip("0"),
+        now.strftime("%Y-%m-%d"),
+        now.strftime("%d/%m/%Y"),
+    ]
+
+    print()
+    print("DATE FORMAT DIAGNOSTIC")
+
+    for variant in date_variants:
+        count = html.lower().count(variant.lower())
+        print(f"{variant}: {count} matches")
+
+        if count:
+            position = html.lower().find(variant.lower())
+            start = max(0, position - 300)
+            end = min(len(html), position + 500)
+
+            print("Sample HTML:")
+            print(html[start:end])
+            print("-" * 70)
+
+    stories = find_today_stories(
     stories = find_today_stories(
         html,
         target_date,
