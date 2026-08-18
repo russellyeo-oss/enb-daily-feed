@@ -235,7 +235,7 @@ def find_today_stories(html, target_date):
 
 
 def main():
-    target_date = get_target_date()
+    target_date = "17 August 2026"
 
     print()
     print(f"Looking for ENB stories dated: {target_date}")
