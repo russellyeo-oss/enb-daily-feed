@@ -30,23 +30,25 @@ def build_linkedin_body(stories):
     source_material = "\n\n".join(story_text)
 
     prompt = f"""
-You are writing a LinkedIn tease for Energy News Bulletin.
+You are writing LinkedIn teases for Energy News Bulletin.
 
-Using ONLY the supplied ENB headlines and standfirsts, rewrite them into a
-high-converting LinkedIn tease for a business audience.
+Using ONLY the supplied ENB headlines and standfirsts, rewrite each story
+into a high-converting tease for a business audience.
 
 Rules:
-- Use bullet points.
-- No headings or introductory text.
-- No bold, italics or other formatting.
-- Each bullet must end with a full stop.
+- Return one tease for each supplied story.
+- Number them 1., 2., 3. and so on.
+- No heading or introductory text.
+- Each numbered item must end with a full stop.
 - Write concise, punchy business-news teases.
 - Preserve the factual meaning of the source material.
 - Do not invent facts, figures, quotes or context.
-- Use appropriate hashtags naturally within the sentences.
+- Use hashtags sparingly.
+- Only hashtag genuine, useful industry or topic terms.
 - Multi-word hashtags must use CamelCase, for example #RenewableEnergy.
-- Do not add a footer, subscription message or links.
-- Keep "News in brief" as the final bullet if it is present.
+- Do not invent awkward hashtags from ordinary phrases.
+- Do not add links, subscription text or a footer.
+- Keep "News in brief" as the final item if it is present.
 
 SOURCE MATERIAL:
 
@@ -58,9 +60,16 @@ SOURCE MATERIAL:
         input=prompt,
     )
 
-    return response.output_text.strip()
+    linkedin_text = response.output_text.strip()
 
-
+    return (
+        "Do you subscribe to our newsletter?\n"
+        "If not, here’s what you’re missing out on…\n\n"
+        f"{linkedin_text}\n\n\n"
+        "All that and more.\n"
+        "https://lnkd.in/etZanhq\n\n"
+        "https://subscriptions.energynewsbulletin.net/subscribe?sourcecode=ENBDigitalMonthlyFreeFirstMonth"
+    )
 def main():
     target_date = get_target_date()
     recipient = get_recipient()
