@@ -2,27 +2,75 @@ name: ENB Daily Feed
 
 on:
   workflow_dispatch:
+    inputs:
+      force_send:
+        description: "Send even if today's email was already sent"
+        required: false
+        default: false
+        type: boolean
   schedule:
-    - cron: "7 6 * * 1-5"
+    - cron: "50 5 * * 1-5"
+    - cron: "5 6 * * 1-5"
+    - cron: "20 6 * * 1-5"
+
+concurrency:
+  group: enb-daily-feed-send
+  cancel-in-progress: false
 
 jobs:
   run-feed:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Wait until 14:00 AWST
+        if: github.event_name == 'schedule'
+        shell: bash
+        run: |
+          target_epoch=$(date -u -d "$(date -u +%F) 06:00:00" +%s)
+          now_epoch=$(date -u +%s)
+          if [ "$now_epoch" -lt "$target_epoch" ]; then
+            sleep "$((target_epoch - now_epoch))"
+          fi
+
+      - name: Get Perth date
+        id: perth-date
+        shell: bash
+        run: echo "date=$(TZ=Australia/Perth date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore daily send lock
+        id: restore-lock
+        uses: actions/cache/restore@v4
+        with:
+          path: .daily-feed-lock
+          key: daily-feed-sent-${{ steps.perth-date.outputs.date }}
+
       - name: Check out repository
+        if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         uses: actions/checkout@v4
 
       - name: Set up Python
+        if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install dependencies
+        if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         run: python -m pip install requests beautifulsoup4
 
       - name: Run ENB daily feed
+        if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         env:
           BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
           BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
-        run: python enb_daily_feed.py
+        run: |
+          python enb_daily_feed.py
+          mkdir -p .daily-feed-lock
+          touch .daily-feed-lock/sent
+
+      - name: Save daily send lock
+        if: steps.restore-lock.outputs.cache-hit != 'true' && success()
+        uses: actions/cache/save@v4
+        with:
+          path: .daily-feed-lock
+          key: daily-feed-sent-${{ steps.perth-date.outputs.date }}
