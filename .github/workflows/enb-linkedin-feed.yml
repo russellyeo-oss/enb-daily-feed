@@ -9,19 +9,29 @@ on:
         default: false
         type: boolean
   schedule:
+    # Five staggered attempts. Early runs wait until 15:00 AWST.
+    - cron: "50 5 * * 1-5"
+    - cron: "10 6 * * 1-5"
+    - cron: "30 6 * * 1-5"
     - cron: "50 6 * * 1-5"
-    - cron: "5 7 * * 1-5"
     - cron: "20 7 * * 1-5"
 
 concurrency:
   group: enb-linkedin-feed-send
   cancel-in-progress: false
+  queue: max
 
 jobs:
   run-linkedin-feed:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Log schedule trigger
+        shell: bash
+        run: |
+          echo "Event: ${{ github.event_name }}"
+          echo "Scheduled cron: ${{ github.event.schedule }}"
+
       - name: Wait until 15:00 AWST
         if: github.event_name == 'schedule'
         shell: bash
