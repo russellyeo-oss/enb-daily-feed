@@ -75,7 +75,7 @@ jobs:
           BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python enb_linkedin_feed.py
+          python run_with_recipients.py linkedin
           mkdir -p .linkedin-feed-lock
           touch .linkedin-feed-lock/sent
 
