@@ -9,12 +9,12 @@ on:
         default: false
         type: boolean
   schedule:
-    # Five staggered attempts. Early runs wait until 15:00 AWST.
-    - cron: "50 5 * * 1-5"
-    - cron: "10 6 * * 1-5"
-    - cron: "30 6 * * 1-5"
+    # Five staggered attempts. Early runs wait until 14:30 AWST.
+    - cron: "20 5 * * 1-5"
+    - cron: "40 5 * * 1-5"
+    - cron: "0 6 * * 1-5"
+    - cron: "20 6 * * 1-5"
     - cron: "50 6 * * 1-5"
-    - cron: "20 7 * * 1-5"
 
 concurrency:
   group: enb-linkedin-feed-send
@@ -32,11 +32,11 @@ jobs:
           echo "Event: ${{ github.event_name }}"
           echo "Scheduled cron: ${{ github.event.schedule }}"
 
-      - name: Wait until 15:00 AWST
+      - name: Wait until 14:30 AWST
         if: github.event_name == 'schedule'
         shell: bash
         run: |
-          target_epoch=$(date -u -d "$(date -u +%F) 07:00:00" +%s)
+          target_epoch=$(date -u -d "$(date -u +%F) 06:30:00" +%s)
           now_epoch=$(date -u +%s)
           if [ "$now_epoch" -lt "$target_epoch" ]; then
             sleep "$((target_epoch - now_epoch))"
