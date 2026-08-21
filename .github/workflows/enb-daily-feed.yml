@@ -74,7 +74,7 @@ jobs:
           BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
           BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
         run: |
-          python enb_daily_feed.py
+          python run_with_recipients.py daily
           mkdir -p .daily-feed-lock
           touch .daily-feed-lock/sent
 
