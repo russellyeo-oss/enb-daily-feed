@@ -1,4 +1,4 @@
-name: ENB Daily Feed
+name: Draft roundrobin email
 
 on:
   workflow_dispatch:
