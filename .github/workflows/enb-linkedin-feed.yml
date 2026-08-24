@@ -1,4 +1,4 @@
-name: ENB LinkedIn Feed
+name: Draft LinkedIn tease
 
 on:
   workflow_dispatch:
