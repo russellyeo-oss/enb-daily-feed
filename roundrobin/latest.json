@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-09T13:59:04.387250+08:00",
+  "generated_at": "2026-09-09T14:13:45.885087+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-09",
   "reporting_window_start": "2026-09-09T00:00:00+08:00",
   "reporting_window_end": "2026-09-09T13:30:00+08:00",
   "audit_through": "2026-09-09T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
@@ -20,6 +20,14 @@
   ],
   "unresolved": [],
   "excluded": [
+    {
+      "headline": "Santos CEO \"living rent free\" in LNG competitors' heads",
+      "standfirst": "Gallagher rejects GLNG to blame for east woes and calls for reservation policy changes",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536607/santos-ceo-living-rent-free-lng-competitors",
+      "datePublished": "2026-09-09T14:01:41+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
     {
       "headline": "First hearing postponed in INPEX emissions prosecution",
       "standfirst": "Comes as govt admits emissions data which shows Territory is global worst on per capita basis",
