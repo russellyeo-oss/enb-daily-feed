@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
+  "generated_at": "2026-09-09T19:35:11.925108+08:00",
+  "timezone": "Australia/Perth",
+  "target_date": "2026-09-09",
+  "reporting_window_start": "2026-09-09T00:00:00+08:00",
+  "reporting_window_end": "2026-09-09T14:30:00+08:00",
+  "audit_through": "2026-09-09T14:30:00+08:00",
+  "homepage_candidates": 7,
+  "status": "complete",
+  "stories": [
+    {
+      "headline": "Santos CEO \"living rent free\" in LNG competitors' heads",
+      "standfirst": "Gallagher rejects GLNG to blame for east woes and calls for reservation policy changes",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536607/santos-ceo-living-rent-free-lng-competitors",
+      "datePublished": "2026-09-09T14:01:41+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "First hearing postponed in INPEX emissions prosecution",
+      "standfirst": "Comes as govt admits emissions data which shows Territory is global worst on per capita basis",
+      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536599/hearing-postponed-inpex-emissions-prosecution",
+      "datePublished": "2026-09-09T13:52:45+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Movers and shakers",
+      "standfirst": "Who's up, who's down? Who's in, who's out?",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4536601/movers-shakers",
+      "datePublished": "2026-09-09T12:44:22+08:00",
+      "publication_metadata_source": "published-time metadata"
+    }
+  ],
+  "unresolved": [],
+  "excluded": [
+    {
+      "headline": "Santos to refine Narrabri pipe plan",
+      "standfirst": "375 submissions received from public consultation",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536600/santos-refine-narrabri-pipe-plan",
+      "datePublished": "2026-09-09T15:55:59+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Major Japanese investors up interest in Ramsay Project",
+      "standfirst": "Three companies deepen their direct engagement with the Gold Hydrogen development",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536615/major-japanese-investors-interest-ramsay-project",
+      "datePublished": "2026-09-09T15:54:53+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Could retired coal stations have a data centre opportunity?",
+      "standfirst": "EnergyAustralia MD Mark Collette thinks the power sites could be repurposed",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536619/retired-coal-stations-centre-opportunity",
+      "datePublished": "2026-09-09T16:44:12+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536614/news-brief",
+      "datePublished": "2026-09-09T15:06:54+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
+}
