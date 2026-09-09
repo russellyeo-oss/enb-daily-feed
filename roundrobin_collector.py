@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 from enb_daily_feed import fetch_homepage, find_today_stories, get_target_date
 
-# Collector-only bridge for the Outlook roundrobin. The legacy Brevo sender is untouched.
+# Collector-only bridge for the Outlook roundrobin/LinkedIn routines. The legacy sender is untouched.
 PERTH = ZoneInfo("Australia/Perth")
 HEADERS = {
     "User-Agent": (
@@ -58,7 +58,6 @@ def authoritative_date_published(url):
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Prefer structured article metadata explicitly labelled datePublished.
     for script in soup.find_all("script", type="application/ld+json"):
         raw = script.string or script.get_text("", strip=True)
         if not raw:
@@ -72,7 +71,6 @@ def authoritative_date_published(url):
             if published:
                 return published, "json-ld datePublished"
 
-    # Equivalent authoritative publication metadata fallbacks.
     for attrs in (
         {"property": "article:published_time"},
         {"name": "article:published_time"},
@@ -96,24 +94,26 @@ def authoritative_date_published(url):
     return None, None
 
 
-def collect():
+def collect(cutoff_hour=13, cutoff_minute=30):
     now = datetime.now(PERTH)
     target_date = get_target_date()
     html = fetch_homepage()
     candidates = find_today_stories(html, target_date)
 
-    # Keep the legacy collector's deliberate ordering rule.
     candidates.sort(
         key=lambda story: story["headline"].strip().lower() == "news in brief"
     )
 
-    cutoff = datetime.combine(now.date(), time(13, 30), tzinfo=PERTH)
+    cutoff = datetime.combine(
+        now.date(),
+        time(cutoff_hour, cutoff_minute),
+        tzinfo=PERTH,
+    )
     audit_end = min(now, cutoff)
 
     included = []
     unresolved = []
     excluded = []
-
     seen_urls = set()
     seen_titles = set()
 
@@ -181,16 +181,20 @@ def collect():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="roundrobin/latest.json")
+    parser.add_argument("--cutoff-hour", type=int, default=13)
+    parser.add_argument("--cutoff-minute", type=int, default=30)
     args = parser.parse_args()
 
-    snapshot = collect()
+    if not 0 <= args.cutoff_hour <= 23 or not 0 <= args.cutoff_minute <= 59:
+        raise SystemExit("Invalid cutoff time")
+
+    snapshot = collect(args.cutoff_hour, args.cutoff_minute)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(json.dumps(snapshot, indent=2, ensure_ascii=False))
 
-    # Do not convert an incomplete metadata audit into a false success.
     if snapshot["status"] != "complete":
         raise SystemExit(2)
 
