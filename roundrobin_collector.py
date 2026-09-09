@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 from enb_daily_feed import fetch_homepage, find_today_stories, get_target_date
 
+# Collector-only bridge for the Outlook roundrobin. The legacy Brevo sender is untouched.
 PERTH = ZoneInfo("Australia/Perth")
 HEADERS = {
     "User-Agent": (
