@@ -2,6 +2,12 @@ name: ENB roundrobin collector
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - roundrobin_collector.py
+      - .github/workflows/roundrobin-collector.yml
   schedule:
     # Australia/Perth is UTC+8 year-round. Run repeatedly before 13:30 AWST
     # so the Outlook sender has a fresh first-party ENB snapshot even if an
