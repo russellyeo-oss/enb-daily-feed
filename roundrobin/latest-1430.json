@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-10T14:48:15.083657+08:00",
+  "generated_at": "2026-09-10T19:32:44.791646+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-10",
   "reporting_window_start": "2026-09-10T00:00:00+08:00",
   "reporting_window_end": "2026-09-10T14:30:00+08:00",
   "audit_through": "2026-09-10T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "homepage_candidates": 10,
   "status": "complete",
   "stories": [
     {
@@ -61,5 +61,30 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "NT govt admits no strategic plan in place to govern Beetaloo Basin's development",
+      "standfirst": "Region's rapid development progress will push the NT emission's higher",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536675/nt-govt-admits-strategic-plan-govern-beetaloo-basins-development",
+      "datePublished": "2026-09-10T15:39:07+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA renewable energy projects' hoop-jumping leading to FID troubles",
+      "standfirst": "Industry speaks at day one of WA Energy Week in Perth",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536690/wa-renewable-energy-projects-hoop-jumping-leading-fid-troubles",
+      "datePublished": "2026-09-10T16:52:40+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536688/news-brief",
+      "datePublished": "2026-09-10T15:58:57+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
