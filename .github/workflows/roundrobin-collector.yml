@@ -9,12 +9,15 @@ on:
       - roundrobin_collector.py
       - .github/workflows/roundrobin-collector.yml
   schedule:
-    # Australia/Perth is UTC+8 year-round. Earlier runs provide backup
-    # snapshots. The 13:29 AWST run waits internally until exactly 13:30 so
-    # collection begins at the reporting cutoff without racing a new cron job.
+    # Australia/Perth is UTC+8 year-round. Pre-cutoff runs provide diagnostic
+    # snapshots. The 13:29 AWST run waits internally until exactly 13:30.
+    # Post-cutoff retries protect against delayed or dropped GitHub cron runs;
+    # the downstream email validates only a complete 00:00-13:30 snapshot.
     - cron: "30-55/5 4 * * 1-5"
     - cron: "0-25/5 5 * * 1-5"
     - cron: "29 5 * * 1-5"
+    - cron: "35 5 * * 1-5"
+    - cron: "40 5 * * 1-5"
 
 permissions:
   contents: write
