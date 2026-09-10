@@ -1,70 +1,65 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-09T19:35:11.925108+08:00",
+  "generated_at": "2026-09-10T14:47:52.374115+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-09",
-  "reporting_window_start": "2026-09-09T00:00:00+08:00",
-  "reporting_window_end": "2026-09-09T14:30:00+08:00",
-  "audit_through": "2026-09-09T14:30:00+08:00",
+  "target_date": "2026-09-10",
+  "reporting_window_start": "2026-09-10T00:00:00+08:00",
+  "reporting_window_end": "2026-09-10T14:30:00+08:00",
+  "audit_through": "2026-09-10T14:30:00+08:00",
   "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Santos CEO \"living rent free\" in LNG competitors' heads",
-      "standfirst": "Gallagher rejects GLNG to blame for east woes and calls for reservation policy changes",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536607/santos-ceo-living-rent-free-lng-competitors",
-      "datePublished": "2026-09-09T14:01:41+08:00",
+      "headline": "Govt walks back from concrete 20% reservation requirement in gas reservation exposure draft",
+      "standfirst": "Are there now more new questions than answers?",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536677/govt-walks-concrete-reservation-requirement-gas-reservation-exposure-draft",
+      "datePublished": "2026-09-10T14:00:30+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "First hearing postponed in INPEX emissions prosecution",
-      "standfirst": "Comes as govt admits emissions data which shows Territory is global worst on per capita basis",
-      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536599/hearing-postponed-inpex-emissions-prosecution",
-      "datePublished": "2026-09-09T13:52:45+08:00",
+      "headline": "Pilot's administrators intensify hunt for struggling company's saviour",
+      "standfirst": "\"Accelerated campaign to recapitalise Pilot\" launches",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536668/pilots-administrators-intensify-hunt-struggling-companys-saviour",
+      "datePublished": "2026-09-10T12:29:33+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4536601/movers-shakers",
-      "datePublished": "2026-09-09T12:44:22+08:00",
+      "headline": "NSW data centre expected growth quadruples from a year ago",
+      "standfirst": "Transgrid unveils plans to cope with increased demand and renewable generation",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536678/nsw-centre-expected-growth-quadruple-ago",
+      "datePublished": "2026-09-10T13:48:16+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Transmission infrastructure needed if WA's industrial regions aren't to miss out",
+      "standfirst": "Beyond Zero Emissions' new report focuses on Kwinana and Port Hedland",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536672/transmission-infrastructure-industrial-regions-arent-miss",
+      "datePublished": "2026-09-10T13:31:45+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Plan for what would be one of the world's biggest batteries starts fed approval process",
+      "standfirst": "Meanwhile, Australia's current largest successfully completes two hour, max power test run",
+      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536671/plan-worlds-biggest-batteries-starts-fed-approval-process",
+      "datePublished": "2026-09-10T12:46:50+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Territory Generation opens EOI for Alice Springs solar farm",
+      "standfirst": "Proponents must be able to deliver between 5MW and 15MW for the region's future electricity needs",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536661/territory-generation-eoi-alice-springs-solar-farm",
+      "datePublished": "2026-09-10T12:09:46+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "The Analyst's Take: Give us a plan, but not any plan",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536642/analysts-us-plan-plan",
+      "datePublished": "2026-09-10T08:35:31+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Santos to refine Narrabri pipe plan",
-      "standfirst": "375 submissions received from public consultation",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536600/santos-refine-narrabri-pipe-plan",
-      "datePublished": "2026-09-09T15:55:59+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Major Japanese investors up interest in Ramsay Project",
-      "standfirst": "Three companies deepen their direct engagement with the Gold Hydrogen development",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536615/major-japanese-investors-interest-ramsay-project",
-      "datePublished": "2026-09-09T15:54:53+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Could retired coal stations have a data centre opportunity?",
-      "standfirst": "EnergyAustralia MD Mark Collette thinks the power sites could be repurposed",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536619/retired-coal-stations-centre-opportunity",
-      "datePublished": "2026-09-09T16:44:12+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536614/news-brief",
-      "datePublished": "2026-09-09T15:06:54+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
