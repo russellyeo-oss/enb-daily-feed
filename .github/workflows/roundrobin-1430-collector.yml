@@ -1,0 +1,85 @@
+name: ENB LinkedIn 14:30 collector
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - roundrobin_collector.py
+      - .github/workflows/roundrobin-1430-collector.yml
+  schedule:
+    # Australia/Perth is UTC+8 year-round.
+    # The 14:29 AWST run waits internally until exactly 14:30.
+    # Post-cutoff retries protect against delayed/dropped GitHub cron runs.
+    - cron: "29 6 * * 1-5"
+    - cron: "35 6 * * 1-5"
+    - cron: "40 6 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enb-linkedin-1430-collector
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install requests beautifulsoup4
+
+      - name: Wait for exact 14:30 AWST cutoff
+        if: github.event_name == 'schedule' && github.event.schedule == '29 6 * * 1-5'
+        shell: bash
+        run: |
+          target_epoch=$(date -u -d "$(date -u +%F) 06:30:00" +%s)
+          now_epoch=$(date -u +%s)
+          if [ "$now_epoch" -lt "$target_epoch" ]; then
+            sleep "$((target_epoch - now_epoch))"
+          fi
+
+      - name: Collect ENB 14:30 snapshot
+        id: collect
+        shell: bash
+        run: |
+          set +e
+          python roundrobin_collector.py \
+            --cutoff-hour 14 \
+            --cutoff-minute 30 \
+            --output roundrobin/latest-1430.json
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Persist latest 14:30 snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add roundrobin/latest-1430.json
+          if git diff --cached --quiet; then
+            echo "Snapshot unchanged."
+            exit 0
+          fi
+          git commit -m "Update ENB 14:30 snapshot"
+          git push origin HEAD:main
+
+      - name: Enforce metadata audit
+        if: steps.collect.outputs.exit_code != '0'
+        shell: bash
+        run: |
+          echo "Collector found unresolved publication metadata. Snapshot was persisted for diagnosis."
+          exit 1
