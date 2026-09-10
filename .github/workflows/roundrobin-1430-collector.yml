@@ -12,6 +12,7 @@ on:
     # Australia/Perth is UTC+8 year-round.
     # The 14:29 AWST run waits internally until exactly 14:30.
     # Post-cutoff retries protect against delayed/dropped GitHub cron runs.
+    # This workflow is collector-only and never sends email itself.
     - cron: "29 6 * * 1-5"
     - cron: "35 6 * * 1-5"
     - cron: "40 6 * * 1-5"
