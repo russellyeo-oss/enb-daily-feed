@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-10T13:42:59.107116+08:00",
+  "generated_at": "2026-09-10T17:04:38.265429+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-10",
   "reporting_window_start": "2026-09-10T00:00:00+08:00",
   "reporting_window_end": "2026-09-10T13:30:00+08:00",
   "audit_through": "2026-09-10T13:30:00+08:00",
-  "homepage_candidates": 5,
+  "homepage_candidates": 10,
   "status": "complete",
   "stories": [
     {
@@ -42,10 +42,50 @@
   "unresolved": [],
   "excluded": [
     {
+      "headline": "Govt walks back from concrete 20% reservation requirement in gas reservation exposure draft",
+      "standfirst": "Are there now more new questions than answers?",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536677/govt-walks-concrete-reservation-requirement-gas-reservation-exposure-draft",
+      "datePublished": "2026-09-10T14:00:30+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "NT govt admits no strategic plan in place to govern Beetaloo Basin's development",
+      "standfirst": "Region's rapid development progress will push the NT emission's higher",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536675/nt-govt-admits-strategic-plan-govern-beetaloo-basins-development",
+      "datePublished": "2026-09-10T15:39:07+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA renewable energy projects' hoop-jumping leading to FID troubles",
+      "standfirst": "Industry speaks at day one of WA Energy Week in Perth",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536690/wa-renewable-energy-projects-hoop-jumping-leading-fid-troubles",
+      "datePublished": "2026-09-10T16:52:40+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "NSW data centre expected growth quadruples from a year ago",
+      "standfirst": "Transgrid unveils plans to cope with increased demand and renewable generation",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536678/nsw-centre-expected-growth-quadruple-ago",
+      "datePublished": "2026-09-10T13:48:16+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
       "headline": "Transmission infrastructure needed if WA's industrial regions aren't to miss out",
       "standfirst": "Beyond Zero Emissions' new report focuses on Kwinana and Port Hedland",
       "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536672/transmission-infrastructure-industrial-regions-arent-miss",
       "datePublished": "2026-09-10T13:31:45+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536688/news-brief",
+      "datePublished": "2026-09-10T15:58:57+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
