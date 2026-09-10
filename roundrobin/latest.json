@@ -1,38 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-09T14:13:45.885087+08:00",
+  "generated_at": "2026-09-10T13:42:59.107116+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-09",
-  "reporting_window_start": "2026-09-09T00:00:00+08:00",
-  "reporting_window_end": "2026-09-09T13:30:00+08:00",
-  "audit_through": "2026-09-09T13:30:00+08:00",
-  "homepage_candidates": 3,
+  "target_date": "2026-09-10",
+  "reporting_window_start": "2026-09-10T00:00:00+08:00",
+  "reporting_window_end": "2026-09-10T13:30:00+08:00",
+  "audit_through": "2026-09-10T13:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4536601/movers-shakers",
-      "datePublished": "2026-09-09T12:44:22+08:00",
+      "headline": "Pilot's administrators intensify hunt for struggling company's saviour",
+      "standfirst": "\"Accelerated campaign to recapitalise Pilot\" launches",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536668/pilots-administrators-intensify-hunt-struggling-companys-saviour",
+      "datePublished": "2026-09-10T12:29:33+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Plan for what would be one of the world's biggest batteries starts fed approval process",
+      "standfirst": "Meanwhile, Australia's current largest successfully completes two hour, max power test run",
+      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536671/plan-worlds-biggest-batteries-starts-fed-approval-process",
+      "datePublished": "2026-09-10T12:46:50+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Territory Generation opens EOI for Alice Springs solar farm",
+      "standfirst": "Proponents must be able to deliver between 5MW and 15MW for the region's future electricity needs",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536661/territory-generation-eoi-alice-springs-solar-farm",
+      "datePublished": "2026-09-10T12:09:46+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "The Analyst's Take: Give us a plan, but not any plan",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536642/analysts-us-plan-plan",
+      "datePublished": "2026-09-10T08:35:31+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Santos CEO \"living rent free\" in LNG competitors' heads",
-      "standfirst": "Gallagher rejects GLNG to blame for east woes and calls for reservation policy changes",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536607/santos-ceo-living-rent-free-lng-competitors",
-      "datePublished": "2026-09-09T14:01:41+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "First hearing postponed in INPEX emissions prosecution",
-      "standfirst": "Comes as govt admits emissions data which shows Territory is global worst on per capita basis",
-      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536599/hearing-postponed-inpex-emissions-prosecution",
-      "datePublished": "2026-09-09T13:52:45+08:00",
+      "headline": "Transmission infrastructure needed if WA's industrial regions aren't to miss out",
+      "standfirst": "Beyond Zero Emissions' new report focuses on Kwinana and Port Hedland",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536672/transmission-infrastructure-industrial-regions-arent-miss",
+      "datePublished": "2026-09-10T13:31:45+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
