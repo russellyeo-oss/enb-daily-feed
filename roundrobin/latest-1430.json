@@ -1,88 +1,82 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-10T19:32:44.791646+08:00",
+  "generated_at": "2026-09-11T19:34:07.479453+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-10",
-  "reporting_window_start": "2026-09-10T00:00:00+08:00",
-  "reporting_window_end": "2026-09-10T14:30:00+08:00",
-  "audit_through": "2026-09-10T14:30:00+08:00",
-  "homepage_candidates": 10,
+  "target_date": "2026-09-11",
+  "reporting_window_start": "2026-09-11T00:00:00+08:00",
+  "reporting_window_end": "2026-09-11T14:30:00+08:00",
+  "audit_through": "2026-09-11T14:30:00+08:00",
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
-      "headline": "Govt walks back from concrete 20% reservation requirement in gas reservation exposure draft",
-      "standfirst": "Are there now more new questions than answers?",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4536677/govt-walks-concrete-reservation-requirement-gas-reservation-exposure-draft",
-      "datePublished": "2026-09-10T14:00:30+08:00",
+      "headline": "JV partners Santos, Red Sky drill Yarrow 5 in Cooper Basin",
+      "standfirst": "Next, the program moves to re-entering Yarrow North 1, which was cased and suspended in 2008",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536736/jv-partners-santos-red-sky-drill-yarrow-cooper-basin",
+      "datePublished": "2026-09-11T12:39:50+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Pilot's administrators intensify hunt for struggling company's saviour",
-      "standfirst": "\"Accelerated campaign to recapitalise Pilot\" launches",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536668/pilots-administrators-intensify-hunt-struggling-companys-saviour",
-      "datePublished": "2026-09-10T12:29:33+08:00",
+      "headline": "From the editor: Santos' busy and fruitful week",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536719/editor-santos-busy-fruitful",
+      "datePublished": "2026-09-11T07:53:14+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "NSW data centre expected growth quadruples from a year ago",
-      "standfirst": "Transgrid unveils plans to cope with increased demand and renewable generation",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536678/nsw-centre-expected-growth-quadruple-ago",
-      "datePublished": "2026-09-10T13:48:16+08:00",
+      "headline": "Opinion: Troubling ministerial discretion is still at the core of gas reservation",
+      "standfirst": "The gas reservation debate is back, which could provide the last chance to refine the regime",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536722/opinion-troubling-ministerial-discretion-core-gas-reservation",
+      "datePublished": "2026-09-11T10:05:16+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Transmission infrastructure needed if WA's industrial regions aren't to miss out",
-      "standfirst": "Beyond Zero Emissions' new report focuses on Kwinana and Port Hedland",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536672/transmission-infrastructure-industrial-regions-arent-miss",
-      "datePublished": "2026-09-10T13:31:45+08:00",
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4536723/keeping-apac",
+      "datePublished": "2026-09-11T10:11:14+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Plan for what would be one of the world's biggest batteries starts fed approval process",
-      "standfirst": "Meanwhile, Australia's current largest successfully completes two hour, max power test run",
-      "url": "https://www.energynewsbulletin.net/data/news-analysis/4536671/plan-worlds-biggest-batteries-starts-fed-approval-process",
-      "datePublished": "2026-09-10T12:46:50+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Territory Generation opens EOI for Alice Springs solar farm",
-      "standfirst": "Proponents must be able to deliver between 5MW and 15MW for the region's future electricity needs",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536661/territory-generation-eoi-alice-springs-solar-farm",
-      "datePublished": "2026-09-10T12:09:46+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "The Analyst's Take: Give us a plan, but not any plan",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536642/analysts-us-plan-plan",
-      "datePublished": "2026-09-10T08:35:31+08:00",
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536743/news-brief",
+      "datePublished": "2026-09-11T14:11:23+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "NT govt admits no strategic plan in place to govern Beetaloo Basin's development",
-      "standfirst": "Region's rapid development progress will push the NT emission's higher",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536675/nt-govt-admits-strategic-plan-govern-beetaloo-basins-development",
-      "datePublished": "2026-09-10T15:39:07+08:00",
+      "headline": "INPEX takes 'significant steps' to rectify Ichthys emissions under-reporting",
+      "standfirst": "But independent audit suggests still more to do",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536750/inpex-takes-significant-steps-rectify-ichthys-emissions-reporting",
+      "datePublished": "2026-09-11T16:46:49+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     },
     {
-      "headline": "WA renewable energy projects' hoop-jumping leading to FID troubles",
-      "standfirst": "Industry speaks at day one of WA Energy Week in Perth",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536690/wa-renewable-energy-projects-hoop-jumping-leading-fid-troubles",
-      "datePublished": "2026-09-10T16:52:40+08:00",
+      "headline": "Woodside rebuffs unions' concerns over Goodwyn Alpha scheduled maintenance shutdown",
+      "standfirst": "The union tells regulator employees won’t have supplies needed",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536747/woodside-rebuffs-unions-concerns-goodwyn-alpha-scheduled-maintenance-shutdown",
+      "datePublished": "2026-09-11T15:54:48+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     },
     {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536688/news-brief",
-      "datePublished": "2026-09-10T15:58:57+08:00",
+      "headline": "Acceptance of Middle Arm precinct's business case still pending",
+      "standfirst": "Major fed govt funding package still blowing in the wind, contingent on sign off",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536751/acceptance-middle-arm-precincts-business-case-pending",
+      "datePublished": "2026-09-11T16:27:53+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "VicGrid scraps Central Northern Renewable Energy Zone",
+      "standfirst": "Community opposition dooms project",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536748/vicgrid-scraps-central-northern-renewable-energy-zone",
+      "datePublished": "2026-09-11T16:17:26+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
