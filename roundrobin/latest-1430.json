@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-14T14:38:21.316372+08:00",
+  "generated_at": "2026-09-14T21:04:17.560307+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-14",
   "reporting_window_start": "2026-09-14T00:00:00+08:00",
   "reporting_window_end": "2026-09-14T14:30:00+08:00",
   "audit_through": "2026-09-14T14:30:00+08:00",
-  "homepage_candidates": 6,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -48,6 +48,22 @@
   ],
   "unresolved": [],
   "excluded": [
+    {
+      "headline": "Carpentaria plant on target for Q4 start-up",
+      "standfirst": "Beetaloo Energy looks at resource data to inform future prospects",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536808/carpentaria-plant-target-q4-start",
+      "datePublished": "2026-09-14T15:10:52+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Energy transition to be expanded to renters and apartment dwellers",
+      "standfirst": "The Energy and Climate Change Ministerial Council met to discuss the rollout of home renewables",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536811/energy-transition-expanded-renters-apartment-dwellers",
+      "datePublished": "2026-09-14T16:41:11+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
     {
       "headline": "Electrification could save Australian homeowners $5k every year",
       "standfirst": "Electrify Australia now is calling on government clarity and support",
