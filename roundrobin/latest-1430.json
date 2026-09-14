@@ -1,84 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-11T19:47:35.016082+08:00",
+  "generated_at": "2026-09-14T14:01:53.215418+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-11",
-  "reporting_window_start": "2026-09-11T00:00:00+08:00",
-  "reporting_window_end": "2026-09-11T14:30:00+08:00",
-  "audit_through": "2026-09-11T14:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-09-14",
+  "reporting_window_start": "2026-09-14T00:00:00+08:00",
+  "reporting_window_end": "2026-09-14T14:30:00+08:00",
+  "audit_through": "2026-09-14T14:01:53.215418+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "JV partners Santos, Red Sky drill Yarrow 5 in Cooper Basin",
-      "standfirst": "Next, the program moves to re-entering Yarrow North 1, which was cased and suspended in 2008",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536736/jv-partners-santos-red-sky-drill-yarrow-cooper-basin",
-      "datePublished": "2026-09-11T12:39:50+08:00",
+      "headline": "Cutifani walks after seven months on Woodside board",
+      "standfirst": "Second director to quit this year; Goyder to step down as chair next year",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536790/cutifani-walks-seven-months-woodside-board",
+      "datePublished": "2026-09-14T12:19:01+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: Santos' busy and fruitful week",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536719/editor-santos-busy-fruitful",
-      "datePublished": "2026-09-11T07:53:14+08:00",
+      "headline": "Consultation kicks off on contracts to replace much maligned CIS",
+      "standfirst": "Industry feedback welcomed until 2 October",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536791/consultation-kicks-contracts-replace-maligned-cis",
+      "datePublished": "2026-09-14T12:35:11+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Opinion: Troubling ministerial discretion is still at the core of gas reservation",
-      "standfirst": "The gas reservation debate is back, which could provide the last chance to refine the regime",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536722/opinion-troubling-ministerial-discretion-core-gas-reservation",
-      "datePublished": "2026-09-11T10:05:16+08:00",
+      "headline": "Slugcatcher: Hormuz 2. The refinery squeeze",
+      "standfirst": "Slugcatcher predicts a widespread loss of oil and refining capacity",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536780/slugcatcher-hormuz-refinery-squeeze",
+      "datePublished": "2026-09-14T10:49:41+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4536723/keeping-apac",
-      "datePublished": "2026-09-11T10:11:14+08:00",
+      "headline": "Australia's monthly O&G production",
+      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
+      "datePublished": "2026-09-14T10:56:13+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536743/news-brief",
-      "datePublished": "2026-09-11T14:11:23+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536798/news-brief",
+      "datePublished": "2026-09-14T13:42:15+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "INPEX takes 'significant steps' to rectify Ichthys emissions under-reporting",
-      "standfirst": "But independent audit suggests still more to do",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536750/inpex-takes-significant-steps-rectify-ichthys-emissions-reporting",
-      "datePublished": "2026-09-11T16:46:49+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Woodside rebuffs unions' concerns over Goodwyn Alpha scheduled maintenance shutdown",
-      "standfirst": "The union tells regulator employees won’t have supplies needed",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536747/woodside-rebuffs-unions-concerns-goodwyn-alpha-scheduled-maintenance-shutdown",
-      "datePublished": "2026-09-11T15:54:48+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Acceptance of Middle Arm precinct's business case still pending",
-      "standfirst": "Major fed govt funding package still blowing in the wind, contingent on sign off",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536751/acceptance-middle-arm-precincts-business-case-pending",
-      "datePublished": "2026-09-11T16:27:53+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "VicGrid scraps Central Northern Renewable Energy Zone",
-      "standfirst": "Community opposition dooms project",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536748/vicgrid-scraps-central-northern-renewable-energy-zone",
-      "datePublished": "2026-09-11T16:17:26+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
