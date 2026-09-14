@@ -1,8 +1,8 @@
 name: Draft roundrobin email
 
-# Proven ENB homepage date-card parser, scheduled for the 13:30 AWST
-# roundrobin. Three independent GitHub cron attempts provide resilience;
-# the per-day cache lock permits only one email to be sent.
+# Legacy Brevo sender retained for manual diagnostic use only.
+# Scheduled delivery is disabled; the 13:30 workflow uses the same
+# proven homepage parser through the collector bridge and sends via Outlook.
 on:
   workflow_dispatch:
     inputs:
@@ -11,11 +11,6 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    # Australia/Perth is UTC+8 year-round.
-    - cron: "30 5 * * 1-5"
-    - cron: "35 5 * * 1-5"
-    - cron: "40 5 * * 1-5"
 
 concurrency:
   group: enb-daily-feed-send
@@ -26,11 +21,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Log trigger
+      - name: Log manual trigger
         shell: bash
-        run: |
-          echo "Event: ${{ github.event_name }}"
-          echo "Scheduled cron: ${{ github.event.schedule }}"
+        run: echo "Event: ${{ github.event_name }}"
 
       - name: Get Perth date
         id: perth-date
@@ -58,7 +51,7 @@ jobs:
         if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         run: python -m pip install requests beautifulsoup4
 
-      - name: Run proven ENB daily story feed
+      - name: Run ENB daily feed
         if: steps.restore-lock.outputs.cache-hit != 'true' || inputs.force_send == true
         env:
           BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
