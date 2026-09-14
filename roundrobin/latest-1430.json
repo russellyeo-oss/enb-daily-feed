@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-14T14:01:53.215418+08:00",
+  "generated_at": "2026-09-14T14:36:57.711335+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-14",
   "reporting_window_start": "2026-09-14T00:00:00+08:00",
   "reporting_window_end": "2026-09-14T14:30:00+08:00",
-  "audit_through": "2026-09-14T14:01:53.215418+08:00",
-  "homepage_candidates": 5,
+  "audit_through": "2026-09-14T14:30:00+08:00",
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
@@ -25,17 +25,17 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Hormuz 2. The refinery squeeze",
-      "standfirst": "Slugcatcher predicts a widespread loss of oil and refining capacity",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536780/slugcatcher-hormuz-refinery-squeeze",
-      "datePublished": "2026-09-14T10:49:41+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
       "headline": "Australia's monthly O&G production",
       "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
       "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
       "datePublished": "2026-09-14T10:56:13+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Slugcatcher: Hormuz 2. The refinery squeeze",
+      "standfirst": "Slugcatcher predicts a widespread loss of oil and refining capacity",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536780/slugcatcher-hormuz-refinery-squeeze",
+      "datePublished": "2026-09-14T10:49:41+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -47,5 +47,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Electrification could save Australian homeowners $5k every year",
+      "standfirst": "Electrify Australia now is calling on government clarity and support",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536796/electrification-save-australian-homeowners-usd5k",
+      "datePublished": "2026-09-14T14:34:34+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
