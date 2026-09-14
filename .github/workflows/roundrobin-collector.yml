@@ -8,23 +8,19 @@ on:
     paths:
       - roundrobin_collector.py
       - .github/workflows/roundrobin-collector.yml
+      - roundrobin/trigger.txt
   schedule:
-    # Australia/Perth is UTC+8 year-round. Pre-cutoff runs provide diagnostic
-    # snapshots. The 13:29 AWST run waits internally until exactly 13:30.
-    # Post-cutoff retries protect against delayed or dropped GitHub cron runs;
-    # the downstream email validates only a complete 00:00-13:30 snapshot.
-    - cron: "30-55/5 4 * * 1-5"
-    - cron: "0-25/5 5 * * 1-5"
-    - cron: "29 5 * * 1-5"
-    - cron: "35 5 * * 1-5"
-    - cron: "40 5 * * 1-5"
+    # Australia/Perth is UTC+8 year-round. Run at and repeatedly AFTER
+    # the 13:30 AWST cutoff. Any of these runs can produce the same fixed
+    # 00:00-13:30 snapshot, so a delayed/dropped cron does not break the day.
+    - cron: "30,32,35,40,45,50 5 * * 1-5"
 
 permissions:
   contents: write
 
 concurrency:
   group: enb-roundrobin-collector
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   collect:
@@ -44,22 +40,15 @@ jobs:
       - name: Install dependencies
         run: python -m pip install requests beautifulsoup4
 
-      - name: Wait for exact 13:30 AWST cutoff
-        if: github.event_name == 'schedule' && github.event.schedule == '29 5 * * 1-5'
-        shell: bash
-        run: |
-          target_epoch=$(date -u -d "$(date -u +%F) 05:30:00" +%s)
-          now_epoch=$(date -u +%s)
-          if [ "$now_epoch" -lt "$target_epoch" ]; then
-            sleep "$((target_epoch - now_epoch))"
-          fi
-
-      - name: Collect ENB homepage snapshot
+      - name: Collect complete ENB 13:30 snapshot
         id: collect
         shell: bash
         run: |
           set +e
-          python roundrobin_collector.py --output roundrobin/latest.json
+          python roundrobin_collector.py \
+            --cutoff-hour 13 \
+            --cutoff-minute 30 \
+            --output roundrobin/latest.json
           code=$?
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           exit 0
@@ -75,6 +64,7 @@ jobs:
             exit 0
           fi
           git commit -m "Update ENB roundrobin snapshot"
+          git pull --rebase origin main
           git push origin HEAD:main
 
       - name: Enforce metadata audit
