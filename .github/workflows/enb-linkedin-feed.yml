@@ -1,5 +1,7 @@
 name: Draft LinkedIn tease
 
+# Automatic GitHub delivery disabled. Retained for manual diagnostics only.
+# The connected Outlook 14:30 automation remains the active LinkedIn sender.
 on:
   workflow_dispatch:
     inputs:
@@ -8,39 +10,19 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    # Five staggered attempts. Early runs wait until 14:30 AWST.
-    - cron: "20 5 * * 1-5"
-    - cron: "40 5 * * 1-5"
-    - cron: "0 6 * * 1-5"
-    - cron: "20 6 * * 1-5"
-    - cron: "50 6 * * 1-5"
 
 concurrency:
   group: enb-linkedin-feed-send
   cancel-in-progress: false
-  queue: max
 
 jobs:
   run-linkedin-feed:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Log schedule trigger
+      - name: Log manual trigger
         shell: bash
-        run: |
-          echo "Event: ${{ github.event_name }}"
-          echo "Scheduled cron: ${{ github.event.schedule }}"
-
-      - name: Wait until 14:30 AWST
-        if: github.event_name == 'schedule'
-        shell: bash
-        run: |
-          target_epoch=$(date -u -d "$(date -u +%F) 06:30:00" +%s)
-          now_epoch=$(date -u +%s)
-          if [ "$now_epoch" -lt "$target_epoch" ]; then
-            sleep "$((target_epoch - now_epoch))"
-          fi
+        run: echo "Event: ${{ github.event_name }}"
 
       - name: Get Perth date
         id: perth-date
