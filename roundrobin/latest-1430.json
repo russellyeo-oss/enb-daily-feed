@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-15T14:30:00.883104+08:00",
+  "generated_at": "2026-09-15T19:24:43.611125+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-15",
   "reporting_window_start": "2026-09-15T00:00:00+08:00",
   "reporting_window_end": "2026-09-15T14:30:00+08:00",
   "audit_through": "2026-09-15T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -61,5 +61,22 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Greater Sunrise production timeline knocked back",
+      "standfirst": "The Timor-Leste LNG development will not produce gas until 2034 or 2035",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536870/sunrise-production-timeline-knocked",
+      "datePublished": "2026-09-15T16:48:09+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Firmus appeals \"unreasonable\" Bell Bay data centre conditions",
+      "standfirst": "The company is seeking to use 276 backup diesel generators",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536869/firmus-appeals-unreasonable-bell-bay-centre-conditions",
+      "datePublished": "2026-09-15T16:25:50+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
