@@ -1,76 +1,65 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-14T21:04:17.560307+08:00",
+  "generated_at": "2026-09-15T14:30:00.883104+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-14",
-  "reporting_window_start": "2026-09-14T00:00:00+08:00",
-  "reporting_window_end": "2026-09-14T14:30:00+08:00",
-  "audit_through": "2026-09-14T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-09-15",
+  "reporting_window_start": "2026-09-15T00:00:00+08:00",
+  "reporting_window_end": "2026-09-15T14:30:00+08:00",
+  "audit_through": "2026-09-15T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Cutifani walks after seven months on Woodside board",
-      "standfirst": "Second director to quit this year; Goyder to step down as chair next year",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536790/cutifani-walks-seven-months-woodside-board",
-      "datePublished": "2026-09-14T12:19:01+08:00",
+      "headline": "Is Santos moving to an LNG trading business model?",
+      "standfirst": "Adelaide gas giant announces move to buy up 20 million tonnes of LNG",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536859/santos-moving-lng-trading-business-model",
+      "datePublished": "2026-09-15T13:29:54+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Consultation kicks off on contracts to replace much maligned CIS",
-      "standfirst": "Industry feedback welcomed until 2 October",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536791/consultation-kicks-contracts-replace-maligned-cis",
-      "datePublished": "2026-09-14T12:35:11+08:00",
+      "headline": "Wood awarded $200m PNG LNG construction services contract",
+      "standfirst": "PNG LNG tie-in pipeline shows robust future",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536853/wood-awarded-usd200m-png-lng-construction-services-contract",
+      "datePublished": "2026-09-15T12:22:19+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Australia's monthly O&G production",
-      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
-      "datePublished": "2026-09-14T10:56:13+08:00",
+      "headline": "Yarrow 5 to be \"cased and suspended\" after hitting gas pay",
+      "standfirst": "Red Sky yesterday requested ASX trading halt as it waited for the well results",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536854/yarrow-cased-suspended-hitting-gas-pay",
+      "datePublished": "2026-09-15T12:47:18+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Hormuz 2. The refinery squeeze",
-      "standfirst": "Slugcatcher predicts a widespread loss of oil and refining capacity",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536780/slugcatcher-hormuz-refinery-squeeze",
-      "datePublished": "2026-09-14T10:49:41+08:00",
+      "headline": "Inquiry to scrutinise financial (mis)management of Snowy 2.0",
+      "standfirst": "Comes as Sussan Ley and Merryn York are appointed to boost Snowy Hydro's board",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536842/inquiry-scrutinise-financial-mis-management-snowy",
+      "datePublished": "2026-09-15T10:16:13+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: No one-size-fits-all",
+      "standfirst": "ANGEA's acting CEO says Asia's pathway to energy security is diverse",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536841/opinion-size-fits",
+      "datePublished": "2026-09-15T10:18:59+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4536843/asx-junior-wrap",
+      "datePublished": "2026-09-15T10:45:53+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536798/news-brief",
-      "datePublished": "2026-09-14T13:42:15+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536864/news-brief",
+      "datePublished": "2026-09-15T14:17:08+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Carpentaria plant on target for Q4 start-up",
-      "standfirst": "Beetaloo Energy looks at resource data to inform future prospects",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4536808/carpentaria-plant-target-q4-start",
-      "datePublished": "2026-09-14T15:10:52+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Energy transition to be expanded to renters and apartment dwellers",
-      "standfirst": "The Energy and Climate Change Ministerial Council met to discuss the rollout of home renewables",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536811/energy-transition-expanded-renters-apartment-dwellers",
-      "datePublished": "2026-09-14T16:41:11+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Electrification could save Australian homeowners $5k every year",
-      "standfirst": "Electrify Australia now is calling on government clarity and support",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536796/electrification-save-australian-homeowners-usd5k",
-      "datePublished": "2026-09-14T14:34:34+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
