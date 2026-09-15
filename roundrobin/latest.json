@@ -1,53 +1,58 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-14T13:55:14.889729+08:00",
+  "generated_at": "2026-09-15T13:34:58.806483+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-14",
-  "reporting_window_start": "2026-09-14T00:00:00+08:00",
-  "reporting_window_end": "2026-09-14T13:30:00+08:00",
-  "audit_through": "2026-09-14T13:30:00+08:00",
-  "homepage_candidates": 5,
+  "target_date": "2026-09-15",
+  "reporting_window_start": "2026-09-15T00:00:00+08:00",
+  "reporting_window_end": "2026-09-15T13:30:00+08:00",
+  "audit_through": "2026-09-15T13:30:00+08:00",
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
-      "headline": "Cutifani walks after seven months on Woodside board",
-      "standfirst": "Second director to quit this year; Goyder to step down as chair next year",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536790/cutifani-walks-seven-months-woodside-board",
-      "datePublished": "2026-09-14T12:19:01+08:00",
+      "headline": "Is Santos moving to an LNG trading business model?",
+      "standfirst": "Adelaide gas giant announces move to buy up 20 million tonnes of LNG",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536859/santos-moving-lng-trading-business-model",
+      "datePublished": "2026-09-15T13:29:54+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Consultation kicks off on contracts to replace much maligned CIS",
-      "standfirst": "Industry feedback welcomed until 2 October",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536791/consultation-kicks-contracts-replace-maligned-cis",
-      "datePublished": "2026-09-14T12:35:11+08:00",
+      "headline": "Wood awarded $200m PNG LNG construction services contract",
+      "standfirst": "PNG LNG tie-in pipeline shows robust future",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536853/wood-awarded-usd200m-png-lng-construction-services-contract",
+      "datePublished": "2026-09-15T12:22:19+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Hormuz 2. The refinery squeeze",
-      "standfirst": "Slugcatcher predicts a widespread loss of oil and refining capacity",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536780/slugcatcher-hormuz-refinery-squeeze",
-      "datePublished": "2026-09-14T10:49:41+08:00",
+      "headline": "Yarrow 5 to be \"cased and suspended\" after hitting gas pay",
+      "standfirst": "Red Sky yesterday requested ASX trading halt as it waited for the well results",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536854/yarrow-cased-suspended-hitting-gas-pay",
+      "datePublished": "2026-09-15T12:47:18+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Australia's monthly O&G production",
-      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
-      "datePublished": "2026-09-14T10:56:13+08:00",
+      "headline": "Inquiry to scrutinise financial (mis)management of Snowy 2.0",
+      "standfirst": "Comes as Sussan Ley and Merryn York are appointed to boost Snowy Hydro's board",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536842/inquiry-scrutinise-financial-mis-management-snowy",
+      "datePublished": "2026-09-15T10:16:13+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: No one-size-fits-all",
+      "standfirst": "ANGEA's acting CEO says Asia's pathway to energy security is diverse",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4536841/opinion-size-fits",
+      "datePublished": "2026-09-15T10:18:59+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4536843/asx-junior-wrap",
+      "datePublished": "2026-09-15T10:45:53+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536798/news-brief",
-      "datePublished": "2026-09-14T13:42:15+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
