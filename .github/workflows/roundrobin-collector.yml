@@ -10,17 +10,17 @@ on:
       - .github/workflows/roundrobin-collector.yml
       - roundrobin/trigger.txt
   schedule:
-    # Australia/Perth is UTC+8 year-round. Run at and repeatedly AFTER
-    # the 13:30 AWST cutoff. Any of these runs can produce the same fixed
-    # 00:00-13:30 snapshot, so a delayed/dropped cron does not break the day.
-    - cron: "30,32,35,40,45,50 5 * * 1-5"
+    # Australia/Perth is UTC+8 year-round. Start runners before the
+    # 13:30 AWST cutoff so GitHub queue latency is absorbed before collection.
+    # Scheduled runs wait internally until exactly 13:30. A 13:35 retry remains.
+    - cron: "0,10,20,29,35 5 * * 1-5"
 
 permissions:
   contents: write
 
 concurrency:
   group: enb-roundrobin-collector
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
@@ -39,6 +39,16 @@ jobs:
 
       - name: Install dependencies
         run: python -m pip install requests beautifulsoup4
+
+      - name: Wait for exact 13:30 AWST cutoff
+        if: github.event_name == 'schedule'
+        shell: bash
+        run: |
+          target_epoch=$(date -u -d "$(date -u +%F) 05:30:00" +%s)
+          now_epoch=$(date -u +%s)
+          if [ "$now_epoch" -lt "$target_epoch" ]; then
+            sleep "$((target_epoch - now_epoch))"
+          fi
 
       - name: Collect complete ENB 13:30 snapshot
         id: collect
