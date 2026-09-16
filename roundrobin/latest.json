@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-16T13:36:55.507110+08:00",
+  "generated_at": "2026-09-16T17:34:31.415904+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-16",
   "reporting_window_start": "2026-09-16T00:00:00+08:00",
   "reporting_window_end": "2026-09-16T13:30:00+08:00",
   "audit_through": "2026-09-16T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,54 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Santos-Carnarvon JV readying for April 2027 Bedout drill campaign",
+      "standfirst": "Two wells to be targeted by Transocean Equinox rig",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4536924/santos-carnarvon-jv-readying-april-2027-bedout-drill-campaign",
+      "datePublished": "2026-09-16T14:29:23+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Use of foreign workers on Santos decom project \"illegal\", union allege",
+      "standfirst": "MUA asks for govt investigation into the company’s use of visa laws",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536932/foreign-workers-santos-decom-project-illegal-union-allege",
+      "datePublished": "2026-09-16T15:26:43+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Could the Pilbara have a renewable diesel refinery?",
+      "standfirst": "YSRC, Veyter and Agilitas Advisory Corp signed an MoU to undertake feasibility studies",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536928/pilbara-renewable-diesel-refinery",
+      "datePublished": "2026-09-16T14:48:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Australia to miss 82% by 2030 renewable target, IEEFA report shows",
+      "standfirst": "Power purchase agreements remain a major bottleneck to construction",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536930/australia-miss-82-2030-renewable-target-ieefa-report",
+      "datePublished": "2026-09-16T15:03:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "NSW Hunter Transmission Project NEPA approved",
+      "standfirst": "State's energy transition depends on it",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536933/nsw-hunter-transmission-project-nepa-approved",
+      "datePublished": "2026-09-16T15:37:47+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Vic transmission project thrown into doubt as govt review commissioned",
+      "standfirst": "Comes as debate swirls around VNI too",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536931/vic-transmission-project-thrown-doubt-govt-review-commissioned",
+      "datePublished": "2026-09-16T15:13:02+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
