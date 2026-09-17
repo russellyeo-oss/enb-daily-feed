@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-17T14:37:57.897404+08:00",
+  "generated_at": "2026-09-17T19:18:12.011902+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-17",
   "reporting_window_start": "2026-09-17T00:00:00+08:00",
   "reporting_window_end": "2026-09-17T14:30:00+08:00",
   "audit_through": "2026-09-17T14:30:00+08:00",
-  "homepage_candidates": 5,
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
@@ -47,5 +47,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Omega-Tristar-Beach JV win Taroom Trough land release from Qld govt",
+      "standfirst": "Comes as Elixir's Stuart Nicholls echoes the opportunities for oil and gas in the energy asset",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536990/omega-tristar-beach-jv-win-taroom-trough-land-release-qld-govt",
+      "datePublished": "2026-09-17T15:56:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
