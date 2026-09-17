@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-17T13:34:06.510190+08:00",
+  "generated_at": "2026-09-17T17:42:53.471684+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-17",
   "reporting_window_start": "2026-09-17T00:00:00+08:00",
   "reporting_window_end": "2026-09-17T13:30:00+08:00",
   "audit_through": "2026-09-17T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Omega-Tristar-Beach JV win Taroom Trough land release from Qld govt",
+      "standfirst": "Comes as Elixir's Stuart Nicholls echoes the opportunities for oil and gas in the energy asset",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536990/omega-tristar-beach-jv-win-taroom-trough-land-release-qld-govt",
+      "datePublished": "2026-09-17T15:56:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Shell hit with NOPSEMA notice after injury onboard Prelude",
+      "standfirst": "Automatic system kicked in while working was performing manual operation",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536978/shell-hit-nopsema-notice-injury-onboard-prelude",
+      "datePublished": "2026-09-17T13:45:03+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Global leaders booked to come to Perth for energy transition summit",
+      "standfirst": "The Global Citizen NOW event will be held 18 to 20 October",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536981/global-leaders-booked-perth-energy-transition-summit",
+      "datePublished": "2026-09-17T13:39:31+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Vic, NSW trade renewable swings and roundabouts",
+      "standfirst": "A new BESS and proposed rule changes in Vic while NSW contends with IPC review abuse",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536984/vic-nsw-trade-renewable-swings-roundabouts",
+      "datePublished": "2026-09-17T13:38:50+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
