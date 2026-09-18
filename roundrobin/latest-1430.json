@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-18T14:36:28.715871+08:00",
+  "generated_at": "2026-09-18T18:52:07.148223+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-18",
   "reporting_window_start": "2026-09-18T00:00:00+08:00",
   "reporting_window_end": "2026-09-18T14:30:00+08:00",
   "audit_through": "2026-09-18T14:30:00+08:00",
-  "homepage_candidates": 6,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -32,17 +32,17 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537019/keeping-apac",
-      "datePublished": "2026-09-18T10:06:45+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
       "headline": "From the editor: You couldn't make it up...",
       "standfirst": "A look back over the week that was",
       "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537016/editor-santos-busy-fruitful",
       "datePublished": "2026-09-18T08:40:15+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537019/keeping-apac",
+      "datePublished": "2026-09-18T10:06:45+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -54,5 +54,30 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "ConocoPhillips to expand Otway Basin play",
+      "standfirst": "The firm will acquire 3D Energi's 20% interest in the VIC/P79 permit",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4537050/conocophillips-expand-otway-basin-play",
+      "datePublished": "2026-09-18T16:29:41+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA's energy transition piling financial pressures on state owned utility",
+      "standfirst": "While renewables change the energy mix, Synergy highlight ups and downs",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537048/western-australias-energy-transition-piling-financial-pressures-owned-utility",
+      "datePublished": "2026-09-18T15:09:01+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "APAC poised for CCUS takeover",
+      "standfirst": "New report recommends cross-border collaboration",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537028/apac-poised-ccus-takeover",
+      "datePublished": "2026-09-18T14:44:10+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
