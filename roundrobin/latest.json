@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-18T13:38:22.884619+08:00",
+  "generated_at": "2026-09-18T17:16:12.495685+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-18",
   "reporting_window_start": "2026-09-18T00:00:00+08:00",
   "reporting_window_end": "2026-09-18T13:30:00+08:00",
   "audit_through": "2026-09-18T13:30:00+08:00",
-  "homepage_candidates": 5,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -47,5 +47,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Plans to bring Beetaloo gas to to Australia's south-east take shape",
+      "standfirst": "NTEPA starts assessment; environmentalists cry foul",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537034/plans-bring-beetaloo-gas-australias-south-east-shape",
+      "datePublished": "2026-09-18T13:48:58+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "ConocoPhillips to expand Otway Basin play",
+      "standfirst": "The firm will acquire 3D Energi's 20% interest in the VIC/P79 permit",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4537050/conocophillips-expand-otway-basin-play",
+      "datePublished": "2026-09-18T16:29:41+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA's energy transition piling financial pressures on state owned utility",
+      "standfirst": "While renewables change the energy mix, Synergy highlight ups and downs",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537048/western-australias-energy-transition-piling-financial-pressures-owned-utility",
+      "datePublished": "2026-09-18T15:09:01+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "APAC poised for CCUS takeover",
+      "standfirst": "New report recommends cross-border collaboration",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537028/apac-poised-ccus-takeover",
+      "datePublished": "2026-09-18T14:44:10+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
