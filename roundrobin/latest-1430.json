@@ -1,60 +1,58 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-17T19:53:20.539993+08:00",
+  "generated_at": "2026-09-18T14:36:28.715871+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-17",
-  "reporting_window_start": "2026-09-17T00:00:00+08:00",
-  "reporting_window_end": "2026-09-17T14:30:00+08:00",
-  "audit_through": "2026-09-17T14:30:00+08:00",
+  "target_date": "2026-09-18",
+  "reporting_window_start": "2026-09-18T00:00:00+08:00",
+  "reporting_window_end": "2026-09-18T14:30:00+08:00",
+  "audit_through": "2026-09-18T14:30:00+08:00",
   "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
-      "headline": "Shell hit with NOPSEMA notice after injury onboard Prelude",
-      "standfirst": "Automatic system kicked in while working was performing manual operation",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4536978/shell-hit-nopsema-notice-injury-onboard-prelude",
-      "datePublished": "2026-09-17T13:45:03+08:00",
+      "headline": "Plans to bring Beetaloo gas to to Australia's south-east take shape",
+      "standfirst": "NTEPA starts assessment; environmentalists cry foul",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537034/plans-bring-beetaloo-gas-australias-south-east-shape",
+      "datePublished": "2026-09-18T13:48:58+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Queensland chosen as the site of first Anthropic data centre",
-      "standfirst": "Govt seemingly not concerned by the \"end of humanity\" debate",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4536977/queensland-chosen-site-anthropic-centre",
-      "datePublished": "2026-09-17T12:34:33+08:00",
+      "headline": "Gas reservation policy can create a \"new commercial catalyst\" claims Argonaut analyst",
+      "standfirst": "When combined with global LNG market, Australia is in pole position to capitalise says Sarah Kerr",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537026/gas-reservation-policy-create-commercial-catalyst-claims-argonaut-analyst",
+      "datePublished": "2026-09-18T11:53:08+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Global leaders booked to come to Perth for energy transition summit",
-      "standfirst": "The Global Citizen NOW event will be held 18 to 20 October",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536981/global-leaders-booked-perth-energy-transition-summit",
-      "datePublished": "2026-09-17T13:39:31+08:00",
+      "headline": "Deadline set for fed and state govts to establish bilateral assessment agreements",
+      "standfirst": "Arrangements will eradicate time-wasting duplication of approvals",
+      "url": "https://www.energynewsbulletin.net/policy/news-articles/4537020/deadline-set-fed-govts-establish-bilateral-assessment-agreements",
+      "datePublished": "2026-09-18T10:24:10+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Vic, NSW trade renewable swings and roundabouts",
-      "standfirst": "A new BESS and proposed rule changes in Vic while NSW contends with IPC review abuse",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4536984/vic-nsw-trade-renewable-swings-roundabouts",
-      "datePublished": "2026-09-17T13:38:50+08:00",
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537019/keeping-apac",
+      "datePublished": "2026-09-18T10:06:45+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "From the editor: You couldn't make it up...",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537016/editor-santos-busy-fruitful",
+      "datePublished": "2026-09-18T08:40:15+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4536979/news-brief",
-      "datePublished": "2026-09-17T12:59:38+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537024/news-brief",
+      "datePublished": "2026-09-18T11:33:50+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Omega-Tristar-Beach JV win Taroom Trough land release from Qld govt",
-      "standfirst": "Comes as Elixir's Stuart Nicholls echoes the opportunities for oil and gas in the energy asset",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4536990/omega-tristar-beach-jv-win-taroom-trough-land-release-qld-govt",
-      "datePublished": "2026-09-17T15:56:14+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
