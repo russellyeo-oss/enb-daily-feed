@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-21T13:35:14.109890+08:00",
+  "generated_at": "2026-09-21T18:16:26.365401+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-21",
   "reporting_window_start": "2026-09-21T00:00:00+08:00",
   "reporting_window_end": "2026-09-21T13:30:00+08:00",
   "audit_through": "2026-09-21T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -21,12 +21,60 @@
   "unresolved": [],
   "excluded": [
     {
+      "headline": "Japan eyes Browse JV for answer to energy needs",
+      "standfirst": "Osaka Gas nabs 5% stake from BP as the country firms energy supply interests",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537086/japan-eyes-browse-jv-answer-energy",
+      "datePublished": "2026-09-21T13:47:51+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Equus gets Alcoa approval to advance gas project to stage two",
+      "standfirst": "Follows the gas sales agreement signed between the two companies in August",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537113/equus-alcoa-approval-advance-gas-project-stage",
+      "datePublished": "2026-09-21T15:58:22+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Vic govt chooses offshore wind transmission route",
+      "standfirst": "Comes after the late August kick-off of Australia's first offshore wind auction",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537111/vic-govt-chooses-offshore-wind-transmission-route",
+      "datePublished": "2026-09-21T16:29:16+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "AGL Energy seeks carve out from NSW data centre rules",
+      "standfirst": "Comes as AirTrunk pitches decreasing energy bill costs for residents local to Newcastle project",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537106/agl-energy-seeks-carve-nsw-centre-rules",
+      "datePublished": "2026-09-21T15:13:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Traditional owner takes Burrup Peninsula concerns to UN's Human Rights Council",
+      "standfirst": "Mardathoonera woman Raelene Cooper to address council on Wednesday over threats to Murujuga rock art",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537100/traditional-owner-takes-burrup-peninsula-concerns-uns-human-rights-council",
+      "datePublished": "2026-09-21T13:37:16+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Snowy 2.0 power station complex excavation nears completion",
+      "standfirst": "Project contractor highlights next steps",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537107/snowy-power-station-complex-excavation-nears-completion",
+      "datePublished": "2026-09-21T14:44:59+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
       "headline": "News in brief",
       "standfirst": "",
       "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537093/news-brief",
-      "datePublished": "2026-09-18T11:33:50+08:00",
+      "datePublished": "2026-09-21T13:46:34+08:00",
       "publication_metadata_source": "published-time metadata",
-      "reason": "original publication date is not today in Australia/Perth"
+      "reason": "original publication time is after this collector run/cutoff"
     }
   ]
 }
