@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-22T13:48:26.890115+08:00",
+  "generated_at": "2026-09-22T17:32:02.823187+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-22",
   "reporting_window_start": "2026-09-22T00:00:00+08:00",
   "reporting_window_end": "2026-09-22T13:30:00+08:00",
   "audit_through": "2026-09-22T13:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
@@ -33,5 +33,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Govt authorises taxpayer money to be used for Cliff Head decom",
+      "standfirst": "Madeleine King has previously said industry will foot the bill",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537154/govt-authorises-taxpayer-money-cliff-head-decom",
+      "datePublished": "2026-09-22T16:05:59+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Woodside's refuses to rule out pre-empting Osaka's 5% Browse buy in",
+      "standfirst": "Saul Kavonic says no chance of it happening",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537158/woodsides-refuses-rule-pre-empting-osakas-browse",
+      "datePublished": "2026-09-22T13:54:51+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Goodman lashed over plans to build a three storey data centre 20m from homes",
+      "standfirst": "Accusations fly and tempers fray at senate inquiry hearing",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537169/goodman-lashed-plans-build-storey-centre-20m-homes",
+      "datePublished": "2026-09-22T15:52:39+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Alinta ordered to pay Clarke Energy $7m over contract dispute",
+      "standfirst": "The judgment was handed down in the NSW Supreme Court over WA's Newman Power Station",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537166/alinta-pay-clarke-energy-usd7m-contract-dispute",
+      "datePublished": "2026-09-22T16:01:16+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
