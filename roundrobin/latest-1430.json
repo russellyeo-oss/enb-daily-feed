@@ -1,75 +1,67 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-21T21:02:38.597508+08:00",
+  "generated_at": "2026-09-22T19:14:50.883031+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-21",
-  "reporting_window_start": "2026-09-21T00:00:00+08:00",
-  "reporting_window_end": "2026-09-21T14:30:00+08:00",
-  "audit_through": "2026-09-21T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-09-22",
+  "reporting_window_start": "2026-09-22T00:00:00+08:00",
+  "reporting_window_end": "2026-09-22T14:30:00+08:00",
+  "audit_through": "2026-09-22T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Japan eyes Browse JV for answer to energy needs",
-      "standfirst": "Osaka Gas nabs 5% stake from BP as the country firms energy supply interests",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537086/japan-eyes-browse-jv-answer-energy",
-      "datePublished": "2026-09-21T13:47:51+08:00",
+      "headline": "Woodside's refuses to rule out pre-empting Osaka's 5% Browse buy in",
+      "standfirst": "Saul Kavonic says no chance of it happening",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537158/woodsides-refuses-rule-pre-empting-osakas-browse",
+      "datePublished": "2026-09-22T13:54:51+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Traditional owner takes Burrup Peninsula concerns to UN's Human Rights Council",
-      "standfirst": "Mardathoonera woman Raelene Cooper to address council on Wednesday over threats to Murujuga rock art",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537100/traditional-owner-takes-burrup-peninsula-concerns-uns-human-rights-council",
-      "datePublished": "2026-09-21T13:37:16+08:00",
+      "headline": "Black Mountain awaits imminent decision on Valhalla fracking project",
+      "standfirst": "WA appeals convenor working through final stage of the process",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4537141/black-mountain-wait-imminent-decision-valhalla-fracking-project",
+      "datePublished": "2026-09-22T10:28:30+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Wyatt could be Woodside's 'Bradbury' chairman",
-      "standfirst": "Could WA's former treasurer Ben Wyatt be crowned Woodside chairman by default?",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537080/slugcatcher-wyatt-woodsides-bradbury-chairman",
-      "datePublished": "2026-09-21T09:52:05+08:00",
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537143/asx-junior-wrap",
+      "datePublished": "2026-09-22T10:44:49+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537093/news-brief",
-      "datePublished": "2026-09-21T13:46:34+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537147/news-brief",
+      "datePublished": "2026-09-22T11:13:58+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Equus gets Alcoa approval to advance gas project to stage two",
-      "standfirst": "Follows the gas sales agreement signed between the two companies in August",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537113/equus-alcoa-approval-advance-gas-project-stage",
-      "datePublished": "2026-09-21T15:58:22+08:00",
+      "headline": "Govt authorises taxpayer money to be used for Cliff Head decom",
+      "standfirst": "Madeleine King has previously said industry will foot the bill",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537154/govt-authorises-taxpayer-money-cliff-head-decom",
+      "datePublished": "2026-09-22T16:05:59+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     },
     {
-      "headline": "Vic govt chooses offshore wind transmission route",
-      "standfirst": "Comes after the late August kick-off of Australia's first offshore wind auction",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537111/vic-govt-chooses-offshore-wind-transmission-route",
-      "datePublished": "2026-09-21T16:29:16+08:00",
+      "headline": "Goodman lashed over plans to build a three storey data centre 20m from homes",
+      "standfirst": "Accusations fly and tempers fray at senate inquiry hearing",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537169/goodman-lashed-plans-build-storey-centre-20m-homes",
+      "datePublished": "2026-09-22T15:52:39+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     },
     {
-      "headline": "AGL Energy seeks carve out from NSW data centre rules",
-      "standfirst": "Comes as AirTrunk pitches decreasing energy bill costs for residents local to Newcastle project",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537106/agl-energy-seeks-carve-nsw-centre-rules",
-      "datePublished": "2026-09-21T15:13:27+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Snowy 2.0 power station complex excavation nears completion",
-      "standfirst": "Project contractor highlights next steps",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537107/snowy-power-station-complex-excavation-nears-completion",
-      "datePublished": "2026-09-21T14:44:59+08:00",
+      "headline": "Alinta ordered to pay Clarke Energy $7m over contract dispute",
+      "standfirst": "The judgment was handed down in the NSW Supreme Court over WA's Newman Power Station",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537166/alinta-pay-clarke-energy-usd7m-contract-dispute",
+      "datePublished": "2026-09-22T16:01:16+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
