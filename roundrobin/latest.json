@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-24T13:38:04.382970+08:00",
+  "generated_at": "2026-09-24T17:36:49.358982+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-24",
   "reporting_window_start": "2026-09-24T00:00:00+08:00",
   "reporting_window_end": "2026-09-24T13:30:00+08:00",
   "audit_through": "2026-09-24T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
@@ -35,10 +35,34 @@
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Fugro awarded Greater Sunrise contract to investigate viability of Timor Leste-based LNG facilities",
-      "standfirst": "Also secures work with un-named client in Australian waters",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537267/fugro-awarded-sunrise-contract-investigate-viability-timor-leste-lng-facilities",
+      "headline": "Timor Leste works to secure home advantage for Greater Sunrise LNG facilities",
+      "standfirst": "Awards contracts to Fugro to conduct geotechnical and metocean investigations",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537267/timor-leste-secure-home-advantage-sunrise-lng-facilities",
       "datePublished": "2026-09-24T13:35:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "The Analyst's Take: The $7.3b solar recycling opportunity we can't afford to waste",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537284/analysts-usd73b-solar-recycling-opportunity-afford-waste",
+      "datePublished": "2026-09-24T13:58:11+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "What will Australia do with its ageing and broken solar panels?",
+      "standfirst": "Industry leaders speak on the challenges and opportunities for government at inquiry",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537295/australia-agring-broken-solar-panels",
+      "datePublished": "2026-09-24T16:23:09+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Kerb-based EV charging stations coming to a roadside near you",
+      "standfirst": "A new proposal aims to increase EV charging sites in metropolitan and regional communities",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537288/kerb-ev-charging-stations-coming-roadside-near",
+      "datePublished": "2026-09-24T14:29:57+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
