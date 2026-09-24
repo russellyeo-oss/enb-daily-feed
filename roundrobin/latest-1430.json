@@ -1,83 +1,65 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-23T19:52:16.217145+08:00",
+  "generated_at": "2026-09-24T19:23:58.507835+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-23",
-  "reporting_window_start": "2026-09-23T00:00:00+08:00",
-  "reporting_window_end": "2026-09-23T14:30:00+08:00",
-  "audit_through": "2026-09-23T14:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-09-24",
+  "reporting_window_start": "2026-09-24T00:00:00+08:00",
+  "reporting_window_end": "2026-09-24T14:30:00+08:00",
+  "audit_through": "2026-09-24T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Coalition would \"take a chainsaw\" to Labor's energy policy",
-      "standfirst": "CIS, net zero targets, safeguard mechanism & new vehicle efficiency standards would all be scrapped",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537214/coalition-chainsaw-labors-energy-policy",
-      "datePublished": "2026-09-23T12:52:46+08:00",
+      "headline": "Timor Leste works to secure home advantage for Greater Sunrise LNG facilities",
+      "standfirst": "Awards contracts to Fugro to conduct geotechnical and metocean investigations",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537267/timor-leste-secure-home-advantage-sunrise-lng-facilities",
+      "datePublished": "2026-09-24T13:35:27+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Where is the Snowy 2.0 cost reassessment report?",
-      "standfirst": "Comes after announcement of govt official inquiry",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537202/snowy-cost-reassessment-report",
-      "datePublished": "2026-09-23T10:57:32+08:00",
+      "headline": "UN urged to call on Australia govt to scrap Browse",
+      "standfirst": "Traditional Owner travels to Geneva to attempt to block Burrup Peninsula activity",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537263/urged-australia-govt-scrap-browse",
+      "datePublished": "2026-09-24T11:00:54+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537208/movers-shakers",
-      "datePublished": "2026-09-23T12:08:51+08:00",
+      "headline": "The Analyst's Take: The $7.3b solar recycling opportunity we can't afford to waste",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537284/analysts-usd73b-solar-recycling-opportunity-afford-waste",
+      "datePublished": "2026-09-24T13:58:11+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Origin bets on big peaking power",
+      "standfirst": "The company has proposed the 1.2 GW Kerraway peaking power plant in NSW",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537264/origin-bets-big-peaking-power",
+      "datePublished": "2026-09-24T10:52:49+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Kerb-based EV charging stations coming to a roadside near you",
+      "standfirst": "A new proposal aims to increase EV charging sites in metropolitan and regional communities",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537288/kerb-ev-charging-stations-coming-roadside-near",
+      "datePublished": "2026-09-24T14:29:57+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537212/news-brief",
-      "datePublished": "2026-09-23T12:30:28+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537271/news-brief",
+      "datePublished": "2026-09-24T11:58:46+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Narrabri could be scrapped because of gas reservation, says Santos boss",
-      "standfirst": "As industry rounds on reservation scheme Gallagher says he won't invest in uneconomical projects",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537222/narrabri-scrapped-gas-reservation-santos-boss",
-      "datePublished": "2026-09-23T14:41:58+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Additional Taroom Trough tenders awarded by Qld govt",
-      "standfirst": "The Denison Gas and OGT Energy JV received acreage of more than 1,000 square km",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537233/additional-taroom-trough-tenders-awarded-qld-govt",
-      "datePublished": "2026-09-23T17:12:31+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "NT govt clearing the way to connect Beetaloo to the north and south",
-      "standfirst": "Territory Energy Link connection to Darwin half way progressed",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537225/nt-govt-clearing-connect-beetaloo-north-south",
-      "datePublished": "2026-09-23T15:15:43+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "NOPSEMA approves Vermilion Wandoo exploration drilling",
-      "standfirst": "Positive results could have the company drilling an additional six",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4537228/nopsema-approves-vermilion-wandoo-exploration-drilling",
-      "datePublished": "2026-09-23T16:07:09+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Two massive NSW BESS plans have progressed",
-      "standfirst": "Energy Vault's Stoney Creek and AGL's Kangaroo Valley are moving forward",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537230/massive-nsw-bess-plans-progressed",
-      "datePublished": "2026-09-23T16:37:18+08:00",
+      "headline": "What will Australia do with its ageing and broken solar panels?",
+      "standfirst": "Industry leaders speak on the challenges and opportunities for government at inquiry",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537295/australia-agring-broken-solar-panels",
+      "datePublished": "2026-09-24T16:23:09+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
