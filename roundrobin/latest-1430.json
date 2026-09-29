@@ -1,15 +1,60 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-28T22:12:42.425940+08:00",
+  "generated_at": "2026-09-29T14:36:44.604356+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-28",
-  "reporting_window_start": "2026-09-28T00:00:00+08:00",
-  "reporting_window_end": "2026-09-28T14:30:00+08:00",
-  "audit_through": "2026-09-28T14:30:00+08:00",
-  "homepage_candidates": 0,
+  "target_date": "2026-09-29",
+  "reporting_window_start": "2026-09-29T00:00:00+08:00",
+  "reporting_window_end": "2026-09-29T14:30:00+08:00",
+  "audit_through": "2026-09-29T14:30:00+08:00",
+  "homepage_candidates": 6,
   "status": "complete",
-  "stories": [],
+  "stories": [
+    {
+      "headline": "Santos plans for 175 news wells as Roma phase 8B stage two referred to NEPA",
+      "standfirst": "Could the wells help supply GLNG after gas reservation introduction?",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537466/santos-plans-175-news-roma-phase-8b-stage-referred-nepa",
+      "datePublished": "2026-09-29T13:12:11+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "INPEX snaps up extra slice of Ichthys LNG JV from JERA in pre-emption move",
+      "standfirst": "Transfer happens as WA's energy minister travels to Japan to calm troubled waters",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537459/inpexs-snaps-extra-slice-ichthys-lng-jv-pre-emption",
+      "datePublished": "2026-09-29T11:44:58+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537463/asx-junior-wrap",
+      "datePublished": "2026-09-29T12:53:08+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Slugcatcher: Australia's energy policy at breaking point",
+      "standfirst": "Au is exposed to fresh supply issues, fueled by gaps in Bowen's policies",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537450/slugcatcher-australia-energy-policy-breaking-point",
+      "datePublished": "2026-09-29T10:24:21+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537465/news-brief",
+      "datePublished": "2026-09-29T13:10:53+08:00",
+      "publication_metadata_source": "published-time metadata"
+    }
+  ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Browse CCS opens for public comment",
+      "standfirst": "Next steps critical as the project makes its way through the national regulatory pathway",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537473/browse-ccs-public-comment",
+      "datePublished": "2026-09-29T14:31:10+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
