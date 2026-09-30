@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-30T13:32:52.331737+08:00",
+  "generated_at": "2026-09-30T18:47:54.448863+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-09-30",
   "reporting_window_start": "2026-09-30T00:00:00+08:00",
   "reporting_window_end": "2026-09-30T13:30:00+08:00",
   "audit_through": "2026-09-30T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Woodside revising Griffin decom EP",
+      "standfirst": "The company is seeking feedback on decom plans for the historic field",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537542/woodside-revising-griffin-decom-ep",
+      "datePublished": "2026-09-30T16:50:18+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Queensland says domestic gas reservation needs an independent review",
+      "standfirst": "Qld treasurer hails data centre renewable mandate ‘carve-out’ as Bowen rejects claim",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537531/queensland-domestic-gas-reservation-independent-review",
+      "datePublished": "2026-09-30T14:08:10+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Vic offshore wind project's approvals pathway confirmed",
+      "standfirst": "Comes as progress made on two WA onshore projects",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537528/vic-offshore-wind-projects-approvals-pathway-confirmed",
+      "datePublished": "2026-09-30T14:01:17+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Qld tout CopperString milestone",
+      "standfirst": "Major earthworks begin at Flinders substation",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537538/qld-tout-copperstring-milestone",
+      "datePublished": "2026-09-30T15:18:24+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
