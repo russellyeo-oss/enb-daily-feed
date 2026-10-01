@@ -1,73 +1,72 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-09-30T20:48:33.514167+08:00",
+  "generated_at": "2026-10-01T14:39:18.991843+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-09-30",
-  "reporting_window_start": "2026-09-30T00:00:00+08:00",
-  "reporting_window_end": "2026-09-30T14:30:00+08:00",
-  "audit_through": "2026-09-30T14:30:00+08:00",
+  "target_date": "2026-10-01",
+  "reporting_window_start": "2026-10-01T00:00:00+08:00",
+  "reporting_window_end": "2026-10-01T14:30:00+08:00",
+  "audit_through": "2026-10-01T14:30:00+08:00",
   "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
-      "headline": "Amplitude reaches FID on East Coast Supply Project development phase",
-      "standfirst": "NOPSEMA also approves drilling plan for Emperor's Judith-2 appraisal well off Gippsland",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537512/amplitude-reaches-fid-east-coast-supply-project-development-phase",
-      "datePublished": "2026-09-30T10:46:49+08:00",
+      "headline": "AGL pushes the case for repurposing legacy sites as homes for data centres",
+      "standfirst": "Energy giant has identified three sites with ready land, water, power and transmission",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537575/agl-pushes-case-repurposing-legacy-sites-homes-centres",
+      "datePublished": "2026-10-01T12:15:44+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Queensland says domestic gas reservation needs an independent review",
-      "standfirst": "Qld treasurer hails data centre renewable mandate ‘carve-out’ as Bowen rejects claim",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537531/queensland-domestic-gas-reservation-independent-review",
-      "datePublished": "2026-09-30T14:08:10+08:00",
+      "headline": "Ampol inks deal to acquire Evie EV charging business",
+      "standfirst": "The company is betting big on EV adoption growing charging station need",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537576/ampol-inks-deal-acquire-evie-ev-charging-business",
+      "datePublished": "2026-10-01T12:16:47+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Vic offshore wind project's approvals pathway confirmed",
-      "standfirst": "Comes as progress made on two WA onshore projects",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537528/vic-offshore-wind-projects-approvals-pathway-confirmed",
-      "datePublished": "2026-09-30T14:01:17+08:00",
+      "headline": "Timor-Leste awards new contract as it pushes for domestic LNG facilities",
+      "standfirst": "US-based TDI-Brooks to conduct light geotechnical and environmental baseline survey program",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537585/timor-leste-awards-contract-pushes-domestic-lng-facilities",
+      "datePublished": "2026-10-01T12:28:47+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "CS Energy in breach of two out of three of its lending covenants",
-      "standfirst": "Revelations come it sells equity share of Brigalow peaking power plant to APA",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537517/cs-energy-breach-lending-covenants",
-      "datePublished": "2026-09-30T13:04:10+08:00",
+      "headline": "US antitrust regulator gives green light to Transocean - Valaris merger",
+      "standfirst": "Deal expected to close by end of 2026",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537578/us-antitrust-regulators-green-light-transocean-valaris-merger-green-light",
+      "datePublished": "2026-10-01T12:18:00+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537524/movers-shakers",
-      "datePublished": "2026-09-30T12:35:01+08:00",
+      "headline": "Opinion: Domestic gas reservation scheme needs infrastructure",
+      "standfirst": "Not just a re-structure, as claimed by the Queensland Treasurer yesterday",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537571/opinion-domestic-gas-reservation-scheme-infrastructure",
+      "datePublished": "2026-10-01T09:42:23+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "The Analyst's Take: EnergyQuest sees slower decline in household gas demand",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537548/analysts-energyquest-slower-decline-household-gas-demand",
+      "datePublished": "2026-10-01T08:38:57+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537525/news-brief",
-      "datePublished": "2026-09-30T12:39:34+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537581/news-brief",
+      "datePublished": "2026-10-01T12:17:33+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Woodside revising Griffin decom EP",
-      "standfirst": "The company is seeking feedback on decom plans for the historic field",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537542/woodside-revising-griffin-decom-ep",
-      "datePublished": "2026-09-30T16:50:18+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Qld tout CopperString milestone",
-      "standfirst": "Major earthworks begin at Flinders substation",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537538/qld-tout-copperstring-milestone",
-      "datePublished": "2026-09-30T15:18:24+08:00",
+      "headline": "Elixir looks to Lorelle-3H for Taroom Trough success",
+      "standfirst": "The second phase of flow testing has begun",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537593/elixir-looks-lorelle-3h-taroom-trough-success",
+      "datePublished": "2026-10-01T14:33:27+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
