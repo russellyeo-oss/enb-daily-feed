@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-01T13:39:39.271342+08:00",
+  "generated_at": "2026-10-01T19:14:10.025850+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-01",
   "reporting_window_start": "2026-10-01T00:00:00+08:00",
   "reporting_window_end": "2026-10-01T13:30:00+08:00",
   "audit_through": "2026-10-01T13:30:00+08:00",
-  "homepage_candidates": 7,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -15,13 +15,6 @@
       "standfirst": "Energy giant has identified three sites with ready land, water, power and transmission",
       "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537575/agl-pushes-case-repurposing-legacy-sites-homes-centres",
       "datePublished": "2026-10-01T12:15:44+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Ampol inks deal to acquire Evie EV charging business",
-      "standfirst": "The company is betting big on EV adoption growing charging station need",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537576/ampol-inks-deal-acquire-evie-ev-charging-business",
-      "datePublished": "2026-10-01T12:16:47+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -36,6 +29,13 @@
       "standfirst": "Deal expected to close by end of 2026",
       "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537578/us-antitrust-regulators-green-light-transocean-valaris-merger-green-light",
       "datePublished": "2026-10-01T12:18:00+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Ampol inks deal to acquire Evie EV charging business",
+      "standfirst": "The company is betting big on EV adoption growing charging station need",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537576/ampol-inks-deal-acquire-evie-ev-charging-business",
+      "datePublished": "2026-10-01T12:16:47+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -61,5 +61,22 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Westcott spruiks Browse as answer for WA data centres",
+      "standfirst": "The Woodside CEO and MD spoke at an industry event",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537595/westcott-spruiks-browse-answer-wa-centres",
+      "datePublished": "2026-10-01T14:55:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Elixir looks to Lorelle-3H for Taroom Trough success",
+      "standfirst": "The second phase of flow testing has begun",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537593/elixir-looks-lorelle-3h-taroom-trough-success",
+      "datePublished": "2026-10-01T14:33:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
