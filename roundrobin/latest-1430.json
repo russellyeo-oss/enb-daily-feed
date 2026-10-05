@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-05T14:49:01.973590+08:00",
+  "generated_at": "2026-10-05T22:04:34.734805+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-05",
   "reporting_window_start": "2026-10-05T00:00:00+08:00",
   "reporting_window_end": "2026-10-05T14:30:00+08:00",
   "audit_through": "2026-10-05T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -61,5 +61,22 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Victoria to overshoot \"unrealistic\" offshore wind target by up to four years",
+      "standfirst": "Leading analyst doubtful on 2GW by 2032 aspiration",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537707/victoria-overshoot-unrealistic-offshore-wind-target",
+      "datePublished": "2026-10-05T16:30:41+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Essential Energy aim to pass damage costs onto customers",
+      "standfirst": "The electricity distributor hopes to recoup costs from damage caused by freak weather in 2025",
+      "url": "https://www.energynewsbulletin.net/markets/news-articles/4537724/essential-energy-aim-pass-damage-costs-customers",
+      "datePublished": "2026-10-05T16:13:46+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
