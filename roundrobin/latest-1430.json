@@ -1,75 +1,65 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-02T20:53:16.805123+08:00",
+  "generated_at": "2026-10-05T14:49:01.973590+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-02",
-  "reporting_window_start": "2026-10-02T00:00:00+08:00",
-  "reporting_window_end": "2026-10-02T14:30:00+08:00",
-  "audit_through": "2026-10-02T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-05",
+  "reporting_window_start": "2026-10-05T00:00:00+08:00",
+  "reporting_window_end": "2026-10-05T14:30:00+08:00",
+  "audit_through": "2026-10-05T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Construction gets underway on Marinus Link",
-      "standfirst": "Event held to kick off work on the two way renewable connector",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537632/construction-underway-marinus-link",
-      "datePublished": "2026-10-02T10:29:18+08:00",
+      "headline": "North West Shelf opponents permitted to extend grounds of judicial review application",
+      "standfirst": "Judge refuses application to issue new subpoenas",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537709/north-west-shelf-opponents-permitted-extend-grounds-judicial-review-application",
+      "datePublished": "2026-10-05T13:40:34+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "INPEX doubles Darwin air quality monitoring capacity",
-      "standfirst": "Criminal prosecution over under-reporting due to start next month",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537631/inpex-doubles-darwin-air-quality-monitoring-capacity",
-      "datePublished": "2026-10-02T09:45:42+08:00",
+      "headline": "Finder eyes drilling contract and FID by end of November",
+      "standfirst": "Is the KTJ project really on the home straight?",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537702/finder-eyes-drilling-contract-fid-end-november",
+      "datePublished": "2026-10-05T11:38:32+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Nuclear policy drives wedge between national and Qld Libs",
-      "standfirst": "Crisafulli and Janetzki say no place for nuclear in the Sunshine state",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537630/nuclear-policy-drives-wedge-national-qld-libs",
-      "datePublished": "2026-10-02T09:09:33+08:00",
+      "headline": "Buru Energy refers Rafael project to WA EPA",
+      "standfirst": "The company expects to reach FID for the project by 2H 2027",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537716/buru-energy-refers-rafael-project-wa-epa",
+      "datePublished": "2026-10-05T13:13:02+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: Two sides of the same coin",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537628/editor-coin",
-      "datePublished": "2026-10-02T08:17:10+08:00",
+      "headline": "Atmos reaches financial close on two massive projects",
+      "standfirst": "Queensland's Teebar BESS and WA's Parron Maam Marang wind farm were both supported through the CIS",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537710/atmos-reaches-financial-close-massive-projects",
+      "datePublished": "2026-10-05T13:43:52+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537643/keeping-apac",
-      "datePublished": "2026-10-02T13:00:59+08:00",
+      "headline": "VNI West EES open for public comment",
+      "standfirst": "The contested project would be scrapped if the Coalition wins in November",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537706/vni-west-ees-open-public-comment",
+      "datePublished": "2026-10-05T11:53:49+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Slugcatcher: The coming oil-price crash",
+      "standfirst": "Oil could drop to US$50 a barrel as BP is set to kick off Q3 profits next week",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537694/slugcatcher-coming-oil-price-crash",
+      "datePublished": "2026-10-05T09:38:54+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537634/news-brief",
-      "datePublished": "2026-10-02T11:00:27+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537714/news-brief",
+      "datePublished": "2026-10-05T13:11:36+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "New acreage awarded in Taroom Trough and Cooper-Eromanga Basin",
-      "standfirst": "Comes as Beach and Elixir were unable to strike a deal on a potential Taroom farm-in",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4537654/acreage-awarded-taroom-trough-cooper-eromanaga-basin",
-      "datePublished": "2026-10-02T16:40:01+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Origin scraps plans for massive northern NSW wind farm",
-      "standfirst": "Comes as the state's Independent Planning Commission approves the Bullawah wind farm",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537653/origin-scraps-plans-massive-northern-nsw-wind-farm",
-      "datePublished": "2026-10-02T16:15:00+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
