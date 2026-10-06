@@ -1,84 +1,58 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-05T19:54:26.158752+08:00",
+  "generated_at": "2026-10-06T13:36:27.331111+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-05",
-  "reporting_window_start": "2026-10-05T00:00:00+08:00",
-  "reporting_window_end": "2026-10-05T13:30:00+08:00",
-  "audit_through": "2026-10-05T13:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-10-06",
+  "reporting_window_start": "2026-10-06T00:00:00+08:00",
+  "reporting_window_end": "2026-10-06T13:30:00+08:00",
+  "audit_through": "2026-10-06T13:30:00+08:00",
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
-      "headline": "Finder eyes drilling contract and FID by end of November",
-      "standfirst": "Is the KTJ project really on the home straight?",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537702/finder-eyes-drilling-contract-fid-end-november",
-      "datePublished": "2026-10-05T11:38:32+08:00",
+      "headline": "Walk to work vessel launches as Shell pushes Crux onwards to production",
+      "standfirst": "Questions linger over impact of gas reservation plan",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537773/walk-vessel-launches-shell-pushes-crux-onwards-production",
+      "datePublished": "2026-10-06T12:22:12+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Buru Energy refers Rafael project to WA EPA",
-      "standfirst": "The company expects to reach FID for the project by 2H 2027",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4537716/buru-energy-refers-rafael-project-wa-epa",
-      "datePublished": "2026-10-05T13:13:02+08:00",
+      "headline": "Chalmers reassures Japan on domestic reservation scheme",
+      "standfirst": "Investors in the Asian country have concerns the policy would affect heavily relied on LNG imports",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537772/chalmers-reassures-japan-domestic-reservation-scheme",
+      "datePublished": "2026-10-06T12:35:45+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "VNI West EES open for public comment",
-      "standfirst": "The contested project would be scrapped if the Coalition wins in November",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537706/vni-west-ees-open-public-comment",
-      "datePublished": "2026-10-05T11:53:49+08:00",
+      "headline": "WA wind and battery project waved through EPA assessment",
+      "standfirst": "Could another project be nearing FID?",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537775/wa-wind-battery-project-waved-epa-assessment",
+      "datePublished": "2026-10-06T12:34:57+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: The coming oil-price crash",
-      "standfirst": "Oil could drop to US$50 a barrel as BP is set to kick off Q3 profits next week",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537694/slugcatcher-coming-oil-price-crash",
-      "datePublished": "2026-10-05T09:38:54+08:00",
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537771/asx-junior-wrap",
+      "datePublished": "2026-10-06T11:39:50+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537714/news-brief",
-      "datePublished": "2026-10-05T13:11:36+08:00",
+      "headline": "Origin to double size of Eraring battery precinct",
+      "standfirst": "In early planning stages, Eraring North could start construction as early as 2028",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537780/origin-double-size-eraring-battery-precinct",
+      "datePublished": "2026-10-06T13:28:35+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: Australia is writing the global playbook for battery storage",
+      "standfirst": "The nation has become the third-largest utility-scale BESS market",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537765/opinion-australia-writing-global-playbook-battery-storage",
+      "datePublished": "2026-10-06T11:01:38+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Victoria to overshoot \"unrealistic\" offshore wind target by up to four years",
-      "standfirst": "Leading analyst doubtful on 2GW by 2032 aspiration",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537707/victoria-overshoot-unrealistic-offshore-wind-target",
-      "datePublished": "2026-10-05T16:30:41+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "North West Shelf opponents permitted to extend grounds of judicial review application",
-      "standfirst": "Judge refuses application to issue new subpoenas",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537709/north-west-shelf-opponents-permitted-extend-grounds-judicial-review-application",
-      "datePublished": "2026-10-05T13:40:34+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Atmos reaches financial close on two massive projects",
-      "standfirst": "Queensland's Teebar BESS and WA's Parron Maam Marang wind farm were both supported through the CIS",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537710/atmos-reaches-financial-close-massive-projects",
-      "datePublished": "2026-10-05T13:43:52+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Essential Energy aim to pass damage costs onto customers",
-      "standfirst": "The electricity distributor hopes to recoup costs from damage caused by freak weather in 2025",
-      "url": "https://www.energynewsbulletin.net/markets/news-articles/4537724/essential-energy-aim-pass-damage-costs-customers",
-      "datePublished": "2026-10-05T16:13:46+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
