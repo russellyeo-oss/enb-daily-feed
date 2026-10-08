@@ -1,78 +1,44 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-07T21:38:21.227579+08:00",
+  "generated_at": "2026-10-08T14:36:27.899785+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-07",
-  "reporting_window_start": "2026-10-07T00:00:00+08:00",
-  "reporting_window_end": "2026-10-07T14:30:00+08:00",
-  "audit_through": "2026-10-07T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-08",
+  "reporting_window_start": "2026-10-08T00:00:00+08:00",
+  "reporting_window_end": "2026-10-08T14:30:00+08:00",
+  "audit_through": "2026-10-08T14:30:00+08:00",
+  "homepage_candidates": 4,
   "status": "complete",
   "stories": [
     {
-      "headline": "Chevron sees off environmentalist's objections to Wheatstone and Gorgon",
-      "standfirst": "WA's DWER and OAC overrides brace of CCWA objections",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537825/chevron-environmentalists-objections-wheatstone-gorgon-operation-amendments",
-      "datePublished": "2026-10-07T12:01:31+08:00",
+      "headline": "GLNG contract extension plea to test domestic gas reservation rules",
+      "standfirst": "Qld LNG exporters trade blows while reservation’s ministerial discretion under microscope",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537893/glng-contract-extension-plea-test-domestic-gas-reservation-rules",
+      "datePublished": "2026-10-08T14:13:43+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537827/movers-shakers",
-      "datePublished": "2026-10-07T12:39:40+08:00",
+      "headline": "Opinion: Fairer rates, affordable power and faster approvals",
+      "standfirst": "PBS offers blueprint for WA growth",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537871/opinion-fairer-rates-affordable-power-faster-approvals",
+      "datePublished": "2026-10-08T11:14:50+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "The Analyst's Take: Crude is moving again. So why is diesel still so expensive?",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537870/analysts-crude-moving-diesel-expensive",
+      "datePublished": "2026-10-08T09:48:06+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537828/news-brief",
-      "datePublished": "2026-10-07T12:51:20+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537890/news-brief",
+      "datePublished": "2026-10-08T13:52:16+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Cliff Head collapse leaves creditors chasing $43.6m",
-      "standfirst": "Not counting a conditional claim of $200m from government",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537826/cliff-head-collapse-leaves-creditors-chasing-usd436m",
-      "datePublished": "2026-10-07T16:27:17+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "If it ain't broke, don't fix it, WA premier tells Canberra",
-      "standfirst": "Cook tells fed govt to keep their hands off the West’s gas",
-      "url": "https://www.energynewsbulletin.net/policy/news-articles/4537844/aint-broke-dont-fix-wa-premier-tells-canberra",
-      "datePublished": "2026-10-07T16:49:28+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "NSW focus on Narrabri project and PKET terminal for state's gas future",
-      "standfirst": "The state’s gas policy framework aims to bring production and infrastructure updates to NSW",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537839/nsw-focus-narrabri-project-pket-terminal-nsw-gas-future",
-      "datePublished": "2026-10-07T15:30:13+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Two SA wind farms reach construction milestones",
-      "standfirst": "Comes as WA's Baru Marnda hybrid project reaches final planning hurdle",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537843/sa-wind-farms-reach-construction-milestones",
-      "datePublished": "2026-10-07T16:48:04+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Power giants fight EV charging infrastructure tax",
-      "standfirst": "But is it to prevent costs from being passed on to households, or to remain as top industry players?",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537842/power-giants-fight-ev-charging-infrastructure-tax",
-      "datePublished": "2026-10-07T16:25:44+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
