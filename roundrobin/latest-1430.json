@@ -1,67 +1,72 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-08T21:45:27.896473+08:00",
+  "generated_at": "2026-10-09T14:37:54.360553+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-08",
-  "reporting_window_start": "2026-10-08T00:00:00+08:00",
-  "reporting_window_end": "2026-10-08T14:30:00+08:00",
-  "audit_through": "2026-10-08T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "target_date": "2026-10-09",
+  "reporting_window_start": "2026-10-09T00:00:00+08:00",
+  "reporting_window_end": "2026-10-09T14:30:00+08:00",
+  "audit_through": "2026-10-09T14:30:00+08:00",
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
-      "headline": "GLNG contract extension plea to test domestic gas reservation rules",
-      "standfirst": "Qld LNG exporters trade blows while reservation’s ministerial discretion under microscope",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4537893/glng-contract-extension-plea-test-domestic-gas-reservation-rules",
-      "datePublished": "2026-10-08T14:13:43+08:00",
+      "headline": "\"Dog's dinner\" gas reservation scheme legislation to be tabled next week",
+      "standfirst": "Industry waits for final details to be presented",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537936/gas-reservation-scheme-legislation-tabled",
+      "datePublished": "2026-10-09T12:17:39+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Opinion: Fairer rates, affordable power and faster approvals",
-      "standfirst": "PBS offers blueprint for WA growth",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537871/opinion-fairer-rates-affordable-power-faster-approvals",
-      "datePublished": "2026-10-08T11:14:50+08:00",
+      "headline": "Triangle, Pilot administers seek liability protection as debts mount",
+      "standfirst": "Follows revelations the companies owe $43.6M to creditors, with the govt also having a $200M claim",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537943/triangle-pilot-administers-seek-liability-protection-debts-mount",
+      "datePublished": "2026-10-09T14:16:16+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The Analyst's Take: Crude is moving again. So why is diesel still so expensive?",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537870/analysts-crude-moving-diesel-expensive",
-      "datePublished": "2026-10-08T09:48:06+08:00",
+      "headline": "Eni installs world's first purpose built offshore CCS platform",
+      "standfirst": "CCS proponents in Australia will be watching carefully",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537942/eni-installs-worlds-purpose-built-offshore-ccs-platform",
+      "datePublished": "2026-10-09T14:17:02+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: Canberra's Asia-Pacific gas contradiction",
+      "standfirst": "On October 8, Australia’s energy ministers were in two places delivering two opposing messages",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537922/opinion-canberras-asia-pacific-gas-contradiction",
+      "datePublished": "2026-10-09T11:29:02+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "From the editor: the people behind the headlines",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537923/editor-coin",
+      "datePublished": "2026-10-09T09:31:37+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4537931/keeping-apac",
+      "datePublished": "2026-10-09T11:31:14+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537890/news-brief",
-      "datePublished": "2026-10-08T13:52:16+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537944/news-brief",
+      "datePublished": "2026-10-09T13:21:47+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "Pay talks to start over 300 Ichthys-based workers...again",
-      "standfirst": "Union leaders to meet with Monadelphous bosses",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537887/pay-talks-start-300-ichthys-workersagain",
-      "datePublished": "2026-10-08T15:02:23+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Reports suggest Emperor secures Valaris 107 rig for 2027 drilling",
-      "standfirst": "New 300 day contract announced",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4537897/reports-suggest-emperor-secures-valaris-107-secured-emperor-2027-drilling",
-      "datePublished": "2026-10-08T16:24:40+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "SA uranium placed as key to nuclear energy future",
-      "standfirst": "State energy min Tom Koutsantonis said Australia's nuclear conversation was just beginning",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4537896/sa-uranium-placed-key-nuclear-energy-future",
-      "datePublished": "2026-10-08T16:04:39+08:00",
+      "headline": "From network shock absorber to money maker",
+      "standfirst": "How the commercial model for the Waratah Super Battery - one of the world's biggest - is evolving",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537949/network-shock-absorber-money-maker",
+      "datePublished": "2026-10-09T14:31:35+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
