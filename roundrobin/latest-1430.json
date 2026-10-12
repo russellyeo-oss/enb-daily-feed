@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-12T14:47:51.530355+08:00",
+  "generated_at": "2026-10-12T22:53:22.383425+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-12",
   "reporting_window_start": "2026-10-12T00:00:00+08:00",
   "reporting_window_end": "2026-10-12T14:30:00+08:00",
   "audit_through": "2026-10-12T14:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Last chance to sway the govt over domestic gas policy",
+      "standfirst": "Santos-GLNG still in the scheme's critics' crosshairs",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537994/last-chance-sway-govt-domestic-gas-policy",
+      "datePublished": "2026-10-12T16:25:31+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Coalition vows to stop activists using scope 3 concerns to block projects",
+      "standfirst": "“Mind boggling” that overseas emissions concerns can block Australian projects",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537989/coalition-vows-stop-activists-scope-concerns-block-projects",
+      "datePublished": "2026-10-12T14:53:51+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Omega experiences best Canyon well result following Canyon-4 drilling",
+      "standfirst": "It is the second vertical well drilled in the company's Taroom Trough appraisal campaign",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4538005/omega-experiences-best-canyon-result-following-canyon-drilling",
+      "datePublished": "2026-10-12T16:11:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "A strike's coming for AEMO?",
+      "standfirst": "Australian Services Union joins Professionals Australia in call for industrial action",
+      "url": "https://www.energynewsbulletin.net/markets/news-analysis/4538006/strike-coming-aemo",
+      "datePublished": "2026-10-12T15:02:02+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
