@@ -1,82 +1,30 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-09T21:30:47.912211+08:00",
+  "generated_at": "2026-10-12T14:47:51.530355+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-09",
-  "reporting_window_start": "2026-10-09T00:00:00+08:00",
-  "reporting_window_end": "2026-10-09T14:30:00+08:00",
-  "audit_through": "2026-10-09T14:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-10-12",
+  "reporting_window_start": "2026-10-12T00:00:00+08:00",
+  "reporting_window_end": "2026-10-12T14:30:00+08:00",
+  "audit_through": "2026-10-12T14:30:00+08:00",
+  "homepage_candidates": 2,
   "status": "complete",
   "stories": [
     {
-      "headline": "\"Dog's dinner\" gas reservation scheme legislation to be tabled next week",
-      "standfirst": "Industry waits for final details to be presented",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537936/gas-reservation-scheme-legislation-tabled",
-      "datePublished": "2026-10-09T12:17:39+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Triangle, Pilot administrators seek liability protection as debts mount",
-      "standfirst": "Follows revelations the companies owe $43.6M to creditors, with the govt also having a $200M claim",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537943/triangle-pilot-administrators-seek-liability-protection-debts-mount",
-      "datePublished": "2026-10-09T14:16:16+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Eni installs world's first purpose built offshore CCS platform",
-      "standfirst": "CCS proponents in Australia will be watching carefully",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4537942/eni-installs-worlds-purpose-built-offshore-ccs-platform",
-      "datePublished": "2026-10-09T14:17:02+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Opinion: Canberra's Asia-Pacific gas contradiction",
-      "standfirst": "On October 8, Australia’s energy ministers were in two places delivering two opposing messages",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537922/opinion-canberras-asia-pacific-gas-contradiction",
-      "datePublished": "2026-10-09T11:29:02+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "From the editor: the people behind the headlines",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537923/editor-coin",
-      "datePublished": "2026-10-09T09:31:37+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4537931/keeping-apac",
-      "datePublished": "2026-10-09T11:31:14+08:00",
+      "headline": "Slugcatcher: High Court restarts oil and gas lawfare",
+      "standfirst": "Australian resources min Madeleine King has opposing views to WA min Rita Saffioti",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4537981/slugcatcher-court-restarts-oil-gas-lawfare",
+      "datePublished": "2026-10-12T09:53:35+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537944/news-brief",
-      "datePublished": "2026-10-09T13:21:47+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4537992/news-brief",
+      "datePublished": "2026-10-12T12:20:25+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "From network shock absorber to money maker",
-      "standfirst": "How the commercial model for the Waratah Super Battery - one of the world's biggest - is evolving",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4537949/network-shock-absorber-money-maker",
-      "datePublished": "2026-10-09T14:31:35+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Palm Valley PV14 well to be tied in as gas resource",
-      "standfirst": "The JV then moves to PV15",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4537950/palm-valley-pv14-tied-gas-resource",
-      "datePublished": "2026-10-09T15:44:55+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
