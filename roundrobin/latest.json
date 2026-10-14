@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-14T13:37:19.244407+08:00",
+  "generated_at": "2026-10-14T17:49:14.234042+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-14",
   "reporting_window_start": "2026-10-14T00:00:00+08:00",
   "reporting_window_end": "2026-10-14T13:30:00+08:00",
   "audit_through": "2026-10-14T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Secret parliamentary briefing note reveals hole in gas reservation bill",
+      "standfirst": "Industry abhors a vacuum; uncertainty creeps in",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538114/secret-parliamentary-briefing-note-reveals-hole-middle-gas-reservation",
+      "datePublished": "2026-10-14T13:57:59+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Report argues Woodside's Browse not needed for future gas security",
+      "standfirst": "Instead, ACCR say existing producers must commit more for the domestic supply",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538123/report-argues-woodside-browse-future-gas-security",
+      "datePublished": "2026-10-14T16:23:30+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "NT gas-powered data centres prompts petition",
+      "standfirst": "Comes as Google said it needs gas for big AI developments",
+      "url": "https://www.energynewsbulletin.net/policy/news-articles/4538122/nt-gas-powered-centres-prompts-petition",
+      "datePublished": "2026-10-14T16:26:50+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Conrad Asia Energy reaches Mako milestones",
+      "standfirst": "The Valaris 104 rig is being converted into a MOPU for the offshore Indonesian project",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538121/conrad-asia-energy-reaches-mako-milestones",
+      "datePublished": "2026-10-14T15:15:34+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
