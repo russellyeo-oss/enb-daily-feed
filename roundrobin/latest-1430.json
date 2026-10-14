@@ -1,91 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-13T22:24:43.657524+08:00",
+  "generated_at": "2026-10-14T14:49:29.422435+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-13",
-  "reporting_window_start": "2026-10-13T00:00:00+08:00",
-  "reporting_window_end": "2026-10-13T14:30:00+08:00",
-  "audit_through": "2026-10-13T14:30:00+08:00",
-  "homepage_candidates": 10,
+  "target_date": "2026-10-14",
+  "reporting_window_start": "2026-10-14T00:00:00+08:00",
+  "reporting_window_end": "2026-10-14T14:30:00+08:00",
+  "audit_through": "2026-10-14T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "NSW to fund new gas projects through renewable subsidy scheme",
-      "standfirst": "AGL calls for the federal version to follow suit",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538048/nsw-fund-add-gas-projects-renewable-subsidy-scheme",
-      "datePublished": "2026-10-13T14:06:36+08:00",
+      "headline": "Secret parliamentary briefing note reveals hole in gas reservation bill",
+      "standfirst": "Industry abhors a vacuum; uncertainty creeps in",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538114/secret-parliamentary-briefing-note-reveals-hole-middle-gas-reservation",
+      "datePublished": "2026-10-14T13:57:59+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Mixed bag as judge rules in AWU vs Chevron docked wages case",
-      "standfirst": "The justice must now calculate compensation",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538047/mixed-bag-judge-rules-awu-vs-chevron-docked-wages-case",
-      "datePublished": "2026-10-13T13:32:05+08:00",
+      "headline": "Snowy Hydro and Webuild trade Snowy 2.0 blowout blame",
+      "standfirst": "The project is currently part of a parliamentary inquiry for its money mismanagement",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538099/snowy-hydro-webuild-trade-snowy-blowout-blame",
+      "datePublished": "2026-10-14T12:34:46+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Dropped object incident prompts NOPSEMA safety alert",
-      "standfirst": "The offshore regulator said the incident could have been fatal",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538039/dropped-object-incident-prompts-nopsema-safety-alert",
-      "datePublished": "2026-10-13T12:14:54+08:00",
+      "headline": "Deadline for submission of Middle Arm hub's environmental pushed out to 2028",
+      "standfirst": "Submission process now delayed by four years. Environmentalists call time",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538052/deadline-submission-middle-arm-hubs-environmental-pushed-2028",
+      "datePublished": "2026-10-14T08:21:05+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Data centre inquiry gives recommendations to PM only after they're vetted by PM's office",
-      "standfirst": "Critics question committee's integrity",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538044/centre-inquiry-recommendations-pm-pms-office-vets-letter",
-      "datePublished": "2026-10-13T12:43:52+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "ASX junior wrap",
-      "standfirst": "ENB's weekly look at what Australian juniors are doing",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538036/asx-junior-wrap",
-      "datePublished": "2026-10-13T11:35:39+08:00",
+      "headline": "Movers and shakers",
+      "standfirst": "Who's up, who's down? Who's in, who's out?",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538103/movers-shakers",
+      "datePublished": "2026-10-14T11:41:07+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538037/news-brief",
-      "datePublished": "2026-10-13T11:51:56+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538108/news-brief",
+      "datePublished": "2026-10-14T12:30:39+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Breaking news: crossbench MPs briefed on gas reservation bill",
-      "standfirst": "Tabling of new proposed legislation expected in next 48hrs",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538060/breaking-news-crossbench-mps-briefed-gas-reservation",
-      "datePublished": "2026-10-13T15:41:34+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "More collaboration needed between councils and renewable energy developers",
-      "standfirst": "The AEIC said community and council involvement was critical to the renewable energy transition",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538063/collaboration-councils-energy-sector",
-      "datePublished": "2026-10-13T16:43:29+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Australia to get EV charging infrastructure roadmap",
-      "standfirst": "A centrally coordinated roadmap will help industry and governments better plan for EV uptake",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538059/australia-ev-charging-infrastructure-roadmap",
-      "datePublished": "2026-10-13T15:15:46+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Warradarge hybrid extension referred to WA EPA",
-      "standfirst": "Synergy has proposed a 500MW solar and BESS extension to the Warradarge wind farm in WA's Mid West",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538058/warradarge-hybrid-extension-referred-wa-epa",
-      "datePublished": "2026-10-13T15:02:28+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
