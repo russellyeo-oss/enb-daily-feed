@@ -1,76 +1,37 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-14T20:08:48.047356+08:00",
+  "generated_at": "2026-10-15T14:31:22.007310+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-14",
-  "reporting_window_start": "2026-10-14T00:00:00+08:00",
-  "reporting_window_end": "2026-10-14T14:30:00+08:00",
-  "audit_through": "2026-10-14T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-15",
+  "reporting_window_start": "2026-10-15T00:00:00+08:00",
+  "reporting_window_end": "2026-10-15T14:30:00+08:00",
+  "audit_through": "2026-10-15T14:30:00+08:00",
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Secret parliamentary briefing note reveals hole in gas reservation bill",
-      "standfirst": "Industry abhors a vacuum; uncertainty creeps in",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538114/secret-parliamentary-briefing-note-reveals-hole-middle-gas-reservation",
-      "datePublished": "2026-10-14T13:57:59+08:00",
+      "headline": "WA premier baulks at gas reservation carve out refusal",
+      "standfirst": "Others say the bill holds state accountable to its standards",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538154/wa-premier-baulks-gas-reservation-carve-refusal",
+      "datePublished": "2026-10-15T13:28:34+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Snowy Hydro and Webuild trade Snowy 2.0 blowout blame",
-      "standfirst": "The project is currently part of a parliamentary inquiry for its money mismanagement",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538099/snowy-hydro-webuild-trade-snowy-blowout-blame",
-      "datePublished": "2026-10-14T12:34:46+08:00",
+      "headline": "Finder secures ENEOS' Hakuryu-5 for 2027, three well KTJ drilling program",
+      "standfirst": "All that's needed now is FID",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538172/finder-secures-eneos-hakuryu-2027-ktj-drilling-program",
+      "datePublished": "2026-10-15T13:54:00+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Deadline for submission of Middle Arm hub's environmental pushed out to 2028",
-      "standfirst": "Submission process now delayed by four years. Environmentalists call time",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538052/deadline-submission-middle-arm-hubs-environmental-pushed-2028",
-      "datePublished": "2026-10-14T08:21:05+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538103/movers-shakers",
-      "datePublished": "2026-10-14T11:41:07+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538108/news-brief",
-      "datePublished": "2026-10-14T12:30:39+08:00",
+      "headline": "AGL faces Australia's first ever class action over greenwashing",
+      "standfirst": "Disingenuous claims over firm's 'carbon neutral' tariffs",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538170/agl-australias-class-action-greenwashing",
+      "datePublished": "2026-10-15T13:46:58+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Report argues Woodside's Browse not needed for future gas security",
-      "standfirst": "Instead, ACCR say existing producers must commit more for the domestic supply",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538123/report-argues-woodside-browse-future-gas-security",
-      "datePublished": "2026-10-14T16:23:30+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "NT gas-powered data centres prompts petition",
-      "standfirst": "Comes as Google said it needs gas for big AI developments",
-      "url": "https://www.energynewsbulletin.net/policy/news-articles/4538122/nt-gas-powered-centres-prompts-petition",
-      "datePublished": "2026-10-14T16:26:50+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Conrad Asia Energy reaches Mako milestones",
-      "standfirst": "The Valaris 104 rig is being converted into a MOPU for the offshore Indonesian project",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538121/conrad-asia-energy-reaches-mako-milestones",
-      "datePublished": "2026-10-14T15:15:34+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
