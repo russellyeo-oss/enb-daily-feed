@@ -1,15 +1,22 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-15T14:31:22.007310+08:00",
+  "generated_at": "2026-10-15T19:06:31.455640+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-15",
   "reporting_window_start": "2026-10-15T00:00:00+08:00",
   "reporting_window_end": "2026-10-15T14:30:00+08:00",
   "audit_through": "2026-10-15T14:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
+    {
+      "headline": "Finder secures ENEOS' Hakuryu-5 for 2027, three well KTJ drilling program",
+      "standfirst": "All that's needed now is FID",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538172/finder-secures-eneos-hakuryu-2027-ktj-drilling-program",
+      "datePublished": "2026-10-15T13:54:00+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
     {
       "headline": "WA premier baulks at gas reservation carve out refusal",
       "standfirst": "Others say the bill holds state accountable to its standards",
@@ -18,10 +25,10 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Finder secures ENEOS' Hakuryu-5 for 2027, three well KTJ drilling program",
-      "standfirst": "All that's needed now is FID",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538172/finder-secures-eneos-hakuryu-2027-ktj-drilling-program",
-      "datePublished": "2026-10-15T13:54:00+08:00",
+      "headline": "Calls for business watchdog to clamp down on O&G decom",
+      "standfirst": "Wilderness Society alleges creative accounting hiding scale of liability",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538169/calls-business-watchdog-clamp-decom",
+      "datePublished": "2026-10-15T13:39:19+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -33,5 +40,22 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Vic govt approves mega 219-turbine wind farm",
+      "standfirst": "Planning minister said projects like Warracknabeal were needed to meet state energy goals",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538174/vic-govt-approves-mega-219-turbine-wind-farm",
+      "datePublished": "2026-10-15T14:54:03+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538175/news-brief",
+      "datePublished": "2026-10-15T14:35:55+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
