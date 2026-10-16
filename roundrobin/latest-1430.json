@@ -1,61 +1,65 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-15T19:45:25.386219+08:00",
+  "generated_at": "2026-10-16T14:37:36.272451+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-15",
-  "reporting_window_start": "2026-10-15T00:00:00+08:00",
-  "reporting_window_end": "2026-10-15T14:30:00+08:00",
-  "audit_through": "2026-10-15T14:30:00+08:00",
-  "homepage_candidates": 6,
+  "target_date": "2026-10-16",
+  "reporting_window_start": "2026-10-16T00:00:00+08:00",
+  "reporting_window_end": "2026-10-16T14:30:00+08:00",
+  "audit_through": "2026-10-16T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "Finder secures ENEOS' Hakuryu-5 for 2027, three well KTJ drilling program",
-      "standfirst": "All that's needed now is FID",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538172/finder-secures-eneos-hakuryu-2027-ktj-drilling-program",
-      "datePublished": "2026-10-15T13:54:00+08:00",
+      "headline": "INPEX's Bonaparte hopes receive fed govt boost",
+      "standfirst": "West Peron declared as identified greenhouse gas (GHG) storage formation",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538213/inpexs-bonaparte-hopes-receive-fed-govt-boost",
+      "datePublished": "2026-10-16T11:58:38+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "WA premier baulks at gas reservation carve out refusal",
-      "standfirst": "Others say the bill holds state accountable to its standards",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538154/wa-premier-baulks-gas-reservation-carve-refusal",
-      "datePublished": "2026-10-15T13:28:34+08:00",
+      "headline": "Milestones stack as Marinus Link construction begins",
+      "standfirst": "Energy and resource minister visits Hazelwood North converter station site",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538221/milestones-stack-marinus-link-construction-begins",
+      "datePublished": "2026-10-16T12:20:17+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Calls for business watchdog to clamp down on O&G decom",
-      "standfirst": "Wilderness Society alleges creative accounting hiding scale of liability",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538169/calls-business-watchdog-clamp-decom",
-      "datePublished": "2026-10-15T13:39:19+08:00",
+      "headline": "ACCIONA to work with VicGrid to bring on offshore wind power",
+      "standfirst": "Firm named as preferred development partner for Gippsland offshore wind 2 GW transmission project",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538215/acciona-vicgrid-bring-offshore-wind-power",
+      "datePublished": "2026-10-16T12:24:33+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "AGL faces Australia's first ever class action over greenwashing",
-      "standfirst": "Disingenuous claims over firm's 'carbon neutral' tariffs",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538170/agl-australias-class-action-greenwashing",
-      "datePublished": "2026-10-15T13:46:58+08:00",
+      "headline": "From the editor: the die is cast. Will it ever stop rolling?",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538208/editor-wharfie",
+      "datePublished": "2026-10-16T08:32:41+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Australia's monthly O&G production",
+      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
+      "datePublished": "2026-10-16T10:16:54+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Renewable capacity reaches new heights",
+      "standfirst": "Energy and climate change minister highlights household uptake",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538230/renewable-capacity-reaches-heights",
+      "datePublished": "2026-10-16T13:24:19+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538211/keeping-apac",
+      "datePublished": "2026-10-16T10:20:21+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Vic govt approves mega 219-turbine wind farm",
-      "standfirst": "Planning minister said projects like Warracknabeal were needed to meet state energy goals",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538174/vic-govt-approves-mega-219-turbine-wind-farm",
-      "datePublished": "2026-10-15T14:54:03+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538175/news-brief",
-      "datePublished": "2026-10-15T14:35:55+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
