@@ -1,72 +1,82 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-16T19:39:40.594212+08:00",
+  "generated_at": "2026-10-19T20:38:25.429376+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-16",
-  "reporting_window_start": "2026-10-16T00:00:00+08:00",
-  "reporting_window_end": "2026-10-16T14:30:00+08:00",
-  "audit_through": "2026-10-16T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-19",
+  "reporting_window_start": "2026-10-19T00:00:00+08:00",
+  "reporting_window_end": "2026-10-19T14:30:00+08:00",
+  "audit_through": "2026-10-19T14:30:00+08:00",
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
-      "headline": "INPEX's Bonaparte hopes receive fed govt boost",
-      "standfirst": "West Peron declared as identified greenhouse gas (GHG) storage formation",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538213/inpexs-bonaparte-hopes-receive-fed-govt-boost",
-      "datePublished": "2026-10-16T11:58:38+08:00",
+      "headline": "Will long-awaited Greater Sunrise soon see movement?",
+      "standfirst": "Timor-Leste president said it's “finally happening” after years of “procrastination and deadlock\"",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538286/long-awaitedbeleaguered-sunrise-soon-movement",
+      "datePublished": "2026-10-19T12:41:49+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Milestones stack as Marinus Link construction begins",
-      "standfirst": "Energy and resource minister visits Hazelwood North converter station site",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538221/milestones-stack-marinus-link-construction-begins",
-      "datePublished": "2026-10-16T12:20:17+08:00",
+      "headline": "AGL, ANZA, APA and Quinbrook progress to next stage of plan to bring on 400MW of new gas power in Qld",
+      "standfirst": "Move comes as Santos pushes for more CSG wells in Roma",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538287/agl-anza-apa-quinbrook-progress-stage-plan-bring-400mw-gas-power-qld",
+      "datePublished": "2026-10-19T14:08:20+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "ACCIONA to work with VicGrid to bring on offshore wind power",
-      "standfirst": "Firm named as preferred development partner for Gippsland offshore wind 2 GW transmission project",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538215/acciona-vicgrid-bring-offshore-wind-power",
-      "datePublished": "2026-10-16T12:24:33+08:00",
+      "headline": "SA to quadruple grid-scale wind and solar generation",
+      "standfirst": "The state unveiled four successful new renewable energy proposals",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538298/sa-quadruple-grid-scale-wind-solar-generation",
+      "datePublished": "2026-10-19T14:04:00+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: the die is cast. Will it ever stop rolling?",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538208/editor-wharfie",
-      "datePublished": "2026-10-16T08:32:41+08:00",
+      "headline": "Slugcatcher: Tax attack coming for windfall oil and gas cash",
+      "standfirst": "The predictable windfall tax solution from cash-starved governments is coming",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538272/slugcatcher-tax-attack-coming-windfall-oil-gas-cash",
+      "datePublished": "2026-10-19T10:41:28+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Australia's monthly O&G production",
-      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
-      "datePublished": "2026-10-16T10:16:54+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Renewable capacity reaches new heights",
-      "standfirst": "Energy and climate change minister highlights household uptake",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538230/renewable-capacity-reaches-heights",
-      "datePublished": "2026-10-16T13:24:19+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538211/keeping-apac",
-      "datePublished": "2026-10-16T10:20:21+08:00",
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538295/news-brief",
+      "datePublished": "2026-10-19T14:10:13+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538233/news-brief",
-      "datePublished": "2026-10-16T15:22:42+08:00",
+      "headline": "Greenpeace activists charged, bailed over Scarborough FPU stunt",
+      "standfirst": "Activists scaled Woodside’s FPU in protest of the Browse project",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538304/greenpeace-activists-charged-bailed-scarborough-fpu-stunt",
+      "datePublished": "2026-10-19T16:38:44+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Amplitude progresses restarting Patricia Baleen project",
+      "standfirst": "Comes as CEO and MD Jane Norman says gas res scheme will not bring prices down",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538303/amplitude-progresses-restarting-patricia-baleen-project",
+      "datePublished": "2026-10-19T16:42:04+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Petroleum safety zones revoked from two Beach Energy wells",
+      "standfirst": "The Trefoil-1 and Yolla-1 Bass Strait wells underwent P&A work earlier this year",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538305/petroleum-safety-zones-revoked-beach-energy",
+      "datePublished": "2026-10-19T16:55:21+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Carbon capture without heat? A US-based start-up says yes",
+      "standfirst": "Banyu Carbon is set to demo its solar-powered carbon capture tech in Perth soon",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538302/carbon-capture-heat-us-start-yes",
+      "datePublished": "2026-10-19T15:57:47+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
