@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-19T13:31:25.956701+08:00",
+  "generated_at": "2026-10-19T18:22:10.497772+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-19",
   "reporting_window_start": "2026-10-19T00:00:00+08:00",
   "reporting_window_end": "2026-10-19T13:30:00+08:00",
   "audit_through": "2026-10-19T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,62 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Greenpeace activists charged, bailed over Scarborough FPU stunt",
+      "standfirst": "Activists scaled Woodside’s FPU in protest of the Browse project",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538304/greenpeace-activists-charged-bailed-scarborough-fpu-stunt",
+      "datePublished": "2026-10-19T16:38:44+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "AGL, ANZA, APA and Quinbrook progress to next stage of plan to bring on 400MW of new gas power in Qld",
+      "standfirst": "Move comes as Santos pushes for more CSG wells in Roma",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538287/agl-anza-apa-quinbrook-progress-stage-plan-bring-400mw-gas-power-qld",
+      "datePublished": "2026-10-19T14:08:20+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Amplitude progresses restarting Patricia Baleen project",
+      "standfirst": "Comes as CEO and MD Jane Norman says gas res scheme will not bring prices down",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538303/amplitude-progresses-restarting-patricia-baleen-project",
+      "datePublished": "2026-10-19T16:42:04+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Petroleum safety zones revoked from two Beach Energy wells",
+      "standfirst": "The Trefoil-1 and Yolla-1 Bass Strait wells underwent P&A work earlier this year",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538305/petroleum-safety-zones-revoked-beach-energy",
+      "datePublished": "2026-10-19T16:55:21+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Carbon capture without heat? A US-based start-up says yes",
+      "standfirst": "Banyu Carbon is set to demo its solar-powered carbon capture tech in Perth soon",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538302/carbon-capture-heat-us-start-yes",
+      "datePublished": "2026-10-19T15:57:47+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "SA to quadruple grid-scale wind and solar generation",
+      "standfirst": "The state unveiled four successful new renewable energy proposals",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538298/sa-quadruple-grid-scale-wind-solar-generation",
+      "datePublished": "2026-10-19T14:04:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538295/news-brief",
+      "datePublished": "2026-10-19T14:10:13+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
