@@ -1,87 +1,37 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-19T18:22:10.497772+08:00",
+  "generated_at": "2026-10-20T13:33:28.371493+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-19",
-  "reporting_window_start": "2026-10-19T00:00:00+08:00",
-  "reporting_window_end": "2026-10-19T13:30:00+08:00",
-  "audit_through": "2026-10-19T13:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-10-20",
+  "reporting_window_start": "2026-10-20T00:00:00+08:00",
+  "reporting_window_end": "2026-10-20T13:30:00+08:00",
+  "audit_through": "2026-10-20T13:30:00+08:00",
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Will long-awaited Greater Sunrise soon see movement?",
-      "standfirst": "Timor-Leste president said it's “finally happening” after years of “procrastination and deadlock\"",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4538286/long-awaitedbeleaguered-sunrise-soon-movement",
-      "datePublished": "2026-10-19T12:41:49+08:00",
+      "headline": "Buru Energy applies for Rafael Gas Project production licence",
+      "standfirst": "The step complements other recent project milestones",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538342/buru-energy-applies-rafael-gas-project-production-licence",
+      "datePublished": "2026-10-20T12:05:42+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Tax attack coming for windfall oil and gas cash",
-      "standfirst": "The predictable windfall tax solution from cash-starved governments is coming",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538272/slugcatcher-tax-attack-coming-windfall-oil-gas-cash",
-      "datePublished": "2026-10-19T10:41:28+08:00",
+      "headline": "Atmos Renewables secure multiple renewable projects from BayWa r.e.",
+      "standfirst": "The Bullawah wind farm’s second stage will be within the South West REZ",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538345/atmos-renewables-secure-multiple-renewable-projects-baywa",
+      "datePublished": "2026-10-20T12:06:23+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538347/asx-junior-wrap",
+      "datePublished": "2026-10-20T12:41:20+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Greenpeace activists charged, bailed over Scarborough FPU stunt",
-      "standfirst": "Activists scaled Woodside’s FPU in protest of the Browse project",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538304/greenpeace-activists-charged-bailed-scarborough-fpu-stunt",
-      "datePublished": "2026-10-19T16:38:44+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "AGL, ANZA, APA and Quinbrook progress to next stage of plan to bring on 400MW of new gas power in Qld",
-      "standfirst": "Move comes as Santos pushes for more CSG wells in Roma",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538287/agl-anza-apa-quinbrook-progress-stage-plan-bring-400mw-gas-power-qld",
-      "datePublished": "2026-10-19T14:08:20+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Amplitude progresses restarting Patricia Baleen project",
-      "standfirst": "Comes as CEO and MD Jane Norman says gas res scheme will not bring prices down",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538303/amplitude-progresses-restarting-patricia-baleen-project",
-      "datePublished": "2026-10-19T16:42:04+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Petroleum safety zones revoked from two Beach Energy wells",
-      "standfirst": "The Trefoil-1 and Yolla-1 Bass Strait wells underwent P&A work earlier this year",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538305/petroleum-safety-zones-revoked-beach-energy",
-      "datePublished": "2026-10-19T16:55:21+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Carbon capture without heat? A US-based start-up says yes",
-      "standfirst": "Banyu Carbon is set to demo its solar-powered carbon capture tech in Perth soon",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538302/carbon-capture-heat-us-start-yes",
-      "datePublished": "2026-10-19T15:57:47+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "SA to quadruple grid-scale wind and solar generation",
-      "standfirst": "The state unveiled four successful new renewable energy proposals",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538298/sa-quadruple-grid-scale-wind-solar-generation",
-      "datePublished": "2026-10-19T14:04:00+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538295/news-brief",
-      "datePublished": "2026-10-19T14:10:13+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
