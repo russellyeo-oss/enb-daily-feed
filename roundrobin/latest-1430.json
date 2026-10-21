@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-21T14:33:16.494225+08:00",
+  "generated_at": "2026-10-21T19:26:18.634788+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-21",
   "reporting_window_start": "2026-10-21T00:00:00+08:00",
   "reporting_window_end": "2026-10-21T14:30:00+08:00",
   "audit_through": "2026-10-21T14:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
+    {
+      "headline": "Gas reservation scheme could scupper Woodside's four well, Bass Strait drilling program",
+      "standfirst": "Woodside, Beach and Origin round on govt's controversial scheme ahead of inquiry hearing",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538404/gas-reservation-scheme-scupper-woodsides-bass-strait-drilling-program",
+      "datePublished": "2026-10-21T14:29:28+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
     {
       "headline": "Movers and shakers",
       "standfirst": "Who's up, who's down? Who's in, who's out?",
       "url": "https://www.energynewsbulletin.net/global/news-articles/4538403/movers-shakers",
       "datePublished": "2026-10-21T11:26:38+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Woodside says gas reservation scheme could scupper four well, Bass Strait drilling program",
-      "standfirst": "Woodside, Beach and Origin round on govt's controversial scheme ahead of inquiry hearing",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538404/woodside-gas-reservation-scheme-scupper-bass-strait-drilling-program",
-      "datePublished": "2026-10-21T14:29:28+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -33,5 +33,54 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Omega-led JV Canyon North-1 drilling begins in Taroom Trough",
+      "standfirst": "Waitsia Inlet Compression project reaches FID as Beach says Otway exploration FID expected in Q227",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4538414/omega-led-jv-canyon-north-drilling-begins-taroom-trough",
+      "datePublished": "2026-10-21T15:24:17+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Largest ever Australian anti-fracking rally calls on WA govt to protect Kimberley",
+      "standfirst": "Comes as state and fed decisions on Black Mountain's application expected in next few months",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538400/largest-australian-anti-fracking-rally-calls-wa-govt-protect-kimberley",
+      "datePublished": "2026-10-21T15:04:01+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Woodside shaves 2026 output guidance as Beaumont ammonia sell off confirmed",
+      "standfirst": "Comes as report questions Browse's economics",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538410/woodside-shaves-2026-output-guidance-beaumont-ammonia-sell-confirmed",
+      "datePublished": "2026-10-21T16:14:39+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "FEED starts on Rondo heat battery",
+      "standfirst": "Australia’s largest demonstration of industrial heat electrification is underway",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538427/feed-starts-rondo-heat-battery",
+      "datePublished": "2026-10-21T15:52:52+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Gold Hydrogen to build helium plant in SA",
+      "standfirst": "The company is standing 10 toes down on their Ramsey results",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538428/gold-hydrogen-build-helium-plant-sa",
+      "datePublished": "2026-10-21T15:44:46+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Opinion: Browse keeps changing its story",
+      "standfirst": "Despite it being pitched as the answer to WA gas shortfalls, the development is yet to progress",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538429/opinion-browse-changing-story",
+      "datePublished": "2026-10-21T16:07:15+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
