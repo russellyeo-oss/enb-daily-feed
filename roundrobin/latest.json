@@ -1,20 +1,27 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-22T13:38:59.298023+08:00",
+  "generated_at": "2026-10-22T17:43:03.018100+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-22",
   "reporting_window_start": "2026-10-22T00:00:00+08:00",
   "reporting_window_end": "2026-10-22T13:30:00+08:00",
   "audit_through": "2026-10-22T13:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
-      "headline": "Santos delivers \"stepchange in both production and cash flow that it had had been working towards\"",
+      "headline": "Santos delivers \"stepchange in both production and cash flow\"",
       "standfirst": "Record quarterly production results but 2026 guidance trimmed",
       "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538471/santos-delivers-stepchange-production-cash-flow",
       "datePublished": "2026-10-22T12:21:59+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Plans for one of Australia's biggest energy hubs unveiled in WA's North",
+      "standfirst": "AEMO highlights sharp rise in generation and storage seeking to connect to the NEM",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538472/plans-australias-biggest-energy-hubs-unveiled-north",
+      "datePublished": "2026-10-22T13:28:12+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -33,5 +40,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Pilot/Triangle administrators secure protection from decom bill",
+      "standfirst": "Comes as liability revised down from $200m to $166m",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538481/pilot-triangle-administrators-secure-protection-decom",
+      "datePublished": "2026-10-22T14:40:11+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "APA takes FID on Bulloo Interlink Pipeline",
+      "standfirst": "The BIL will connect the South West Queensland pipeline to the Moomba to Wilton pipeline in NSW",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538485/apa-takes-fid-bulloo-interlink-pipeline",
+      "datePublished": "2026-10-22T15:57:02+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Hancock and Strike call on PM to exempt WA from gas res scheme",
+      "standfirst": "Open letter comes as inquiry kicks off in the scheme's three bills",
+      "url": "https://www.energynewsbulletin.net/policy/news-articles/4538484/hancock-strike-pm-exempt-wa-gas-res-scheme",
+      "datePublished": "2026-10-22T15:21:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Kogan Creek power station workers to vote on protected action",
+      "standfirst": "FWC today approved the union's plea to ballot their members",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538483/kogan-creek-power-station-workers-vote-protected-action",
+      "datePublished": "2026-10-22T15:59:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
