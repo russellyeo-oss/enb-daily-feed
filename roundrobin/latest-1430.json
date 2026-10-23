@@ -1,77 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-22T20:07:42.751079+08:00",
+  "generated_at": "2026-10-23T14:33:09.438009+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-22",
-  "reporting_window_start": "2026-10-22T00:00:00+08:00",
-  "reporting_window_end": "2026-10-22T14:30:00+08:00",
-  "audit_through": "2026-10-22T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-23",
+  "reporting_window_start": "2026-10-23T00:00:00+08:00",
+  "reporting_window_end": "2026-10-23T14:30:00+08:00",
+  "audit_through": "2026-10-23T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "Santos delivers \"stepchange in both production and cash flow\"",
-      "standfirst": "Record quarterly production results but 2026 guidance trimmed",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538471/santos-delivers-stepchange-production-cash-flow",
-      "datePublished": "2026-10-22T12:21:59+08:00",
+      "headline": "Snowy 2.0 bill balloons to $25B; startup not 'til 2029",
+      "standfirst": "Inflation, design immaturity and shoddy management all blamed in scathing report",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538541/snowy-balloons-usd25b-startup",
+      "datePublished": "2026-10-23T14:17:10+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Plans for one of Australia's biggest energy hubs unveiled in WA's North",
-      "standfirst": "AEMO highlights sharp rise in generation and storage seeking to connect to the NEM",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538472/plans-australias-biggest-energy-hubs-unveiled-north",
-      "datePublished": "2026-10-22T13:28:12+08:00",
+      "headline": "Woodside exits Bonaparte CCS JV as INPEX takes project enters FEED",
+      "standfirst": "Shuffle comes in wake of govt declaring West Peron as a GHG storage",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538517/woodside-exits-bonaparte-ccs-jv-inpex-takes-project-enters-feed",
+      "datePublished": "2026-10-23T11:53:34+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The Analyst's Take: Reforming the safeguard mechanism",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538457/analysts-reforming-safeguard-mechanism",
-      "datePublished": "2026-10-22T11:50:00+08:00",
+      "headline": "From the editor: why the two-tier state, Premier?",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538513/editor-tier-premier",
+      "datePublished": "2026-10-23T08:32:51+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538516/keeping-apac",
+      "datePublished": "2026-10-23T10:02:50+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538474/news-brief",
-      "datePublished": "2026-10-22T13:23:53+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538539/news-brief",
+      "datePublished": "2026-10-23T14:04:48+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Pilot/Triangle administrators secure protection from decom bill",
-      "standfirst": "Comes as liability revised down from $200m to $166m",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538481/pilot-triangle-administrators-secure-protection-decom",
-      "datePublished": "2026-10-22T14:40:11+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "APA takes FID on Bulloo Interlink Pipeline",
-      "standfirst": "The BIL will connect the South West Queensland pipeline to the Moomba to Wilton pipeline in NSW",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538485/apa-takes-fid-bulloo-interlink-pipeline",
-      "datePublished": "2026-10-22T15:57:02+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Hancock and Strike call on PM to exempt WA from gas res scheme",
-      "standfirst": "Open letter comes as inquiry kicks off in the scheme's three bills",
-      "url": "https://www.energynewsbulletin.net/policy/news-articles/4538484/hancock-strike-pm-exempt-wa-gas-res-scheme",
-      "datePublished": "2026-10-22T15:21:27+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Kogan Creek power station workers to vote on protected action",
-      "standfirst": "FWC today approved the union's plea to ballot their members",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538483/kogan-creek-power-station-workers-vote-protected-action",
-      "datePublished": "2026-10-22T15:59:00+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
