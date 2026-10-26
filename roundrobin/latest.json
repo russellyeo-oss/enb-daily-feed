@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-26T13:34:31.093823+08:00",
+  "generated_at": "2026-10-26T18:37:02.557622+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-26",
   "reporting_window_start": "2026-10-26T00:00:00+08:00",
   "reporting_window_end": "2026-10-26T13:30:00+08:00",
   "audit_through": "2026-10-26T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,62 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Senator grills govt on Chevron's reported Gorgon methane leak",
+      "standfirst": "Regulatory red tape queried by senators",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538605/senators-grill-govt-chevrons-reported-gorgon-methane",
+      "datePublished": "2026-10-26T16:23:56+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "IEA GHG expert says we'll heat global climate by more than 1.5 degrees",
+      "standfirst": "GHTG-18 summit in Perth opened with stark message to delegates",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538608/iea-ghg-expert-heat-global-climate-degrees",
+      "datePublished": "2026-10-26T17:11:51+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Govt's $3m investment in Pilot's CCS scheme may never be recovered",
+      "standfirst": "Labor's support of collapsed scheme criticised at senate estimates",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538599/govts-usd3m-investment-pilots-ccs-scheme-recovered",
+      "datePublished": "2026-10-26T14:29:18+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Energy Club WA turns 60",
+      "standfirst": "Glitzy evening reception celebrated and honoured club members",
+      "url": "https://www.energynewsbulletin.net/markets/news-articles/4538606/energy-club-wa",
+      "datePublished": "2026-10-26T16:39:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "CSIRO trials DAC in industry first",
+      "standfirst": "The aim is cost-effective carbon capture options",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538607/csiro-trials-dac-industry",
+      "datePublished": "2026-10-26T17:04:26+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Bhagwan Marine results suggest growth in offshore/subsea sectors",
+      "standfirst": "Healthy results released at recent AGM",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538600/bhagwan-marine-results-suggest-growth-offshore-subsea-sectors",
+      "datePublished": "2026-10-26T14:16:48+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538598/news-brief",
+      "datePublished": "2026-10-26T13:48:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
