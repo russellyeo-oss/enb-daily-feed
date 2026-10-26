@@ -1,76 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-23T19:51:34.110754+08:00",
+  "generated_at": "2026-10-26T14:40:57.146331+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-23",
-  "reporting_window_start": "2026-10-23T00:00:00+08:00",
-  "reporting_window_end": "2026-10-23T14:30:00+08:00",
-  "audit_through": "2026-10-23T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "target_date": "2026-10-26",
+  "reporting_window_start": "2026-10-26T00:00:00+08:00",
+  "reporting_window_end": "2026-10-26T14:30:00+08:00",
+  "audit_through": "2026-10-26T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "Woodside exits Bonaparte CCS JV as INPEX takes project enters FEED",
-      "standfirst": "Shuffle comes in wake of govt declaring West Peron as a GHG storage",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538517/woodside-exits-bonaparte-ccs-jv-inpex-takes-project-enters-feed",
-      "datePublished": "2026-10-23T11:53:34+08:00",
+      "headline": "Wrong tool for the job – domestic gas reservation misses the mark, claims EnergyQuest analysis",
+      "standfirst": "WA continues fight for state carve-out",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538594/wrong-tool-job-domestic-gas-reservation-misses-mark-claims-energyquest-analysis",
+      "datePublished": "2026-10-26T13:20:41+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Snowy 2.0 bill balloons to $25B; startup not 'til 2029",
-      "standfirst": "Inflation, design immaturity and shoddy management all blamed in scathing report",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538541/snowy-balloons-usd25b-startup",
-      "datePublished": "2026-10-23T14:17:10+08:00",
+      "headline": "Govt's $3m investment in Pilot's CCS scheme may never be recovered",
+      "standfirst": "Labor's support of collapsed scheme criticised at senate estimates",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538599/govts-usd3m-investment-pilots-ccs-scheme-recovered",
+      "datePublished": "2026-10-26T14:29:18+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: why the two-tier state, Premier?",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538513/editor-tier-premier",
-      "datePublished": "2026-10-23T08:32:51+08:00",
+      "headline": "Bhagwan Marine unveils healthy financials at AGM",
+      "standfirst": "Says decommissioning market is maturing",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538600/bhagwan-marine-unveils-healthy-financials-agm",
+      "datePublished": "2026-10-26T14:16:48+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538516/keeping-apac",
-      "datePublished": "2026-10-23T10:02:50+08:00",
+      "headline": "Slugcatcher: Oil price on fire again, this time it's serious",
+      "standfirst": "How high might the price go this time?",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538579/slugcatcher-oil-price",
+      "datePublished": "2026-10-26T09:26:52+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538539/news-brief",
-      "datePublished": "2026-10-23T14:04:48+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538598/news-brief",
+      "datePublished": "2026-10-26T13:48:00+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Beach acquires Taroom Trough acreage through Elixir farm-in",
-      "standfirst": "The deal is valued at $205 million",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4538543/beach-acquires-taroom-trough-acreage-elixir-farm",
-      "datePublished": "2026-10-23T14:40:54+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "NT government passes Safe Air Bill",
-      "standfirst": "Comes a year after INPEX admitted to under reporting benzene emissions at its Ichthys LNG plant",
-      "url": "https://www.energynewsbulletin.net/policy/news-articles/4538542/nt-government-passes-safe-air",
-      "datePublished": "2026-10-23T15:45:27+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Downer's Murra Warra wind farm legal set for December hearing",
-      "standfirst": "The first public hearing was held before Victoria's Federal Court",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538547/downer-murra-warra-wind-farm-legal-set-december-hearing",
-      "datePublished": "2026-10-23T16:44:00+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
