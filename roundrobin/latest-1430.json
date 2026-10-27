@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-27T14:31:53.358367+08:00",
+  "generated_at": "2026-10-27T19:50:45.668652+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-27",
   "reporting_window_start": "2026-10-27T00:00:00+08:00",
   "reporting_window_end": "2026-10-27T14:30:00+08:00",
   "audit_through": "2026-10-27T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -55,6 +55,22 @@
   ],
   "unresolved": [],
   "excluded": [
+    {
+      "headline": "Survey: what do you think of the domestic gas reservation scheme?",
+      "standfirst": "ENB wants to hear from you",
+      "url": "https://www.energynewsbulletin.net/data/research-articles/4538662/survey-domestic-gas-reservation-scheme",
+      "datePublished": "2026-10-27T14:51:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Browse risks \"irreversible consequences\" to Scott Reef, unveiled WA EPA letter writes",
+      "standfirst": "Activists call on federal environment minister to strike down the proposal",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538664/browse-risks-irreversible-consequences-scott-reef-unveiled-wa-epa-letter-writes",
+      "datePublished": "2026-10-27T16:10:08+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
     {
       "headline": "APA releases plans for WA's biggest gas-fired power station",
       "standfirst": "Comes as premier Roger Cook details new renewable goals for the SWIS",
