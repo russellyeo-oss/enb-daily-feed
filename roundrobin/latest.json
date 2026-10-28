@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-28T13:35:19.519874+08:00",
+  "generated_at": "2026-10-28T18:52:52.556959+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-28",
   "reporting_window_start": "2026-10-28T00:00:00+08:00",
   "reporting_window_end": "2026-10-28T13:30:00+08:00",
   "audit_through": "2026-10-28T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,38 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Green's leader revamps gas tax plans",
+      "standfirst": "The party's last proposal was shot down after Liberal and Labour joined forces against it",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538722/greens-leader-revamps-gas-tax-plans",
+      "datePublished": "2026-10-28T15:48:18+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Kogan Creek workers vote to take industrial action in CS Energy spat",
+      "standfirst": "Unions considering their next steps",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538721/kogan-creek-workers-voted-industrial-action-cs-energy-spat",
+      "datePublished": "2026-10-28T15:15:57+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Batteries 'silver bullet' for WA energy transition",
+      "standfirst": "Comes as new renewable energy targets are set by the state govt",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538723/batteries-silver-bullet-wa-energy-transition",
+      "datePublished": "2026-10-28T16:35:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Chinese battery maker CATL pushing for EV battery swapping opportunities",
+      "standfirst": "Australians “want a coffee time recharge”",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538720/chinese-battery-maker-catl-pushing-ev-battery-swapping-opportunities",
+      "datePublished": "2026-10-28T14:20:32+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
