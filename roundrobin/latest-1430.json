@@ -1,83 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-27T20:28:46.700931+08:00",
+  "generated_at": "2026-10-28T14:32:08.367064+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-27",
-  "reporting_window_start": "2026-10-27T00:00:00+08:00",
-  "reporting_window_end": "2026-10-27T14:30:00+08:00",
-  "audit_through": "2026-10-27T14:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-10-28",
+  "reporting_window_start": "2026-10-28T00:00:00+08:00",
+  "reporting_window_end": "2026-10-28T14:30:00+08:00",
+  "audit_through": "2026-10-28T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "INPEX already planning on floating Bonaparte expansion",
-      "standfirst": "INPEX, Chevron and Santos CCS execs call for policy support for the sector",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538658/inpex-planning-floating-bonaparte-expansion",
-      "datePublished": "2026-10-27T14:26:53+08:00",
+      "headline": "Comet Ridge targeting Mahalo FID in mid-2027, first gas 2029",
+      "standfirst": "Project launch timed well to take advantage of market movements",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538699/comet-ridge-targetig-mahalo-fid-mid-2027-gas-2029",
+      "datePublished": "2026-10-28T09:59:45+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Sun sets on Woodside's Sunrise vision",
-      "standfirst": "Gas giant sells 33.44% stake to TIMOR GAP, leaving them in sole control",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538646/sun-sets-woodsides-sunrise-vision",
-      "datePublished": "2026-10-27T12:03:06+08:00",
+      "headline": "Amplitude granted license to restart Gippsland Patricia Baleen gas field",
+      "standfirst": "Energy supplies front and centre in upcoming sate election",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538701/amplitude-granted-license-restart-gippsland-patricia-baleen-gas-field",
+      "datePublished": "2026-10-28T10:35:06+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "WA sets 75% by 2031 renewable energy target",
-      "standfirst": "New target comes after modelling forecast skyrocketing energy costs for industry",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538654/wa-sets-75-2031-renewable-energy-targettarget-set-wa-75-renewable-energy-driven",
-      "datePublished": "2026-10-27T13:41:35+08:00",
+      "headline": "Chinese battery maker CATL pushing for EV battery swapping opportunities",
+      "standfirst": "Australians “want a coffee time recharge”",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538720/chinese-battery-maker-catl-pushing-ev-battery-swapping-opportunities",
+      "datePublished": "2026-10-28T14:20:32+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Snowy to need even more govt money, but where's the receipts?",
-      "standfirst": "CEO says project will need “substantial” Commonwealth funding to limp to finish line",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538651/snowy-govt-money-wheres-receipts",
-      "datePublished": "2026-10-27T13:43:19+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "ASX junior wrap",
-      "standfirst": "ENB's weekly look at what Australian juniors are doing",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538642/asx-junior-wrap",
-      "datePublished": "2026-10-27T11:44:27+08:00",
+      "headline": "Movers and shakers",
+      "standfirst": "Who's up, who's down? Who's in, who's out?",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538700/movers-shakers",
+      "datePublished": "2026-10-28T10:21:49+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538656/news-brief",
-      "datePublished": "2026-10-27T13:43:30+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538712/news-brief",
+      "datePublished": "2026-10-28T13:05:33+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Survey: what do you think of the domestic gas reservation scheme?",
-      "standfirst": "ENB wants to hear from you",
-      "url": "https://www.energynewsbulletin.net/data/research-articles/4538662/survey-domestic-gas-reservation-scheme",
-      "datePublished": "2026-10-27T14:51:14+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Browse risks \"irreversible consequences\" to Scott Reef, unveiled WA EPA letter writes",
-      "standfirst": "Activists call on federal environment minister to strike down the proposal",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538664/browse-risks-irreversible-consequences-scott-reef-unveiled-wa-epa-letter-writes",
-      "datePublished": "2026-10-27T16:10:08+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "APA releases plans for WA's biggest gas-fired power station",
-      "standfirst": "Comes as premier Roger Cook details new renewable goals for the SWIS",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538659/apa-releases-plans-biggest-gas-fired-power-station",
-      "datePublished": "2026-10-27T14:30:32+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
