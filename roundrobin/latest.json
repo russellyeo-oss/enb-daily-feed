@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-29T13:36:26.449224+08:00",
+  "generated_at": "2026-10-29T19:09:57.079889+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-29",
   "reporting_window_start": "2026-10-29T00:00:00+08:00",
   "reporting_window_end": "2026-10-29T13:30:00+08:00",
   "audit_through": "2026-10-29T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
       "headline": "Exclusive: TIMOR GAP open to Chinese investment in Greater Sunrise after Woodside exit",
-      "standfirst": "Nation's president questions Australian anti-Chinese sentiments",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538776/excluusive-timor-gap-open-chinese-investment-sunrise-woodsides-exit",
+      "standfirst": "Comes as Woodside signs 20 year LNG supply with QatarEnergy",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538776/exclusive-timor-gap-open-chinese-investment-sunrise-woodside-exit",
       "datePublished": "2026-10-29T12:25:06+08:00",
       "publication_metadata_source": "published-time metadata"
     },
@@ -35,10 +35,50 @@
   "unresolved": [],
   "excluded": [
     {
+      "headline": "Govt faces battle to keep WA in national gas reservation scheme",
+      "standfirst": "Opposition and influential industry voices calling for WA carve out",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538786/govt-battle-wa-national-gas-reservation-scheme",
+      "datePublished": "2026-10-29T13:43:56+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA surges forward its plans for a (more) renewable future",
+      "standfirst": "Gas and mining powerhouse state continues a week full of renewable energy announcements",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538793/wa-surges-forward-plans-renewable-future",
+      "datePublished": "2026-10-29T15:43:30+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
       "headline": "Bowen: rule-breaking data centres should be cut off the grid",
       "standfirst": "Failing to show sufficient renewable supply contracts could result in financial trouble or worse",
       "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538780/bowen-rule-breaking-centres-cut-grid",
       "datePublished": "2026-10-29T13:30:10+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Australia's renewable energy goals attracting new players",
+      "standfirst": "SgurrEnergy said it wants to be part of the nation's 80% target",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538785/australias-renewable-energy-goals-attracting-players",
+      "datePublished": "2026-10-29T15:31:29+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Sungrow sees agility as key in evolving renewables sector",
+      "standfirst": "Comes as the company announces the Hazelwood 2 BESS expansion",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538779/sungrow-agility-key-evolving-renewables-sector",
+      "datePublished": "2026-10-29T13:45:22+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538795/news-brief",
+      "datePublished": "2026-10-29T15:53:26+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication time is after this collector run/cutoff"
     }
