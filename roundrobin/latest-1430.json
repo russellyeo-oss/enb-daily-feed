@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-30T14:31:18.087097+08:00",
+  "generated_at": "2026-10-30T20:26:23.225374+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-10-30",
   "reporting_window_start": "2026-10-30T00:00:00+08:00",
   "reporting_window_end": "2026-10-30T14:30:00+08:00",
   "audit_through": "2026-10-30T14:30:00+08:00",
-  "homepage_candidates": 6,
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
@@ -32,17 +32,17 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538836/keeping-apac",
-      "datePublished": "2026-10-30T09:10:36+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
       "headline": "From the editor: the gas reservation show just keeps rolling",
       "standfirst": "A look back over the week that was",
       "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538834/editor-gas-reservation-show-rolling",
       "datePublished": "2026-10-30T08:49:02+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538836/keeping-apac",
+      "datePublished": "2026-10-30T09:10:36+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -54,5 +54,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "ASIC to look into decommissioning financial disclosures from leading O&G firms",
+      "standfirst": "Desktop audit revealed in senate estimates hearing",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538850/asic-look-decommissioning-financial-disclosures-leading-firms",
+      "datePublished": "2026-10-30T16:24:32+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
