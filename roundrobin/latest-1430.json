@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-02T14:34:15.067221+08:00",
+  "generated_at": "2026-11-02T23:11:49.793565+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-02",
   "reporting_window_start": "2026-11-02T00:00:00+08:00",
   "reporting_window_end": "2026-11-02T14:30:00+08:00",
   "audit_through": "2026-11-02T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,30 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Star of the South undertakes additional feasibility studies",
+      "standfirst": "Southerly Ten proposes geophysical and geotechnical studies to NEPA",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538919/star-south-undertakes-additional-feasibility-studies",
+      "datePublished": "2026-11-02T17:03:05+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Data centre & renewable project developers must collab to scale industry",
+      "standfirst": "EMMS Muren Guler says grid connection remains a barrier to development",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538918/centre-renewable-project-developers-collab-scale-industry",
+      "datePublished": "2026-11-02T16:40:14+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538916/news-brief",
+      "datePublished": "2026-11-02T16:07:12+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
