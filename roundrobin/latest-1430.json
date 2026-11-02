@@ -1,67 +1,44 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-10-30T21:13:50.941360+08:00",
+  "generated_at": "2026-11-02T14:34:15.067221+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-10-30",
-  "reporting_window_start": "2026-10-30T00:00:00+08:00",
-  "reporting_window_end": "2026-10-30T14:30:00+08:00",
-  "audit_through": "2026-10-30T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "target_date": "2026-11-02",
+  "reporting_window_start": "2026-11-02T00:00:00+08:00",
+  "reporting_window_end": "2026-11-02T14:30:00+08:00",
+  "audit_through": "2026-11-02T14:30:00+08:00",
+  "homepage_candidates": 4,
   "status": "complete",
   "stories": [
     {
-      "headline": "Domestic gas reservation policy will \"fundamentally change\" Beach Energy",
-      "standfirst": "Brett Woods' appearance at senate inquiry painted a bleak picture",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538851/domestic-gas-reservation-policy-fundamentally-change-beach-energy",
-      "datePublished": "2026-10-30T12:23:11+08:00",
+      "headline": "Frontier bags money to fully fund Waroona stage one",
+      "standfirst": "Executing a syndicated facility agreement, the company is a step closer to financial close",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538906/frontier-bags-money-fund-waroona-stage",
+      "datePublished": "2026-11-02T12:55:49+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Synergy's Kwinana gas-fired power station plan to be assessed by WA enviro watchdog",
-      "standfirst": "Comes as APA's Keralup Energy Hub could supply energy for an AirTrunk data centre",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538847/synergys-kwinana-gas-fired-power-station-assessed-wa-enviro-watchdog",
-      "datePublished": "2026-10-30T12:26:42+08:00",
+      "headline": "Ramsey wells hold commercial source of natural hydrogen",
+      "standfirst": "News comes only weeks after significant helium results",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538904/gold-hydrogen-ramsey-hold-commercial-source-natural-hydrogen",
+      "datePublished": "2026-11-02T12:38:37+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Targeted, strategic approach key to renewable project rollout success",
-      "standfirst": "Squadron’s Daniel Newlan breaks down fruitful tactics",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538849/targeted-strategic-approach-key-renewable-project-rollout-success",
-      "datePublished": "2026-10-30T11:46:38+08:00",
+      "headline": "AEMO rescinds FWC application to stop Professionals Australia industrial action",
+      "standfirst": "The operator still faces continuing protected action",
+      "url": "https://www.energynewsbulletin.net/markets/news-analysis/4538895/aemo-rescinds-fwc-application-stop-professionals-australia-industrial-action",
+      "datePublished": "2026-11-02T11:49:07+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: the gas reservation show just keeps rolling",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538834/editor-gas-reservation-show-rolling",
-      "datePublished": "2026-10-30T08:49:02+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4538836/keeping-apac",
-      "datePublished": "2026-10-30T09:10:36+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538845/news-brief",
-      "datePublished": "2026-10-30T11:35:47+08:00",
+      "headline": "Slugcatcher: New look Woodside gets serious about business",
+      "standfirst": "Woodside could be refusing to drill in the Bass Strait after its Timor-Leste exit",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538889/slugcatcher-look-woodside-about-business",
+      "datePublished": "2026-11-02T11:36:31+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "ASIC to look into decommissioning financial disclosures from leading O&G firms",
-      "standfirst": "Desktop audit revealed in senate estimates hearing",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538850/asic-look-decommissioning-financial-disclosures-leading-firms",
-      "datePublished": "2026-10-30T16:24:32+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
