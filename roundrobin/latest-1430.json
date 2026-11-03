@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-03T14:36:58.809527+08:00",
+  "generated_at": "2026-11-03T21:52:46.213816+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-03",
   "reporting_window_start": "2026-11-03T00:00:00+08:00",
   "reporting_window_end": "2026-11-03T14:30:00+08:00",
   "audit_through": "2026-11-03T14:30:00+08:00",
-  "homepage_candidates": 2,
-  "status": "incomplete",
+  "homepage_candidates": 7,
+  "status": "complete",
   "stories": [
     {
       "headline": "Increased scrutiny puts brakes on data centre progress",
@@ -16,15 +16,56 @@
       "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538955/increased-scrutiny-brakes-centre-progress",
       "datePublished": "2026-11-03T13:16:09+08:00",
       "publication_metadata_source": "published-time metadata"
-    }
-  ],
-  "unresolved": [
+    },
     {
       "headline": "ASX junior wrap",
       "standfirst": "ENB's weekly look at what Australian juniors are doing",
       "url": "https://www.energynewsbulletin.net/global/news-articles/4538948/asx-junior-wrap",
-      "reason": "article metadata fetch failed: HTTPError: 503 Server Error: Service Unavailable for url: https://www.energynewsbulletin.net/global/news-articles/4538948/asx-junior-wrap"
+      "datePublished": "2026-11-03T11:21:28+08:00",
+      "publication_metadata_source": "published-time metadata"
     }
   ],
-  "excluded": []
+  "unresolved": [],
+  "excluded": [
+    {
+      "headline": "Shell to sell 16.67% NWS stake to XRG in $2.08 bn deal",
+      "standfirst": "Deal marks the end of era-defining relationship with Woodside",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4538965/shell-sell-1667-nws-stake-xrg-usd208-bn-deal",
+      "datePublished": "2026-11-03T15:23:25+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Pressure grows on govt to release +$500k gas res scheme ACIL Allen modelling",
+      "standfirst": "Industry and political voices unite in transparency call",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4538953/pressure-grows-govt-release-gas-res-scheme-modelling",
+      "datePublished": "2026-11-03T14:42:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Woodside planning to carry out subsea surveys for Browse to NWS pipeline",
+      "standfirst": "Activities are planned to be undertaken in Q3 2027",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4538967/woodside-planning-carry-subsea-surveys-browse-nws-pipeline",
+      "datePublished": "2026-11-03T16:18:11+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Renewable energy firm ratings tool a step forward for transparency",
+      "standfirst": "Currently mostly voluntary for companies, some set sights on future mandatory use",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538964/renewable-energy-firm-ratings-tool-step-forward-transparency",
+      "datePublished": "2026-11-03T15:29:44+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538966/news-brief",
+      "datePublished": "2026-11-03T15:47:24+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
