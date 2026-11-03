@@ -1,15 +1,30 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-03T00:20:11.962951+08:00",
+  "generated_at": "2026-11-03T14:36:58.809527+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-03",
   "reporting_window_start": "2026-11-03T00:00:00+08:00",
   "reporting_window_end": "2026-11-03T14:30:00+08:00",
-  "audit_through": "2026-11-03T00:20:11.962951+08:00",
-  "homepage_candidates": 0,
-  "status": "complete",
-  "stories": [],
-  "unresolved": [],
+  "audit_through": "2026-11-03T14:30:00+08:00",
+  "homepage_candidates": 2,
+  "status": "incomplete",
+  "stories": [
+    {
+      "headline": "Increased scrutiny puts brakes on data centre progress",
+      "standfirst": "An effective opposition finds pathways to stall project development",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4538955/increased-scrutiny-brakes-centre-progress",
+      "datePublished": "2026-11-03T13:16:09+08:00",
+      "publication_metadata_source": "published-time metadata"
+    }
+  ],
+  "unresolved": [
+    {
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4538948/asx-junior-wrap",
+      "reason": "article metadata fetch failed: HTTPError: 503 Server Error: Service Unavailable for url: https://www.energynewsbulletin.net/global/news-articles/4538948/asx-junior-wrap"
+    }
+  ],
   "excluded": []
 }
