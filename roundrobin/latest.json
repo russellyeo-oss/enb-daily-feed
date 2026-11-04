@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-04T13:38:41.385860+08:00",
+  "generated_at": "2026-11-04T20:39:00.685758+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-04",
   "reporting_window_start": "2026-11-04T00:00:00+08:00",
   "reporting_window_end": "2026-11-04T13:30:00+08:00",
   "audit_through": "2026-11-04T13:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,30 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Qld Govt: Taroom Trough critical to state energy security",
+      "standfirst": "Explorers benefit from state support",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539026/qld-govt-taroom-trough-critical-energy-security",
+      "datePublished": "2026-11-04T14:27:35+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Calls for ExxonMobil, Santos and TotalEnergies to stop Papua LNG",
+      "standfirst": "Risk to region's biodiversity too great, claims lawyers representing PNG landowners",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539017/calls-exxonmobil-santos-totalenergies-stop-papua-lng",
+      "datePublished": "2026-11-04T16:31:05+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Finalised Star of the South EIS submitted to NEPA",
+      "standfirst": "However, community opposition has risen in response to the 2.2GW proposal",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539029/finalised-star-south-eis-submitted-nepa",
+      "datePublished": "2026-11-04T16:34:56+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
