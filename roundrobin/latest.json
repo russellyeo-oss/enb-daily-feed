@@ -1,69 +1,44 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-02T20:55:58.119690+08:00",
+  "generated_at": "2026-11-04T13:38:41.385860+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-02",
-  "reporting_window_start": "2026-11-02T00:00:00+08:00",
-  "reporting_window_end": "2026-11-02T13:30:00+08:00",
-  "audit_through": "2026-11-02T13:30:00+08:00",
-  "homepage_candidates": 7,
+  "target_date": "2026-11-04",
+  "reporting_window_start": "2026-11-04T00:00:00+08:00",
+  "reporting_window_end": "2026-11-04T13:30:00+08:00",
+  "audit_through": "2026-11-04T13:30:00+08:00",
+  "homepage_candidates": 4,
   "status": "complete",
   "stories": [
     {
-      "headline": "Frontier bags money to fully fund Waroona stage one",
-      "standfirst": "Executing a syndicated facility agreement, the company is a step closer to financial close",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538906/frontier-bags-money-fund-waroona-stage",
-      "datePublished": "2026-11-02T12:55:49+08:00",
+      "headline": "Jadestone pumping again in Australia in CWLH",
+      "standfirst": "Cyclone battered Stag platform still scheduled for 2027 restart",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539015/jadestone-pumping-australia-cwlh",
+      "datePublished": "2026-11-04T12:19:39+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Ramsey wells hold commercial source of natural hydrogen",
-      "standfirst": "News comes only weeks after significant helium results",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538904/gold-hydrogen-ramsey-hold-commercial-source-natural-hydrogen",
-      "datePublished": "2026-11-02T12:38:37+08:00",
+      "headline": "\"Transparency warrior\" waits for outcome of court challenge over Snowy 2.0 financials",
+      "standfirst": "Comes as Snowy executives cash in while the public waits for energy saving benefits",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539023/transparency-warrior-waits-outcome-court-challenge-snowy-financials",
+      "datePublished": "2026-11-04T13:27:08+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "AEMO rescinds FWC application to stop Professionals Australia industrial action",
-      "standfirst": "The operator still faces continuing protected action",
-      "url": "https://www.energynewsbulletin.net/markets/news-analysis/4538895/aemo-rescinds-fwc-application-stop-professionals-australia-industrial-action",
-      "datePublished": "2026-11-02T11:49:07+08:00",
+      "headline": "Movers and shakers",
+      "standfirst": "Who's up, who's down? Who's in, who's out?",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539008/movers-shakers",
+      "datePublished": "2026-11-04T11:25:14+08:00",
       "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Slugcatcher: New look Woodside gets serious about business",
-      "standfirst": "Woodside could be refusing to drill in the Bass Strait after its Timor-Leste exit",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4538889/slugcatcher-look-woodside-about-business",
-      "datePublished": "2026-11-02T11:36:31+08:00",
-      "publication_metadata_source": "published-time metadata"
-    }
-  ],
-  "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Star of the South undertakes additional feasibility studies",
-      "standfirst": "Southerly Ten proposes geophysical and geotechnical studies to NEPA",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538919/star-south-undertakes-additional-feasibility-studies",
-      "datePublished": "2026-11-02T17:03:05+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Data centre & renewable project developers must collab to scale industry",
-      "standfirst": "EMMS Muren Guler says grid connection remains a barrier to development",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4538918/centre-renewable-project-developers-collab-scale-industry",
-      "datePublished": "2026-11-02T16:40:14+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4538916/news-brief",
-      "datePublished": "2026-11-02T16:07:12+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539022/news-brief",
+      "datePublished": "2026-11-04T13:18:45+08:00",
+      "publication_metadata_source": "published-time metadata"
     }
-  ]
+  ],
+  "unresolved": [],
+  "excluded": []
 }
