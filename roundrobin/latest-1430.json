@@ -1,68 +1,37 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-04T22:43:43.682197+08:00",
+  "generated_at": "2026-11-05T14:32:29.975326+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-04",
-  "reporting_window_start": "2026-11-04T00:00:00+08:00",
-  "reporting_window_end": "2026-11-04T14:30:00+08:00",
-  "audit_through": "2026-11-04T14:30:00+08:00",
-  "homepage_candidates": 7,
+  "target_date": "2026-11-05",
+  "reporting_window_start": "2026-11-05T00:00:00+08:00",
+  "reporting_window_end": "2026-11-05T14:30:00+08:00",
+  "audit_through": "2026-11-05T14:30:00+08:00",
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Qld Govt: Taroom Trough critical to state energy security",
-      "standfirst": "Explorers benefit from state support",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539026/qld-govt-taroom-trough-critical-energy-security",
-      "datePublished": "2026-11-04T14:27:35+08:00",
+      "headline": "Amplitude says ECSP drilling to end shortly; Patricia Baleen FID within months",
+      "standfirst": "MD also spruiks Taroom Trough as potential \"third leg\" of portfolio",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539073/amplitude-ecsp-drilling-end-shortly-patricia-baleen-fid-months",
+      "datePublished": "2026-11-05T11:55:37+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Jadestone pumping again in Australia in CWLH",
-      "standfirst": "Cyclone battered Stag platform still scheduled for 2027 restart",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539015/jadestone-pumping-australia-cwlh",
-      "datePublished": "2026-11-04T12:19:39+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "\"Transparency warrior\" waits for outcome of court challenge over Snowy 2.0 financials",
-      "standfirst": "Comes as Snowy executives cash in while the public waits for energy saving benefits",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539023/transparency-warrior-waits-outcome-court-challenge-snowy-financials",
-      "datePublished": "2026-11-04T13:27:08+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539008/movers-shakers",
-      "datePublished": "2026-11-04T11:25:14+08:00",
+      "headline": "The Analyst's Take: Data centres are welcome at the table, but they should bring a plate.",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539065/analysts-centres-welcome-table-bring-plate",
+      "datePublished": "2026-11-05T10:46:39+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539022/news-brief",
-      "datePublished": "2026-11-04T13:18:45+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539068/news-brief",
+      "datePublished": "2026-11-05T10:57:26+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Calls for ExxonMobil, Santos and TotalEnergies to stop Papua LNG",
-      "standfirst": "Risk to region's biodiversity too great, claims lawyers representing PNG landowners",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539017/calls-exxonmobil-santos-totalenergies-stop-papua-lng",
-      "datePublished": "2026-11-04T16:31:05+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Finalised Star of the South EIS submitted to NEPA",
-      "standfirst": "However, community opposition has risen in response to the 2.2GW proposal",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539029/finalised-star-south-eis-submitted-nepa",
-      "datePublished": "2026-11-04T16:34:56+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
