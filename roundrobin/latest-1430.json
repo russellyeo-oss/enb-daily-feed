@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-05T14:32:29.975326+08:00",
+  "generated_at": "2026-11-05T22:21:55.384212+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-05",
   "reporting_window_start": "2026-11-05T00:00:00+08:00",
   "reporting_window_end": "2026-11-05T14:30:00+08:00",
   "audit_through": "2026-11-05T14:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -33,5 +33,46 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Woodside to cut 500 jobs as part of cost savings",
+      "standfirst": "Westcott announces change to decade-old shareholder dividend policy",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539087/woodside-cut-500-jobs-cost-savings",
+      "datePublished": "2026-11-05T14:45:45+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "WA enviro watchdog to inspect Chevron's Gorgon plant amid methane emission concerns",
+      "standfirst": "WA EPA responding to reports from satellite-based observations",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539075/wa-enviro-watchdog-inspect-chevrons-gorgon-plant-amid-methane-emission-concerns",
+      "datePublished": "2026-11-05T17:16:55+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Beach cash allows Elixir to accelerate Taroom Trough plans",
+      "standfirst": "Says Warkon shared infrastructure pilot could deliver up almost 75% reduction in pipeline tolls",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539088/beach-cash-allows-elixir-accelerate-taroom-trough-plans",
+      "datePublished": "2026-11-05T15:30:43+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "AI creating opportunities in energy sector",
+      "standfirst": "Industry experts speak on implementing AI at a WA Energy Club event",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4539091/ai-creating-opportunities-energy-sector",
+      "datePublished": "2026-11-05T16:41:17+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "How will Australia's energy grid cope without coal?",
+      "standfirst": "Concerns raised as Victoria approves blitz of renewable projects before state election",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539090/australias-energy-grid-cope-coal",
+      "datePublished": "2026-11-05T16:23:29+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
