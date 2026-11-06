@@ -1,78 +1,72 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-05T20:49:50.580188+08:00",
+  "generated_at": "2026-11-06T13:31:40.162058+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-05",
-  "reporting_window_start": "2026-11-05T00:00:00+08:00",
-  "reporting_window_end": "2026-11-05T13:30:00+08:00",
-  "audit_through": "2026-11-05T13:30:00+08:00",
+  "target_date": "2026-11-06",
+  "reporting_window_start": "2026-11-06T00:00:00+08:00",
+  "reporting_window_end": "2026-11-06T13:30:00+08:00",
+  "audit_through": "2026-11-06T13:30:00+08:00",
   "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
-      "headline": "Amplitude says ECSP drilling to end shortly; Patricia Baleen FID within months",
-      "standfirst": "MD also spruiks Taroom Trough as potential \"third leg\" of portfolio",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539073/amplitude-ecsp-drilling-end-shortly-patricia-baleen-fid-months",
-      "datePublished": "2026-11-05T11:55:37+08:00",
+      "headline": "Woodside denies new emissions target is \"accounting trick\"",
+      "standfirst": "Gas giant will focus on emissions intensity per barrel rather than total emissions",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539131/woodside-denies-accounting-trick-emissions-target",
+      "datePublished": "2026-11-06T10:54:50+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The Analyst's Take: Data centres are welcome at the table, but they should bring a plate.",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539065/analysts-centres-welcome-table-bring-plate",
-      "datePublished": "2026-11-05T10:46:39+08:00",
+      "headline": "WA govt approves MEPAU's Perth basin seismic survey",
+      "standfirst": "Activities slated for Q1-2027",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539130/wa-govt-approves-mepaus-perth-basin-seismic-survey",
+      "datePublished": "2026-11-06T11:02:00+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Judge recuses himself in ongoing Callide C explosion litigation",
+      "standfirst": "Accepted suggestion of possible bias in his reasoning",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539134/judge-recuses-ongoing-callide-explosion-litigation",
+      "datePublished": "2026-11-06T11:14:10+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Top End Energy drop data centre punt for O&G interests",
+      "standfirst": "ASX demands PowerPlay AI interest sale completion before return to trading",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539141/end-energy-drop-centre-punt",
+      "datePublished": "2026-11-06T12:08:34+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "From the editor: the wait goes on...",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539143/editor-wait-goes",
+      "datePublished": "2026-11-06T12:07:59+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: Reserved gas needs a way south that doesn't push up costs or blow out the timeline",
+      "standfirst": "The inquiry into the bills is due to table it's report next week",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539124/opinion-reserved-gas-south-doesnt-push-costs-blow-timeline",
+      "datePublished": "2026-11-06T08:45:41+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539125/keeping-apac",
+      "datePublished": "2026-11-06T09:23:44+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539068/news-brief",
-      "datePublished": "2026-11-05T10:57:26+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539153/news-brief",
+      "datePublished": "2026-11-06T13:08:25+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Woodside to cut 500 jobs as part of cost savings",
-      "standfirst": "Westcott announces change to decade-old shareholder dividend policy",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539087/woodside-cut-500-jobs-cost-savings",
-      "datePublished": "2026-11-05T14:45:45+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "WA enviro watchdog to inspect Chevron's Gorgon plant amid methane emission concerns",
-      "standfirst": "WA EPA responding to reports from satellite-based observations",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539075/wa-enviro-watchdog-inspect-chevrons-gorgon-plant-amid-methane-emission-concerns",
-      "datePublished": "2026-11-05T17:16:55+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Beach cash allows Elixir to accelerate Taroom Trough plans",
-      "standfirst": "Says Warkon shared infrastructure pilot could deliver up almost 75% reduction in pipeline tolls",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539088/beach-cash-allows-elixir-accelerate-taroom-trough-plans",
-      "datePublished": "2026-11-05T15:30:43+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "AI creating opportunities in energy sector",
-      "standfirst": "Industry experts speak on implementing AI at a WA Energy Club event",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4539091/ai-creating-opportunities-energy-sector",
-      "datePublished": "2026-11-05T16:41:17+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "How will Australia's energy grid cope without coal?",
-      "standfirst": "Concerns raised as Victoria approves blitz of renewable projects before state election",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539090/australias-energy-grid-cope-coal",
-      "datePublished": "2026-11-05T16:23:29+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
