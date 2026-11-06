@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-06T14:40:32.277128+08:00",
+  "generated_at": "2026-11-06T21:58:23.798520+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-06",
   "reporting_window_start": "2026-11-06T00:00:00+08:00",
   "reporting_window_end": "2026-11-06T14:30:00+08:00",
   "audit_through": "2026-11-06T14:30:00+08:00",
-  "homepage_candidates": 8,
+  "homepage_candidates": 9,
   "status": "complete",
   "stories": [
     {
@@ -68,5 +68,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Conflict of interest claims dog consultancy behind govt's domestic gas reservation scheme modelling",
+      "standfirst": "Allegations mount as the govt still refuses to release the data",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539138/conflict-interest-claims-dog-consultancy-govts-domestic-gas-reservation-scheme-modelling",
+      "datePublished": "2026-11-06T16:35:54+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
