@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-09T13:38:32.210537+08:00",
+  "generated_at": "2026-11-09T21:27:19.906461+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-09",
   "reporting_window_start": "2026-11-09T00:00:00+08:00",
   "reporting_window_end": "2026-11-09T13:30:00+08:00",
   "audit_through": "2026-11-09T13:30:00+08:00",
-  "homepage_candidates": 5,
+  "homepage_candidates": 8,
   "status": "complete",
   "stories": [
     {
@@ -39,6 +39,13 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
+      "headline": "Slugcatcher: Westcott's Woodside makeover",
+      "standfirst": "Company chief Liz Westcott has whipped Woodside into shape over the last 12 months.",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539191/slugcatcher-westcotts-woodside-makeover",
+      "datePublished": "2026-11-09T10:16:32+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
       "headline": "News in brief",
       "standfirst": "",
       "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539210/news-brief",
@@ -47,5 +54,22 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Cook calls for WA carve-out from national gas reservation",
+      "standfirst": "The state premier is demanding the federal government keep \"hands off\" WA gas",
+      "url": "https://www.energynewsbulletin.net/policy/news-articles/4539225/cook-calls-wa-carve-national-gas-reservation",
+      "datePublished": "2026-11-09T16:21:31+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
+    {
+      "headline": "Data centre rush dependent on $5B SA transmission upgrade",
+      "standfirst": "Sydney projects scrapped after community backlash",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539221/centre-rush-dependent-usd5b-sa-transmission-upgrade",
+      "datePublished": "2026-11-09T14:30:09+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
