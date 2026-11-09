@@ -1,81 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-06T20:33:43.592828+08:00",
+  "generated_at": "2026-11-09T13:38:32.210537+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-06",
-  "reporting_window_start": "2026-11-06T00:00:00+08:00",
-  "reporting_window_end": "2026-11-06T13:30:00+08:00",
-  "audit_through": "2026-11-06T13:30:00+08:00",
-  "homepage_candidates": 9,
+  "target_date": "2026-11-09",
+  "reporting_window_start": "2026-11-09T00:00:00+08:00",
+  "reporting_window_end": "2026-11-09T13:30:00+08:00",
+  "audit_through": "2026-11-09T13:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "Woodside denies new emissions target is \"accounting trick\"",
-      "standfirst": "Gas giant will focus on emissions intensity per barrel rather than total emissions",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539131/woodside-denies-accounting-trick-emissions-target",
-      "datePublished": "2026-11-06T10:54:50+08:00",
+      "headline": "Critics slam WA govt's assessment of how much of the Kimberley can be fracked",
+      "standfirst": "Comes as verdict is due on Black Mountain Energy's Valhalla project",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539208/critics-slam-wa-govts-assessment-kimberley-fracked",
+      "datePublished": "2026-11-09T12:26:27+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "WA govt approves MEPAU's Perth basin seismic survey",
-      "standfirst": "Activities slated for Q1-2027",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539130/wa-govt-approves-mepaus-perth-basin-seismic-survey",
-      "datePublished": "2026-11-06T11:02:00+08:00",
+      "headline": "Incoming Vic govt could delay closure of Yallourn amid energy perfect storm",
+      "standfirst": "Grattan Institute's Alison Reeve says risk of blackouts is a prime driver",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539196/incoming-vic-govt-delay-closure-yallourn-amid-energy-perfect-storm",
+      "datePublished": "2026-11-09T10:56:36+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Judge recuses himself in ongoing Callide C explosion litigation",
-      "standfirst": "Accepted suggestion of possible bias in his reasoning",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539134/judge-recuses-ongoing-callide-explosion-litigation",
-      "datePublished": "2026-11-06T11:14:10+08:00",
+      "headline": "GB Energy off to administrators two weeks post project production licence win",
+      "standfirst": "The news sparks Victoria energy security concerns post-Yallourn closure",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539207/gb-energy-administrators-weeks-post-project-production-licence-win",
+      "datePublished": "2026-11-09T12:21:53+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Top End Energy drop data centre punt for O&G interests",
-      "standfirst": "ASX demands PowerPlay AI interest sale completion before return to trading",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539141/end-energy-drop-centre-punt",
-      "datePublished": "2026-11-06T12:08:34+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "From the editor: the wait goes on...",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539143/editor-wait-goes",
-      "datePublished": "2026-11-06T12:07:59+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Opinion: Reserved gas needs a way south that doesn't push up costs or blow out the timeline",
-      "standfirst": "The inquiry into the bills is due to table it's report next week",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539124/opinion-reserved-gas-south-doesnt-push-costs-blow-timeline",
-      "datePublished": "2026-11-06T08:45:41+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539125/keeping-apac",
-      "datePublished": "2026-11-06T09:23:44+08:00",
+      "headline": "Victoria elections delay Vopak LNG terminal permit",
+      "standfirst": "Comes as rival Squadron steps into electricity retailing",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4539203/victoria-elections-delay-vopak-lng-terminal-permit",
+      "datePublished": "2026-11-09T11:56:33+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539153/news-brief",
-      "datePublished": "2026-11-06T13:08:25+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539210/news-brief",
+      "datePublished": "2026-11-09T12:48:50+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Conflict of interest claims dog consultancy behind govt's domestic gas reservation scheme modelling",
-      "standfirst": "Allegations mount as the govt still refuses to release the data",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539138/conflict-interest-claims-dog-consultancy-govts-domestic-gas-reservation-scheme-modelling",
-      "datePublished": "2026-11-06T16:35:54+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
