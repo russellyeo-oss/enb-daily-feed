@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-11T13:30:09.777188+08:00",
+  "generated_at": "2026-11-11T13:37:36.291739+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-11",
   "reporting_window_start": "2026-11-11T00:00:00+08:00",
   "reporting_window_end": "2026-11-11T13:30:00+08:00",
   "audit_through": "2026-11-11T13:30:00+08:00",
-  "homepage_candidates": 2,
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
@@ -26,5 +26,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Brace for surging power prices, according Rystad modelling",
+      "standfirst": "With fingers pointed at the CIS “failure”, some say take report “with a grain of salt”",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539340/brace-surging-power-prices-rystad-modelling",
+      "datePublished": "2026-11-11T13:31:00+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
