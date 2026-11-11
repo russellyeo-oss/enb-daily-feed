@@ -1,48 +1,34 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-10T14:42:21.642330+08:00",
+  "generated_at": "2026-11-11T14:30:00.485936+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-10",
-  "reporting_window_start": "2026-11-10T00:00:00+08:00",
-  "reporting_window_end": "2026-11-10T14:30:00+08:00",
-  "audit_through": "2026-11-10T14:30:00+08:00",
-  "homepage_candidates": 5,
+  "target_date": "2026-11-11",
+  "reporting_window_start": "2026-11-11T00:00:00+08:00",
+  "reporting_window_end": "2026-11-11T14:30:00+08:00",
+  "audit_through": "2026-11-11T14:30:00+08:00",
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Will the govt cave on calls for a WA carve out?",
-      "standfirst": "Gas sector awaits tomorrow's publication of senate inquiry report into reservation bills",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539274/govt-cave-calls-wa-carve",
-      "datePublished": "2026-11-10T12:31:50+08:00",
+      "headline": "Brace for surging power prices, according Rystad modelling",
+      "standfirst": "With fingers pointed at the CIS “failure”, some say take report “with a grain of salt”",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539340/brace-surging-power-prices-rystad-modelling",
+      "datePublished": "2026-11-11T13:31:00+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Australian Vanadium nabs $15M WA govt grant for pit-to-shelf manufacturing facility",
-      "standfirst": "Company CEO says the funding will support development of grid-scale vanadium flow batteries",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539271/australian-vanadium-nabs-usd15m-wa-govt-grant-pit-shelf-manufacturing-facility",
-      "datePublished": "2026-11-10T12:35:54+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Snowy would be \"toast\" if not government-owned, CEO says",
-      "standfirst": "Barnes reiterated broad grid benefits render typical cost-return metrics unreliable",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539272/snowy-toast-government-owned-ceo",
-      "datePublished": "2026-11-10T12:36:34+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "ASX junior wrap",
-      "standfirst": "ENB's weekly look at what Australian juniors are doing",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539261/asx-junior-wrap",
-      "datePublished": "2026-11-10T10:20:39+08:00",
+      "headline": "Movers and shakers",
+      "standfirst": "Who's up, who's down? Who's in, who's out?",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539335/movers-shakers",
+      "datePublished": "2026-11-11T11:47:07+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539280/news-brief",
-      "datePublished": "2026-11-10T13:45:00+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539336/news-brief",
+      "datePublished": "2026-11-11T11:52:43+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
