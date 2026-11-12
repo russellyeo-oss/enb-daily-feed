@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-12T14:35:37.470850+08:00",
+  "generated_at": "2026-11-12T14:45:26.947225+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-12",
   "reporting_window_start": "2026-11-12T00:00:00+08:00",
   "reporting_window_end": "2026-11-12T14:30:00+08:00",
   "audit_through": "2026-11-12T14:30:00+08:00",
-  "homepage_candidates": 3,
+  "homepage_candidates": 4,
   "status": "complete",
   "stories": [
     {
@@ -33,5 +33,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "News in brief",
+      "standfirst": "",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539411/news-brief",
+      "datePublished": "2026-11-12T14:35:51+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
