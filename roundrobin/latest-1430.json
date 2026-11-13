@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-13T14:35:43.179426+08:00",
+  "generated_at": "2026-11-13T14:44:21.982457+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-13",
   "reporting_window_start": "2026-11-13T00:00:00+08:00",
   "reporting_window_end": "2026-11-13T14:30:00+08:00",
   "audit_through": "2026-11-13T14:30:00+08:00",
   "homepage_candidates": 7,
-  "status": "complete",
+  "status": "incomplete",
   "stories": [
     {
       "headline": "Omega drills Qld's deepest ever well with significant results",
@@ -32,13 +32,6 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac",
-      "datePublished": "2026-11-13T09:45:21+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
       "headline": "Mega-Niños, markets, and mayhem",
       "standfirst": "What happens if the strongest El Niño in centuries hits a world on edge?",
       "url": "https://www.energynewsbulletin.net/global/news-analysis/4539452/mega-ninos-markets-mayhem",
@@ -53,7 +46,14 @@
       "publication_metadata_source": "published-time metadata"
     }
   ],
-  "unresolved": [],
+  "unresolved": [
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac",
+      "reason": "article metadata fetch failed: HTTPError: 503 Server Error: Service Unavailable for url: https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac"
+    }
+  ],
   "excluded": [
     {
       "headline": "From the editor: what's a cabinet to do?",
