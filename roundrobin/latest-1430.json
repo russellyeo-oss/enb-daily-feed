@@ -1,46 +1,67 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-12T14:45:26.947225+08:00",
+  "generated_at": "2026-11-13T14:30:00.439243+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-12",
-  "reporting_window_start": "2026-11-12T00:00:00+08:00",
-  "reporting_window_end": "2026-11-12T14:30:00+08:00",
-  "audit_through": "2026-11-12T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "target_date": "2026-11-13",
+  "reporting_window_start": "2026-11-13T00:00:00+08:00",
+  "reporting_window_end": "2026-11-13T14:30:00+08:00",
+  "audit_through": "2026-11-13T14:30:00+08:00",
+  "homepage_candidates": 7,
   "status": "complete",
   "stories": [
     {
-      "headline": "How will the govt get the gas reservation bills over the line?",
-      "standfirst": "Coalition and Greens offer to negotiate through gritted teeth",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539408/govt-gas-reservation-bills-line",
-      "datePublished": "2026-11-12T14:27:35+08:00",
+      "headline": "Omega drills Qld's deepest ever well with significant results",
+      "standfirst": "At 4,700m, the well’s extra depth proved fruitful, CEO says",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539469/omega-drills-qld-deepest-significant-results",
+      "datePublished": "2026-11-13T12:39:03+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "AEMC unveils rules to prevent data centres from pulling down the grid",
-      "standfirst": "Times are changing, new safeguards are needed, says AEMC",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539410/aemc-unveils-rules-prevent-centres-pulling-grid",
-      "datePublished": "2026-11-12T14:29:16+08:00",
+      "headline": "One Nation would restart offshore gas exploration if voted into govt in NSW",
+      "standfirst": "Would also unshackle contentious PEP11 project",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539459/nation-restart-offshore-gas-exploration-voted-govt-nsw",
+      "datePublished": "2026-11-13T11:34:45+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The Analyst's Take: Minister has a courageous LNG decision to make",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539386/analysts-minister-courageous-lng-decision",
-      "datePublished": "2026-11-12T10:34:52+08:00",
+      "headline": "Solar panel recycling pilot scrapped as tender axed",
+      "standfirst": "Project progress halted earlier this year, with this week’s decision unnerving sector stakeholders",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539471/solar-panel-recycling-pilot-scrapped-tender-axedaxes-administrator-tender",
+      "datePublished": "2026-11-13T12:38:22+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac",
+      "datePublished": "2026-11-13T09:45:21+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Mega-Niños, markets, and mayhem",
+      "standfirst": "What happens if the strongest El Niño in centuries hits a world on edge?",
+      "url": "https://www.energynewsbulletin.net/global/news-analysis/4539452/mega-ninos-markets-mayhem",
+      "datePublished": "2026-11-13T08:21:20+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Opinion: The gas reservation scheme needs more work",
+      "standfirst": "The federal govt is in a hurry to pass the legislation",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539456/opinion-gas-reservation-scheme",
+      "datePublished": "2026-11-13T11:30:51+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
   "excluded": [
     {
-      "headline": "News in brief",
-      "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539411/news-brief",
-      "datePublished": "2026-11-12T14:35:51+08:00",
+      "headline": "From the editor: what's a cabinet to do?",
+      "standfirst": "A look back over the week that was",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539457/editor-whats-cabinet",
+      "datePublished": "2026-11-06T12:07:59+08:00",
       "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
+      "reason": "original publication date is not today in Australia/Perth"
     }
   ]
 }
