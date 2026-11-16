@@ -1,65 +1,44 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-13T14:44:21.982457+08:00",
+  "generated_at": "2026-11-16T14:30:00.302877+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-13",
-  "reporting_window_start": "2026-11-13T00:00:00+08:00",
-  "reporting_window_end": "2026-11-13T14:30:00+08:00",
-  "audit_through": "2026-11-13T14:30:00+08:00",
-  "homepage_candidates": 7,
-  "status": "incomplete",
+  "target_date": "2026-11-16",
+  "reporting_window_start": "2026-11-16T00:00:00+08:00",
+  "reporting_window_end": "2026-11-16T14:30:00+08:00",
+  "audit_through": "2026-11-16T14:30:00+08:00",
+  "homepage_candidates": 4,
+  "status": "complete",
   "stories": [
     {
-      "headline": "Omega drills Qld's deepest ever well with significant results",
-      "standfirst": "At 4,700m, the well’s extra depth proved fruitful, CEO says",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539469/omega-drills-qld-deepest-significant-results",
-      "datePublished": "2026-11-13T12:39:03+08:00",
+      "headline": "Labor leaning towards Coalition support rather than Greens' to get reservation bills passed",
+      "standfirst": "Senate debate to happen this week after frenetic negotiations",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539527/labor-leaning-coalition-support-greens-reservation-bills-passed",
+      "datePublished": "2026-11-16T13:53:56+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "One Nation would restart offshore gas exploration if voted into govt in NSW",
-      "standfirst": "Would also unshackle contentious PEP11 project",
-      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539459/nation-restart-offshore-gas-exploration-voted-govt-nsw",
-      "datePublished": "2026-11-13T11:34:45+08:00",
+      "headline": "Bowen keeps Snowy 2.0 commercial estimates under lock and key",
+      "standfirst": "Turnball admits initial $2B figure a “guesstimate”",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539531/bowen-snowy-commercial-estimates-lock-key",
+      "datePublished": "2026-11-16T14:04:46+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Solar panel recycling pilot scrapped as tender axed",
-      "standfirst": "Project progress halted earlier this year, with this week’s decision unnerving sector stakeholders",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539471/solar-panel-recycling-pilot-scrapped-tender-axedaxes-administrator-tender",
-      "datePublished": "2026-11-13T12:38:22+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Mega-Niños, markets, and mayhem",
-      "standfirst": "What happens if the strongest El Niño in centuries hits a world on edge?",
-      "url": "https://www.energynewsbulletin.net/global/news-analysis/4539452/mega-ninos-markets-mayhem",
-      "datePublished": "2026-11-13T08:21:20+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Opinion: The gas reservation scheme needs more work",
-      "standfirst": "The federal govt is in a hurry to pass the legislation",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539456/opinion-gas-reservation-scheme",
-      "datePublished": "2026-11-13T11:30:51+08:00",
+      "headline": "Slugcatcher: Oil supply returns to surplus as COP31 kicks off",
+      "standfirst": "COP31 remains all talk and little action as Brent rebounds to almost normal flow pre-Iran conflict",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539511/slugcatcher-oil-supply-returns-surplus-cop31-kicks",
+      "datePublished": "2026-11-16T09:38:48+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
-  "unresolved": [
-    {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac",
-      "reason": "article metadata fetch failed: HTTPError: 503 Server Error: Service Unavailable for url: https://www.energynewsbulletin.net/global/news-articles/4539454/keeping-apac"
-    }
-  ],
+  "unresolved": [],
   "excluded": [
     {
-      "headline": "From the editor: what's a cabinet to do?",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539457/editor-whats-cabinet",
-      "datePublished": "2026-11-06T12:07:59+08:00",
+      "headline": "Australia's monthly O&G production",
+      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
+      "datePublished": "2026-10-16T10:16:54+08:00",
       "publication_metadata_source": "published-time metadata",
       "reason": "original publication date is not today in Australia/Perth"
     }
