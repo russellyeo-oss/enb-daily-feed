@@ -1,46 +1,37 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-16T14:56:27.009293+08:00",
+  "generated_at": "2026-11-17T14:30:01.126516+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-16",
-  "reporting_window_start": "2026-11-16T00:00:00+08:00",
-  "reporting_window_end": "2026-11-16T14:30:00+08:00",
-  "audit_through": "2026-11-16T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "target_date": "2026-11-17",
+  "reporting_window_start": "2026-11-17T00:00:00+08:00",
+  "reporting_window_end": "2026-11-17T14:30:00+08:00",
+  "audit_through": "2026-11-17T14:30:00+08:00",
+  "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Labor leaning towards Coalition support rather than Greens' to get reservation bills passed",
-      "standfirst": "Senate debate to happen this week after frenetic negotiations",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539527/labor-leaning-coalition-support-greens-reservation-bills-passed",
-      "datePublished": "2026-11-16T13:53:56+08:00",
+      "headline": "Fugro kicks off Greater Sunrise/Bayu-Udan survey work as Timor GAP learns to go solo",
+      "standfirst": "Woodside and Osaka Gas are on their way out of the JV",
+      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539591/fugro-kicks-sunrise-bayu-udan-survey-timor-gap-learns-solo",
+      "datePublished": "2026-11-17T11:42:03+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Bowen keeps Snowy 2.0 commercial estimates under lock and key",
-      "standfirst": "Turnball admits initial $2B figure a “guesstimate”",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539531/bowen-snowy-commercial-estimates-lock-key",
-      "datePublished": "2026-11-16T14:04:46+08:00",
+      "headline": "Opinion: From regulation to delivery – navigating Australia's offshore energy future",
+      "standfirst": "Reliable energy supply remains the foundation upon which modern economies depend",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539578/opinion-regulation-delivery-navigating-australia-offshore-energy-future",
+      "datePublished": "2026-11-17T09:53:34+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Slugcatcher: Oil supply returns to surplus as COP31 kicks off",
-      "standfirst": "COP31 remains all talk and little action as Brent rebounds to almost normal flow pre-Iran conflict",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539511/slugcatcher-oil-supply-returns-surplus-cop31-kicks",
-      "datePublished": "2026-11-16T09:38:48+08:00",
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539593/asx-junior-wrap",
+      "datePublished": "2026-11-17T11:58:56+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Australia's monthly O&G production",
-      "standfirst": "Monthly statistics on Australia's oil and gas production and usage",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4346600/australias-monthly-production-consumption",
-      "datePublished": "2026-10-16T10:16:54+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication date is not today in Australia/Perth"
-    }
-  ]
+  "excluded": []
 }
