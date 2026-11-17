@@ -1,27 +1,20 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-17T14:35:17.559786+08:00",
+  "generated_at": "2026-11-17T14:36:39.276308+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-17",
   "reporting_window_start": "2026-11-17T00:00:00+08:00",
   "reporting_window_end": "2026-11-17T14:30:00+08:00",
   "audit_through": "2026-11-17T14:30:00+08:00",
   "homepage_candidates": 3,
-  "status": "complete",
+  "status": "incomplete",
   "stories": [
     {
       "headline": "Fugro kicks off Greater Sunrise/Bayu-Udan survey work as Timor GAP learns to go solo",
       "standfirst": "Woodside and Osaka Gas are on their way out of the JV",
       "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539591/fugro-kicks-sunrise-bayu-udan-survey-timor-gap-learns-solo",
       "datePublished": "2026-11-17T11:42:03+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Opinion: From regulation to delivery – navigating Australia's offshore energy future",
-      "standfirst": "Reliable energy supply remains the foundation upon which modern economies depend",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539578/opinion-regulation-delivery-navigating-australia-offshore-energy-future",
-      "datePublished": "2026-11-17T09:53:34+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
@@ -32,6 +25,13 @@
       "publication_metadata_source": "published-time metadata"
     }
   ],
-  "unresolved": [],
+  "unresolved": [
+    {
+      "headline": "Opinion: From regulation to delivery – navigating Australia's offshore energy future",
+      "standfirst": "Reliable energy supply remains the foundation upon which modern economies depend",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539578/opinion-regulation-delivery-navigating-australia-offshore-energy-future",
+      "reason": "article metadata fetch failed: HTTPError: 503 Server Error: Service Unavailable for url: https://www.energynewsbulletin.net/opinion/opinion-articles/4539578/opinion-regulation-delivery-navigating-australia-offshore-energy-future"
+    }
+  ],
   "excluded": []
 }
