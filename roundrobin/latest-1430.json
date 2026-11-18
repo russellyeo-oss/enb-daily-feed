@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-18T14:36:28.952858+08:00",
+  "generated_at": "2026-11-18T14:46:09.751840+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-18",
   "reporting_window_start": "2026-11-18T00:00:00+08:00",
   "reporting_window_end": "2026-11-18T14:30:00+08:00",
   "audit_through": "2026-11-18T14:30:00+08:00",
-  "homepage_candidates": 5,
+  "homepage_candidates": 6,
   "status": "complete",
   "stories": [
     {
@@ -41,6 +41,14 @@
   ],
   "unresolved": [],
   "excluded": [
+    {
+      "headline": "Horizon charts a forward path for Mereenie",
+      "standfirst": "CEO say’s field has “significant remaining development potential”",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4539668/horizon-charts-forward-path-mereenie",
+      "datePublished": "2026-11-18T14:44:27+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    },
     {
       "headline": "Freight infrastructure challenges to cause wind farm delays, cost increases",
       "standfirst": "Gingerah denies data centre a fracking backstop",
