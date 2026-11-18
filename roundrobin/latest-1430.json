@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-18T14:30:00.936253+08:00",
+  "generated_at": "2026-11-18T14:34:51.197816+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-18",
   "reporting_window_start": "2026-11-18T00:00:00+08:00",
   "reporting_window_end": "2026-11-18T14:30:00+08:00",
   "audit_through": "2026-11-18T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
@@ -40,5 +40,14 @@
     }
   ],
   "unresolved": [],
-  "excluded": []
+  "excluded": [
+    {
+      "headline": "Freight infrastructure challenges to cause wind farm delays, cost increases",
+      "standfirst": "Gingerah denies data centre a fracking backstop",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539666/freight-infrastructure-challenges-cause-wind-farm-delays-cost-increases",
+      "datePublished": "2026-11-18T14:34:08+08:00",
+      "publication_metadata_source": "published-time metadata",
+      "reason": "original publication time is after this collector run/cutoff"
+    }
+  ]
 }
