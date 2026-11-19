@@ -1,61 +1,51 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-18T14:46:09.751840+08:00",
+  "generated_at": "2026-11-19T14:30:00.432134+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-18",
-  "reporting_window_start": "2026-11-18T00:00:00+08:00",
-  "reporting_window_end": "2026-11-18T14:30:00+08:00",
-  "audit_through": "2026-11-18T14:30:00+08:00",
-  "homepage_candidates": 6,
+  "target_date": "2026-11-19",
+  "reporting_window_start": "2026-11-19T00:00:00+08:00",
+  "reporting_window_end": "2026-11-19T14:30:00+08:00",
+  "audit_through": "2026-11-19T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "Will WA carve-out drive a Labor-Coalition pact and get gas res bills through Senate?",
-      "standfirst": "Or could claims of it being \"unconstitutional\" drag it into a high court challenge?",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539658/wa-carve-drive-labor-coalition-pact-gas-res-bills-senate",
-      "datePublished": "2026-11-18T12:54:57+08:00",
+      "headline": "Gas exploration heats up across Australia",
+      "standfirst": "Firms announce drilling activities, results, independent certifications and financing milestones",
+      "url": "https://www.energynewsbulletin.net/exploration/news-articles/4539721/gas-exploration-heats-australia",
+      "datePublished": "2026-11-19T12:38:16+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Fracking proponent optimistic about imminent govt greenlights",
-      "standfirst": "BME appoints drilling partners for contentious Kimberley plan",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4539642/fracking-proponent-optimistic-about-imminent-govt-greenlights",
-      "datePublished": "2026-11-18T07:47:09+08:00",
+      "headline": "Shareholders give Worley board a first strike at company AGM",
+      "standfirst": "Remuneration report was voted down during rough seas for the company",
+      "url": "https://www.energynewsbulletin.net/markets/news-analysis/4539722/shareholders-worley-board-strike-company-agm",
+      "datePublished": "2026-11-19T12:51:29+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Movers and shakers",
-      "standfirst": "Who's up, who's down? Who's in, who's out?",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539653/movers-shakers",
-      "datePublished": "2026-11-18T12:01:51+08:00",
+      "headline": "AER loses appeal to avoid paying AGL's legal fees and interest",
+      "standfirst": "The regulator's 2024 court win was overturned on appeal",
+      "url": "https://www.energynewsbulletin.net/markets/news-articles/4539730/aer-loses-appeal-avoid-paying-agls-legal-fees-interest",
+      "datePublished": "2026-11-19T14:15:57+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "The Analyst's Take: Energy security may achieve what COP alone cannot",
+      "standfirst": "Our regular columnists give their views of what's in the news",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539710/analysts-energy-security-achieve-cop",
+      "datePublished": "2026-11-19T10:08:33+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539664/news-brief",
-      "datePublished": "2026-11-18T13:53:17+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4539731/news-brief",
+      "datePublished": "2026-11-19T14:22:15+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
   "unresolved": [],
-  "excluded": [
-    {
-      "headline": "Horizon charts a forward path for Mereenie",
-      "standfirst": "CEO say’s field has “significant remaining development potential”",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4539668/horizon-charts-forward-path-mereenie",
-      "datePublished": "2026-11-18T14:44:27+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    },
-    {
-      "headline": "Freight infrastructure challenges to cause wind farm delays, cost increases",
-      "standfirst": "Gingerah denies data centre a fracking backstop",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-analysis/4539666/freight-infrastructure-challenges-cause-wind-farm-delays-cost-increases",
-      "datePublished": "2026-11-18T14:34:08+08:00",
-      "publication_metadata_source": "published-time metadata",
-      "reason": "original publication time is after this collector run/cutoff"
-    }
-  ]
+  "excluded": []
 }
