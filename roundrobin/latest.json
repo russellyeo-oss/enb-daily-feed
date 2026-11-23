@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-20T13:37:37.057180+08:00",
+  "generated_at": "2026-11-23T13:30:00.667628+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-20",
-  "reporting_window_start": "2026-11-20T00:00:00+08:00",
-  "reporting_window_end": "2026-11-20T13:30:00+08:00",
-  "audit_through": "2026-11-20T13:30:00+08:00",
+  "target_date": "2026-11-23",
+  "reporting_window_start": "2026-11-23T00:00:00+08:00",
+  "reporting_window_end": "2026-11-23T13:30:00+08:00",
+  "audit_through": "2026-11-23T13:30:00+08:00",
   "homepage_candidates": 3,
   "status": "complete",
   "stories": [
     {
-      "headline": "Greens back at the negotiating table as gas res talks drag on",
-      "standfirst": "Hopes of passing legislation by Christmas all but gone",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539775/greens-negotiating-table-gas-res-talks-drag",
-      "datePublished": "2026-11-20T12:26:04+08:00",
+      "headline": "Beach pauses trading for potential Santos Taroom asset acquisition",
+      "standfirst": "The company calls on changes to controversial gas reservation policies",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539834/beach-pauses-trading-potential-santos-taroom-asset-acquisition",
+      "datePublished": "2026-11-23T11:07:51+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "From the editor: will it ever end?",
-      "standfirst": "A look back over the week that was",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539768/editor-end",
-      "datePublished": "2026-11-20T08:44:32+08:00",
+      "headline": "Transgrid awarded Hunter transmission project",
+      "standfirst": "EnergyCo to stay on as infrastructure partner",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539844/transgrid-awarded-hunter-transmission-project",
+      "datePublished": "2026-11-23T13:21:24+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Keeping up with APAC",
-      "standfirst": "ENB's weekly look at APAC",
-      "url": "https://www.energynewsbulletin.net/global/news-articles/4539774/keeping-apac",
-      "datePublished": "2026-11-20T10:21:38+08:00",
+      "headline": "Slugcatcher: Oil price down to US$55/bbl in 2028, says WoodMac",
+      "standfirst": "Peace in the Persian Gulf needed, Ukraine not necessarily so",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539829/slugcatcher-oil-price-ususd55-bbl-2028-woodmac",
+      "datePublished": "2026-11-23T08:24:57+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
