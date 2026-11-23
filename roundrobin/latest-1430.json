@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-23T14:30:00.357185+08:00",
+  "generated_at": "2026-11-23T14:47:13.722557+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-23",
   "reporting_window_start": "2026-11-23T00:00:00+08:00",
@@ -18,9 +18,9 @@
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Beach pauses trading for potential Santos Taroom asset acquisition",
+      "headline": "Beach in talks for potential Santos Taroom asset acquisition",
       "standfirst": "The company calls on changes to controversial gas reservation policies",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539834/beach-pauses-trading-potential-santos-taroom-asset-acquisition",
+      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539834/beach-talks-potential-santos-taroom-asset-acquisition",
       "datePublished": "2026-11-23T11:07:51+08:00",
       "publication_metadata_source": "published-time metadata"
     },
