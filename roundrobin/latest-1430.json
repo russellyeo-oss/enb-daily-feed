@@ -1,41 +1,27 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-23T14:51:29.613386+08:00",
+  "generated_at": "2026-11-24T14:30:00.264008+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-23",
-  "reporting_window_start": "2026-11-23T00:00:00+08:00",
-  "reporting_window_end": "2026-11-23T14:30:00+08:00",
-  "audit_through": "2026-11-23T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "target_date": "2026-11-24",
+  "reporting_window_start": "2026-11-24T00:00:00+08:00",
+  "reporting_window_end": "2026-11-24T14:30:00+08:00",
+  "audit_through": "2026-11-24T14:30:00+08:00",
+  "homepage_candidates": 2,
   "status": "complete",
   "stories": [
     {
-      "headline": "Perdaman's Vikas Rambal says refinery is in Australia's interests",
-      "standfirst": "“This country needs a refinery to protect its borders and protect its people\" he said.",
-      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4539850/perdamans-vikas-rambal-refinery-australias",
-      "datePublished": "2026-11-23T13:59:41+08:00",
+      "headline": "Opinion: Australia's most overlooked sovereignty risk arrives by tanker",
+      "standfirst": "Before we spend billions on more fuel tanks, we should ask ourselves a different question",
+      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539896/opinion-australias-most-overlooked-sovereignty-risk-arrives-tanker",
+      "datePublished": "2026-11-24T09:48:55+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "Beach in talks for potential Santos Taroom asset acquisition",
-      "standfirst": "The company calls on changes to controversial gas reservation policies",
-      "url": "https://www.energynewsbulletin.net/operations/news-analysis/4539834/beach-talks-potential-santos-taroom-asset-acquisition",
-      "datePublished": "2026-11-23T11:07:51+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Transgrid awarded Hunter transmission project",
-      "standfirst": "EnergyCo to stay on as infrastructure partner",
-      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4539844/transgrid-awarded-hunter-transmission-project",
-      "datePublished": "2026-11-23T13:21:24+08:00",
-      "publication_metadata_source": "published-time metadata"
-    },
-    {
-      "headline": "Slugcatcher: Oil price down to US$55/bbl in 2028, says WoodMac",
-      "standfirst": "Peace in the Persian Gulf needed, Ukraine not necessarily so",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4539829/slugcatcher-oil-price-ususd55-bbl-2028-woodmac",
-      "datePublished": "2026-11-23T08:24:57+08:00",
+      "headline": "ASX junior wrap",
+      "standfirst": "ENB's weekly look at what Australian juniors are doing",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4539911/asx-junior-wrap",
+      "datePublished": "2026-11-24T13:13:46+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
