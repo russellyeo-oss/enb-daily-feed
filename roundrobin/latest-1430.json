@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-27T14:30:01.035750+08:00",
+  "generated_at": "2026-11-27T14:36:52.449275+08:00",
   "timezone": "Australia/Perth",
   "target_date": "2026-11-27",
   "reporting_window_start": "2026-11-27T00:00:00+08:00",
