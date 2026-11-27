@@ -1,41 +1,48 @@
 {
   "schema_version": 1,
   "collector": "legacy ENB homepage date-card parser + authoritative datePublished audit",
-  "generated_at": "2026-11-26T14:38:12.786934+08:00",
+  "generated_at": "2026-11-27T14:30:01.035750+08:00",
   "timezone": "Australia/Perth",
-  "target_date": "2026-11-26",
-  "reporting_window_start": "2026-11-26T00:00:00+08:00",
-  "reporting_window_end": "2026-11-26T14:30:00+08:00",
-  "audit_through": "2026-11-26T14:30:00+08:00",
-  "homepage_candidates": 4,
+  "target_date": "2026-11-27",
+  "reporting_window_start": "2026-11-27T00:00:00+08:00",
+  "reporting_window_end": "2026-11-27T14:30:00+08:00",
+  "audit_through": "2026-11-27T14:30:00+08:00",
+  "homepage_candidates": 5,
   "status": "complete",
   "stories": [
     {
-      "headline": "BW Offshore confirm Barossa FPSO practical completion on track for next year",
-      "standfirst": "Project weighed down by major delays and equipment issues",
-      "url": "https://www.energynewsbulletin.net/operations/news-articles/4540047/bw-offshore-confirm-barossa-fpso-practical-completion-track",
-      "datePublished": "2026-11-26T14:06:56+08:00",
+      "headline": "Australia finally gets the domestic gas reservation scheme it deserves",
+      "standfirst": "But who in the sector actually wants it?",
+      "url": "https://www.energynewsbulletin.net/policy/news-analysis/4540102/australia-finally-domestic-gas-reservation-scheme-deserves",
+      "datePublished": "2026-11-27T10:51:27+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The role of the Taroom Trough in Australia's energy conundrum",
-      "standfirst": "How crucial is the region and what’s needed to unlock it?",
-      "url": "https://www.energynewsbulletin.net/exploration/news-analysis/4540050/role-taroom-trough-australia-energy-conundrum",
-      "datePublished": "2026-11-26T14:05:04+08:00",
+      "headline": "Mid-tier firms announce gas project updates",
+      "standfirst": "Companies highlight financial plays, successful energisation, and water-logged wells",
+      "url": "https://www.energynewsbulletin.net/operations/news-articles/4540111/mid-tier-firms-announce-gas-project-updates",
+      "datePublished": "2026-11-27T12:03:36+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
-      "headline": "The Analyst's Take: Australia should heed the IEA's warning on oil demand",
-      "standfirst": "Our regular columnists give their views of what's in the news",
-      "url": "https://www.energynewsbulletin.net/opinion/opinion-articles/4540038/analysts-australia-heed-iea-warning-oil-demand",
-      "datePublished": "2026-11-26T12:13:16+08:00",
+      "headline": "CIS opens tender 12 for renewable energy",
+      "standfirst": "Up to 5GW of renewable energy is expected to be added into the NEM",
+      "url": "https://www.energynewsbulletin.net/energy-transition/news-articles/4540114/cis-tender-renewable-energy",
+      "datePublished": "2026-11-27T13:11:13+08:00",
+      "publication_metadata_source": "published-time metadata"
+    },
+    {
+      "headline": "Keeping up with APAC",
+      "standfirst": "ENB's weekly look at APAC",
+      "url": "https://www.energynewsbulletin.net/global/news-articles/4540099/keeping-apac",
+      "datePublished": "2026-11-27T10:23:38+08:00",
       "publication_metadata_source": "published-time metadata"
     },
     {
       "headline": "News in brief",
       "standfirst": "",
-      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4540049/news-brief",
-      "datePublished": "2026-11-26T14:08:02+08:00",
+      "url": "https://www.energynewsbulletin.net/global/news-in-brief/4540104/news-brief",
+      "datePublished": "2026-11-27T11:12:08+08:00",
       "publication_metadata_source": "published-time metadata"
     }
   ],
